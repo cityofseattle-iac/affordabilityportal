@@ -41,7 +41,7 @@ For more information, see the [City's project page](http://www.seattle.gov/innov
 ### Building and running under Docker
 
 #### Building Docker Image
-`docker build -f Dockerfile -t prod/affordabilityportal .`
+`docker build -t prod/affordabilityportal .`
 
 #### Running App
 ##### Stop existing running container
