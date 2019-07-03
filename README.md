@@ -47,6 +47,9 @@ For more information, see the [City's project page](http://www.seattle.gov/innov
 ##### Stop existing running container
 `docker stop portal`
 
+##### Delete old container
+`docker rm portal`
+
 ##### Start new container
 `docker run -d -p 8080:8080 -p 8443:8443 --restart unless-stopped --name portal prod/affordabilityportal`
 
