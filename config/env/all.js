@@ -7,7 +7,7 @@ module.exports = {
   root: rootPath,
   port: process.env.PORT || 8080,
   https: {
-    enabled: true,
+    enabled: false,
     port: process.env.TLS_PORT || 8443,
     key: `${rootPath}/certs/ssl-key-np.pem`,
     cert: `${rootPath}/certs/ssl-cert.pem`
