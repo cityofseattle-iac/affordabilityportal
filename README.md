@@ -22,8 +22,8 @@ For more information, see the [City's project page](http://www.seattle.gov/innov
 ### How to install
 
 - In the directory where you want the directory for this code to be created,
-  `git clone git@github.expedia.biz:EGPlatform/iac-web.git`. The command creates a directory called `iac-web`.
-- `cd iac-web`
+  `https://github.com/cityofseattle-iac/affordabilityportal.git`. The command creates a directory called `affordabilityportal`.
+- `cd affordabilityportal`
 - `npm install`.  This command downloads and builds all the components required to run `iac-web`. This process can take some time.
 
 ### How to run automated tests
@@ -41,14 +41,14 @@ For more information, see the [City's project page](http://www.seattle.gov/innov
 ### Building and running under Docker
 
 #### Building Docker Image
-`docker build -f Dockerfile -t prod/iac-web .`
+`docker build -f Dockerfile -t prod/affordabilityportal .`
 
 #### Running App
 ##### Stop existing running container
 `docker stop portal`
 
 ##### Start new container
-`docker run -d -p 8080:8080 -p 8443:8443 --restart unless-stopped --name portal prod/iac-web`
+`docker run -d -p 8080:8080 -p 8443:8443 --restart unless-stopped --name portal prod/affordabilityportal`
 
 
 ## Technologies
