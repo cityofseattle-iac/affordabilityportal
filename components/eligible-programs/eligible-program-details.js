@@ -1,0 +1,163 @@
+import React from 'react';
+import Grid from "@material-ui/core/Grid";
+import PropTypes from 'prop-types';
+import {withStyles} from '@material-ui/core/styles';
+import Card from '@material-ui/core/Card';
+import Actions from './eligible-program-details-actions';
+import CardContent from '@material-ui/core/CardContent';
+import CardMedia from '@material-ui/core/CardMedia';
+import {Link} from '../../localization/i18n';
+import Typography from "@material-ui/core/Typography";
+import Hidden from '@material-ui/core/Hidden';
+import {connect} from "react-redux";
+
+const style = theme => ({
+
+    root: {
+        flexGrow: 1,
+        width: '100%',
+        margin: '0 auto'
+    },
+    body: {
+        flexGrow: 1,
+        maxWidth: 1152,
+        textAlign: 'left',
+        padding: '40px 20px',
+        margin: '0 auto'
+    },
+    boldText: {
+        fontWeight: '100',
+    },
+    resultCard: {
+        backgroundColor: '#EAEAEA',
+    },
+    media: {
+        width: '100%',
+        height: 'auto',
+    },
+    item: {
+        paddingBottom: 20,
+    },
+    resultImageContainer: {
+        height: '100%',
+    },
+    resultImage: {
+        minHeight: 300,
+        height: '100%',
+    },
+    card: {
+        margin: '0 auto',
+        borderRadius: 0,
+        boxShadow: 'none',
+        minHeight: 300,
+        height: 'auto',
+    },
+    cardBody: {
+        margin: '0 auto',
+        borderRadius: 0,
+        boxShadow: 'none',
+        minHeight: 300,
+        height: 'auto',
+        position: 'relative',
+        backgroundColor: '#EAEAEA',
+    },
+    cardContent: {
+        margin: '0 auto',
+        borderRadius: 0,
+        paddingBottom: 35,
+        boxShadow: 'none',
+        position: 'relative',
+        [theme.breakpoints.only('sm')]: {
+            marginBottom: '75px',
+        },
+
+    },
+    resultSectionLight: {
+        backgroundColor: 'rgba(79, 79, 79, 0.26)',
+        padding: 10,
+    },
+    resultSectionDark: {
+        backgroundColor: 'rgba(153, 153, 153, 0.33)',
+        padding: 10,
+    },
+    resultActions: {
+        padding: 0,
+        margin: 0,
+    },
+    mediaLink: {
+        fontSize: 18,
+        fontWeight: 500,
+        textDecoration: 'none',
+        color: '#0065B8',
+    },
+});
+
+class EligibleProgramDetails extends React.Component {
+
+    render() {
+        const {classes, filtered_programs} = this.props;
+
+        return (
+            <div className={classes.root}>
+                <div className={classes.body}>
+                    <Typography variant={'h3'} align={'left'}>{filtered_programs.header}</Typography>
+                    {filtered_programs.map((result) => {
+
+                        return (
+                            <div key={result.id} className={classes.item}>
+                                <Grid key={result.id}
+                                      container
+                                      direction="row"
+                                      justify="space-evenly"
+                                >
+                                    <Grid item lg={3} md={3} xs={12} sm={3}>
+                                        <Card className={classes.resultImageContainer}>
+                                            <CardMedia
+                                                component="img"
+                                                image={result.image}
+                                                title={result.name}
+                                                className={classes.resultImage}
+                                            />
+                                        </Card>
+                                    </Grid>
+                                    <Grid item lg={9} md={9} xs={12} sm={9}>
+                                        <Card className={classes.cardBody}>
+                                            <CardContent className={classes.cardContent}>
+                                                <Typography gutterBottom variant="h5" component="h1">
+                                                    {result.name}
+                                                </Typography>
+                                                <Typography variant="body2">
+                                                    {result.description}
+                                                </Typography>
+                                                <Typography variant={'body2'} gutterBottom align={'left'}>
+                                                    <Link
+                                                        href={`/program-info?id=${result.vanityUrl}#${result.category.toLowerCase()}`}
+                                                        as={`/program-info/${result.vanityUrl}#${result.category.toLowerCase()}`}>
+                                                        <a className={classes.mediaLink} title={result.name}>Learn More</a>
+                                                    </Link>
+                                                </Typography>
+                                            </CardContent>
+                                            <Actions time_hear_back={result.time_hear_back}
+                                                     time_to_apply={result.time_to_apply}
+                                                     savings={result.savings}
+                                                     class_name="cardActions"/>
+                                        </Card>
+                                    </Grid>
+                                </Grid>
+                            </div>
+                        );
+                    })}
+                </div>
+            </div>
+
+        );
+
+    }
+
+}
+
+EligibleProgramDetails.propTypes = {
+    classes: PropTypes.object.isRequired,
+};
+
+export default connect(state => state)(withStyles(style)(EligibleProgramDetails));

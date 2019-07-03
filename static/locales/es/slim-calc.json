@@ -1,0 +1,8 @@
+{
+  "buttonText": "Find Services",
+  "introText": "Find out how much you could save each month in just 5 minutes.",
+  "familyInputPlaceHolder": "People in Household",
+  "incomePlaceholder": "Monthly Household Income",
+  "zipCodePlaceHolder": "Zip Code",
+  "calcButtonTooltip": "Household members, monthly household income and zip code must be specified"
+}

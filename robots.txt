@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /eligible-programs
+
+Sitemap: https://www.affordableseattle.org/sitemap.xml

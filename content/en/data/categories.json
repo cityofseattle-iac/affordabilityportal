@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "iconImage": "http://amie.is/ap/icon-childcare.png",
+    "name": "Childcare",
+    "factHeaderText": "Childcare Fact",
+    "factText": "Did you know that if you are a family of 4 with an annual income of under $75,000, you might qualify for free or discounted child care through the City of Seattle.",
+    "factCTAText": "See if you qualify"
+  },
+  {
+    "id": 2,
+    "name": "Food",
+    "iconImage": "http://amie.is/ap/icon-food.png",
+    "factHeaderText": "Food Fact",
+    "factText": "Some content/visual that can help individuals to understand they could qualify for services....",
+    "factCTAText": "See if you qualify"
+  },
+  {
+    "id": 3,
+    "name": "Transportation",
+    "iconImage": "http://amie.is/ap/icon-transportation.png",
+    "factHeaderText": "Transportation Fact",
+    "factText": "Some content/visual that can help individuals to understand they could qualify for services....",
+    "factCTAText": "See if you qualify"
+  },
+  {
+    "id": 4,
+    "name": "Utilities",
+    "iconImage": "http://amie.is/ap/icon-utilities.png",
+    "factHeaderText": "Utilities Fact",
+    "factText": "Some content/visual that can help individuals to understand they could qualify for services....",
+    "factCTAText": "See if you qualify"
+
+  }
+]

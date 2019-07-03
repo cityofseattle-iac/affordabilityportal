@@ -1,0 +1,25 @@
+html,
+body {
+    scroll-behavior: smooth;
+    min-width: 360px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Hidden text meant only for screen readers. */
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    position: absolute !important;
+}
+
+@media print {
+    html,
+    body {
+        height: auto;
+    }
+}
