@@ -1,6 +1,9 @@
 # Using node.js v12.x running on Alpine Linux
 from node:12-alpine
 
+# Install Git
+RUN ["apk", "add", "--update", "git"]
+
 # Create app directory
 WORKDIR /usr/src/app
 
@@ -13,6 +16,9 @@ RUN ["npm", "install"]
 
 # Bundle app source
 COPY . .
+
+# Generate build info
+RUN ["/bin/sh", "generate-build-info.sh"]
 
 # Expose ports outside of container
 EXPOSE 8080 8443
