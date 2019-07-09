@@ -149,6 +149,7 @@ class InputHouseholdIncome extends React.Component {
                             InputProps={{
                                 disableUnderline: true,
                             }}
+                            InputLabelProps={{ required: false }}
                             inputProps={{
                             'aria-label': this.props.inputName,
                             'className': this.props.classes.input,
