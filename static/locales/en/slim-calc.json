@@ -4,5 +4,5 @@
   "familyInputPlaceHolder": "People in Household",
   "incomePlaceholder": "Monthly Household Income",
   "zipCodePlaceHolder": "Zip Code",
-  "calcButtonTooltip": "Household members, monthly household income and zip code must be specified"
+  "calcButtonTooltip": "Household members and monthly household income must be specified"
 }

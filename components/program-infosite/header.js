@@ -1,7 +1,7 @@
 import React from 'react';
 import {Typography, withStyles} from "@material-ui/core";
 import Grid from "@material-ui/core/Grid";
-import {Print, EmailOutlined} from '@material-ui/icons';
+import {Print} from '@material-ui/icons';
 import IconButton from "@material-ui/core/IconButton";
 
 const styles = theme => ({
@@ -17,15 +17,10 @@ class ProgramInfoHeader extends React.Component {
     constructor(props) {
         super(props);
         this.onClickPrint = this.onClickPrint.bind(this);
-        this.onClickEmail = this.onClickEmail.bind(this);
     }
 
     onClickPrint() {
         window.print();
-    }
-
-    onClickEmail() {
-        // TODO
     }
 
     render() {
@@ -48,14 +43,6 @@ class ProgramInfoHeader extends React.Component {
                                         onClick={this.onClickPrint}
                                     >
                                         <Print/>
-                                    </IconButton>
-                                </Grid>
-                                <Grid item>
-                                    <IconButton
-                                        title={'Email'}
-                                        onClick={this.onClickEmail}
-                                    >
-                                        <EmailOutlined/>
                                     </IconButton>
                                 </Grid>
                             </Grid>

@@ -236,6 +236,7 @@ class FamilyInput extends React.Component {
                                     disableUnderline: true,
                                     readOnly: true,
                                 }}
+                                InputLabelProps={{ required: false }}
                                 inputProps={{
                                     'aria-label': `${this.props.t('read_only_expand_to_edit')} ${placeholder}`,  // Figure out how to make div accessibile
                                     'className': this.props.classes.input,
