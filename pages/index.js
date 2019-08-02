@@ -34,7 +34,10 @@ class Index extends React.Component {
             return require('../content/' + language + '/data/programs');
         }
 
-        const language = ctx.req === undefined ? i18n.language : ctx.req.language;
+        let language = "en";
+        if (ctx.req === undefined) {
+            if(i18n.language !== undefined) language = i18n.language;
+        } else if (ctx.req.language !== undefined) language = ctx.req.language;
 
         const categories = getCategories(language);
         ctx.store.dispatch(setCategories(categories));
