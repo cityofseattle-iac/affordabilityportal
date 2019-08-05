@@ -40,9 +40,8 @@ class EligiblePrograms extends React.Component {
         ctx.store.dispatch(setPrograms(programs));
 
         return {
-            namespacesRequired: ['seo', 'slim-calc', 'eligible-programs', 'eligible-programs-table',
-                'eligible-programs-breadcrumbs', 'input-adults', 'input-children', 'input-family',
-                'input-income', 'input-age', 'input-zipcode'],
+            namespacesRequired: ['seo', 'slim-calc', 'eligible-programs', 'eligible-programs-table', 'eligible-programs-table',
+                'eligible-programs-breadcrumbs', 'input-adults', 'input-children', 'input-family', 'input-income', 'input-age', 'input-zipcode'],
             programs: programs,
             categories: categories
         };

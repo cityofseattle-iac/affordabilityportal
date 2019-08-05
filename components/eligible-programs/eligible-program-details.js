@@ -6,9 +6,8 @@ import Card from '@material-ui/core/Card';
 import Actions from './eligible-program-details-actions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
-import {Link} from '../../localization/i18n';
+import {Link, withTranslation} from '../../localization/i18n';
 import Typography from "@material-ui/core/Typography";
-import Hidden from '@material-ui/core/Hidden';
 import {connect} from "react-redux";
 
 const style = theme => ({
@@ -95,7 +94,7 @@ const style = theme => ({
 class EligibleProgramDetails extends React.Component {
 
     render() {
-        const {classes, filtered_programs} = this.props;
+        const {classes, filtered_programs, t} = this.props;
 
         return (
             <div className={classes.root}>
@@ -133,7 +132,7 @@ class EligibleProgramDetails extends React.Component {
                                                     <Link
                                                         href={`/program-info?id=${result.vanityUrl}#${result.category.toLowerCase()}`}
                                                         as={`/program-info/${result.vanityUrl}#${result.category.toLowerCase()}`}>
-                                                        <a className={classes.mediaLink} title={result.name}>Learn More</a>
+                                                        <a className={classes.mediaLink} title={result.name}>{t('learnMore')}</a>
                                                     </Link>
                                                 </Typography>
                                             </CardContent>
@@ -160,4 +159,4 @@ EligibleProgramDetails.propTypes = {
     classes: PropTypes.object.isRequired,
 };
 
-export default connect(state => state)(withStyles(style)(EligibleProgramDetails));
+export default connect(state => state)(withStyles(style)(withTranslation('eligible-programs-details')(EligibleProgramDetails)));
