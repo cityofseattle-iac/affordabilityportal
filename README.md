@@ -33,7 +33,7 @@ For more information, see the [City's project page](http://www.seattle.gov/innov
 ### How to run the app without Docker
 
 - `npm run dev`. This is another process that can take a minute or two before it starts serving pages.
-- By default, you can access your locally built site at `http://localhost:8443`
+- By default, you can access your locally built site at `http://localhost:8080`
 - To run in production mode:
     - `npm run build`
     - `npm start`
