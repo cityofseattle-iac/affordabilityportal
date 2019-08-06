@@ -22,27 +22,11 @@
       "text": [
         {
           "category": "text",
-          "value": "You live within Seattle city limits (residents living in unincorporated King County are not eligible)"
+          "value": "Proof of SNAP Enrollment"
         },
         {
           "category": "text",
-          "value": "You are employed and/or enrolled in qualified education or job training program"
-        },
-        {
-          "category": "text",
-          "value": "You have a child under 13 years old"
-        },
-        {
-          "category": "text",
-          "value": "You identify a child care provider contracted with the City of Seattle"
-        },
-        {
-          "category": "text",
-          "value": "You demonstrate ineligibility for any other child care subsidy program"
-        },
-        {
-          "category": "income",
-          "value": "You meet the income guidelines based on family size:"
+          "value": "If you're not enrolled in SNAP, you can check your eligibility here: https://www.washingtonconnection.org/prescreening/home.go?action=Introduction"
         }
       ],
       "type": {
@@ -108,26 +92,35 @@
       }
     },
     "stuff_needed": [
-      "Your work or school schedule",
-      "Proof of your child's age",
-      "Proof of your address",
-      "Proof of family income"
+      "1) Proof of SNAP Enrollment",
+      "2) If you're not enrolled in SNAP, then you will need answers to these questions: https://www.washingtonconnection.org/prescreening/home.go?action=Introduction"
     ],
     "how_it_works": [
-      "Successful applicants will receive one voucher per child to cover 25%-70% of tuition. Vouchers can be used for full-time, part-time, or before/after school care. You are responsible for paying the difference between the voucher subsidy amount and the provider's regular monthly rate.",
-      "You can apply at any time during the year and must recertify eligibility every 12 months"
+      "Anyone who uses SNAP/EBT card (food stamps) can use Fresh Bucks Match! You’ll get $1 worth of Fresh Bucks for every $1 you spend on qualifying fruits and vegetables* at any participating Fresh Bucks retailer. Here’s how:",
+      "AT THE FARMERS MARKET:",
+      "1. Go to the market’s Information Booth and tell them you’d like Fresh Bucks",
+      "2. Swipe your EBT card for the amount you want to spend",
+      "3. You’ll receive that amount in EBT tokens AND that same amount in Fresh Bucks dollars",
+      "4. Shop for fruits and vegetables using your Fresh Bucks dollars",
+      "AT SEATTLE SAFEWAY STORES:",
+      "1. Buy at least $10 in qualifying fruits and vegetables* with your EBT card",
+      "2. Get a $5 coupon to spend on fruits and vegetables on your next shopping trip.",
+      "AT NEIGHBORHOOD GROCERS AND FARM STANDS:",
+      "1. Purchase qualifying fruits and vegetables*",
+      "2. Pay with your EBT card",
+      "3. Get 50% off your fruit and vegetable purchase"
     ],
     "savings": 23,
     "savingsByPeriod": "$23 / Month",
-    "time_to_apply": "2 Hours",
-    "time_hear_back": "6 Weeks",
+    "time_to_apply": "1 Hour",
+    "time_hear_back": "3 Weeks",
     "address": {
-      "address_section_title": "Department of Education & Early Learning",
-      "address_section_addr_line_1": "700 5th Ave, Suite 1700",
-      "address_section_addr_line_2": "Seattle, WA, 98104",
-      "address_section_phone": "Phone: (206) 233-5118",
-      "address_section_fax": "Fax: (206) 386-1900",
-      "address_section_email_address": "department@seattle.gov"
+      "address_section_title": "Office of Sustainability & Environment (OSE)",
+      "address_section_addr_line_1": "DSHS CSD-Customer Service Center, PO Box 11699",
+      "address_section_addr_line_2": "Tacoma, WA 98411-6699",
+      "address_section_phone": "Phone: (206) 256-5159",
+      "address_section_fax": "Fax: 1 (888) 338-7410",
+      "address_section_email_address": "freshbucks@seattle.gov"
     },
     "seo_title": "Fresh Bucks Program: Farmers Market Food Stamps",
     "seo_description": "With the Fresh Bucks Program you can double your food stamp for purchasing fresh, local produce at a Seattle farmers market. Find out if you are eligible in 5 min!",
@@ -157,27 +150,11 @@
       "text": [
         {
           "category": "text",
-          "value": "You live within Seattle city limits (residents living in unincorporated King County are not eligible)"
+          "value": "You live inside Seattle city limits"
         },
         {
           "category": "text",
-          "value": "You are employed and/or enrolled in qualified education or job training program"
-        },
-        {
-          "category": "text",
-          "value": "You have a child under 13 years old"
-        },
-        {
-          "category": "text",
-          "value": "You identify a child care provider contracted with the City of Seattle"
-        },
-        {
-          "category": "text",
-          "value": "You demonstrate ineligibility for any other child care subsidy program"
-        },
-        {
-          "category": "income",
-          "value": "You meet the income guidelines based on family size:"
+          "value": "If you are a SNAP participant, you are automatically eligible for Fresh Bucks."
         }
       ],
       "type": {
@@ -255,26 +232,34 @@
       }
     },
     "stuff_needed": [
-      "Your work or school schedule",
-      "Proof of your child's age",
-      "Proof of your address",
-      "Proof of family income"
+      "Proof of SNAP enrollment."
     ],
     "how_it_works": [
-      "Successful applicants will receive one voucher per child to cover 25%-70% of tuition. Vouchers can be used for full-time, part-time, or before/after school care. You are responsible for paying the difference between the voucher subsidy amount and the provider's regular monthly rate.",
-      "You can apply at any time during the year and must recertify eligibility every 12 months"
+      "If you are enrolled for Fresh Bucks Vouchers, use your vouchers like cash to buy qualifying fruits and vegetables* at any Fresh Bucks retailer. Here’s how:",
+      "AT THE FARMERS MARKET:",
+      "1. Go to the market’s Information Booth",
+      "2. Exchange your voucher for Fresh Bucks Dollars",
+      "3. Shop for fruits and vegetables using your Fresh Bucks dollars",
+      "AT SEATTLE SAFEWAY STORES:",
+      "1. Shop for at least $10 worth of qualifying fruits and vegetables.",
+      "2. Use the $10 voucher to purchase your fruits and vegetables at the cash stand (Safeway Club Card required for Safeway purchases.)",
+      "AT NEIGHBORHOOD GROCERS AND FARM STANDS:",
+      "1. Shop for fruits and vegetables",
+      "2. Purchase at least $10 in qualifying fruits and vegetables*",
+      "3. Pay with your EBT card",
+      "4. Get 50% off your fruit and vegetable purchase!"
     ],
     "savings": 40,
     "savingsByPeriod": "$40 / Month",
-    "time_to_apply": "2 Hours",
-    "time_hear_back": "6 Weeks",
+    "time_to_apply": "30 minutes",
+    "time_hear_back": "2 Weeks",
     "address": {
-      "address_section_title": "Department of Education & Early Learning",
-      "address_section_addr_line_1": "700 5th Ave, Suite 1700",
-      "address_section_addr_line_2": "Seattle, WA, 98104",
-      "address_section_phone": "Phone: (206) 233-5118",
-      "address_section_fax": "Fax: (206) 386-1900",
-      "address_section_email_address": "department@seattle.gov"
+      "address_section_title": "Office of Sustainability & Environment (OSE)",
+      "address_section_addr_line_1": "DSHS CSD-Customer Service Center, PO Box 11699",
+      "address_section_addr_line_2": "Tacoma, WA 98411-6699",
+      "address_section_phone": "Phone: (206) 256-5159",
+      "address_section_fax": "Fax: 1 (888) 338-7410",
+      "address_section_email_address": "freshbucks@seattle.gov"
     },
     "seo_title": "Fresh Bucks Program: Farmers Market Food Stamps",
     "seo_description": "With the Fresh Bucks Program you can double your food stamp for purchasing fresh, local produce at a Seattle farmers market. Find out if you are eligible in 5 min!",
@@ -302,27 +287,11 @@
       "text": [
         {
           "category": "text",
-          "value": "You live within Seattle city limits (residents living in unincorporated King County are not eligible)"
+          "value": "People with household income of less than double the federal poverty level (as established by US Health and Human Services Department) qualify for ORCA LIFT."
         },
         {
           "category": "text",
-          "value": "You are employed and/or enrolled in qualified education or job training program"
-        },
-        {
-          "category": "text",
-          "value": "You have a child under 13 years old"
-        },
-        {
-          "category": "text",
-          "value": "You identify a child care provider contracted with the City of Seattle"
-        },
-        {
-          "category": "text",
-          "value": "You demonstrate ineligibility for any other child care subsidy program"
-        },
-        {
-          "category": "income",
-          "value": "You meet the income guidelines based on family size:"
+          "value": "To get an ORCA LIFT card, you must be between 19 and 64 years of age. Children six through 18 are eligible for an ORCA youth card, which may be obtained free of charge by LIFT cardholders, and those 65 and older are eligible for a Regional Reduced Fare Permit (RRFP) card. People with disabilities may qualify for the RRFP card."
         }
       ],
       "type": {
@@ -384,26 +353,24 @@
       ]
     },
     "stuff_needed": [
-      "Your work or school schedule",
-      "Proof of your child's age",
-      "Proof of your address",
-      "Proof of family income"
+      "Proof of Identity",
+      "Proof of income"
     ],
     "how_it_works": [
-      "Successful applicants will receive one voucher per child to cover 25%-70% of tuition. Vouchers can be used for full-time, part-time, or before/after school care. You are responsible for paying the difference between the voucher subsidy amount and the provider's regular monthly rate.",
-      "You can apply at any time during the year and must recertify eligibility every 12 months"
+      "Once you qualify for the ORCA LIFT program, you'll receive an ORCA LIFT card registered to your name, with the same features every ORCA card has. You can load an E-purse value on your card to pay for trips one at a time, or load a discounted monthly pass that lets you take unlimited trips for an entire month. But what makes ORCA LIFT special is you have all the power and convenience of the ORCA card system at a fraction of the cost.",
+      "With the ORCA LIFT card, income-qualified riders can save up to 50 percent or more on: Metro Transit buses, Kitsap Transit buses, Sound Transit Link light rail, Sound Transit Regional Express buses, Sounder Trains, King County Water Taxi, Seattle Streetcar"
     ],
-    "savings": 2,
-    "savingsByPeriod": "$2 / Month",
-    "time_to_apply": "2 Hours",
-    "time_hear_back": "6 Weeks",
+    "savings": 50,
+    "savingsByPeriod": "$50 / Month",
+    "time_to_apply": "30 minutes",
+    "time_hear_back": "1 Week",
     "address": {
-      "address_section_title": "Department of Education & Early Learning",
-      "address_section_addr_line_1": "700 5th Ave, Suite 1700",
-      "address_section_addr_line_2": "Seattle, WA, 98104",
-      "address_section_phone": "Phone: (206) 233-5118",
-      "address_section_fax": "Fax: (206) 386-1900",
-      "address_section_email_address": "department@seattle.gov"
+      "address_section_title": "Seattle Department of Transportation (SDOT)",
+      "address_section_addr_line_1": "",
+      "address_section_addr_line_2": "",
+      "address_section_phone": "Phone: (206) 553-3000",
+      "address_section_fax": "",
+      "address_section_email_address": ""
     },
     "seo_title": "ORCA LIFT Program: Reduced Fare Orca Card & Montly Pass",
     "seo_description": "Save up to 50% on every single trip when you use ORCA LIFT for low income families. Reduced Fare Orca Card & Montly Pass. Find out if you are eligible in 5 min!",
@@ -430,27 +397,15 @@
       "text": [
         {
           "category": "text",
-          "value": "You live within Seattle city limits (residents living in unincorporated King County are not eligible)"
+          "value": "You are a high school student enroled in seattle Public Schools"
         },
         {
           "category": "text",
-          "value": "You are employed and/or enrolled in qualified education or job training program"
+          "value": "You are an income-qualified middle school student in Seattle Public Schools"
         },
         {
           "category": "text",
-          "value": "You have a child under 13 years old"
-        },
-        {
-          "category": "text",
-          "value": "You identify a child care provider contracted with the City of Seattle"
-        },
-        {
-          "category": "text",
-          "value": "You demonstrate ineligibility for any other child care subsidy program"
-        },
-        {
-          "category": "income",
-          "value": "You meet the income guidelines based on family size:"
+          "value": "You are a Seattle Promise Scholar"
         }
       ],
       "type": {
@@ -470,10 +425,7 @@
       ]
     },
     "stuff_needed": [
-      "Your work or school schedule",
-      "Proof of your child's age",
-      "Proof of your address",
-      "Proof of family income"
+      "Proof that your a student at Seattle Public Schools or Seattle Colleges."
     ],
     "how_it_works": [
       "Successful applicants will receive one voucher per child to cover 25%-70% of tuition. Vouchers can be used for full-time, part-time, or before/after school care. You are responsible for paying the difference between the voucher subsidy amount and the provider's regular monthly rate.",
@@ -481,15 +433,15 @@
     ],
     "savings": 60,
     "savingsByPeriod": "$60 / Month",
-    "time_to_apply": "2 Hours",
-    "time_hear_back": "6 Weeks",
+    "time_to_apply": "30 minutes",
+    "time_hear_back": "2 Weeks",
     "address": {
-      "address_section_title": "Department of Education & Early Learning",
-      "address_section_addr_line_1": "700 5th Ave, Suite 1700",
+      "address_section_title": "Seattle Department of Transportation (SDOT)",
+      "address_section_addr_line_1": "700 5th Ave, Suite 3800",
       "address_section_addr_line_2": "Seattle, WA, 98104",
-      "address_section_phone": "Phone: (206) 233-5118",
-      "address_section_fax": "Fax: (206) 386-1900",
-      "address_section_email_address": "department@seattle.gov"
+      "address_section_phone": "Phone: (206) 256-6722",
+      "address_section_fax": "",
+      "address_section_email_address": "YouthORCA@seattle.gov"
     },
     "seo_title": "ORCA Opportunity: Free Orca Card for Students",
     "seo_description": "Free ORCA cards to middle school and high school students enrolled in Seattle Public Schools. Learn more about the student ORCA card online.",
@@ -509,27 +461,7 @@
       "text": [
         {
           "category": "text",
-          "value": "You live within Seattle city limits (residents living in unincorporated King County are not eligible)"
-        },
-        {
-          "category": "text",
-          "value": "You are employed and/or enrolled in qualified education or job training program"
-        },
-        {
-          "category": "text",
-          "value": "You have a child under 13 years old"
-        },
-        {
-          "category": "text",
-          "value": "You identify a child care provider contracted with the City of Seattle"
-        },
-        {
-          "category": "text",
-          "value": "You demonstrate ineligibility for any other child care subsidy program"
-        },
-        {
-          "category": "income",
-          "value": "You meet the income guidelines based on family size:"
+          "value": "You are between 6 to 18 years of age."
         }
       ],
       "type": {
@@ -579,26 +511,23 @@
       ]
     },
     "stuff_needed": [
-      "Your work or school schedule",
-      "Proof of your child's age",
-      "Proof of your address",
-      "Proof of family income"
+      "Copy of your ID showing proof of age",
+      "$5 for the cost  of the card"
     ],
     "how_it_works": [
-      "Successful applicants will receive one voucher per child to cover 25%-70% of tuition. Vouchers can be used for full-time, part-time, or before/after school care. You are responsible for paying the difference between the voucher subsidy amount and the provider's regular monthly rate.",
-      "You can apply at any time during the year and must recertify eligibility every 12 months"
+      "An ORCA youth card is available to youth age 6-18. It allows you to pay only $1.50 for your trip including transferring to other services (within a 2 hour window) like Link light rail, Sound Transit buses, Community Transit and other participating agencies."
     ],
     "savings": 60,
     "savingsByPeriod": "$60 / Month",
-    "time_to_apply": "2 Hours",
-    "time_hear_back": "6 Weeks",
+    "time_to_apply": "30 minutes",
+    "time_hear_back": "1 Week",
     "address": {
-      "address_section_title": "Department of Education & Early Learning",
-      "address_section_addr_line_1": "700 5th Ave, Suite 1700",
-      "address_section_addr_line_2": "Seattle, WA, 98104",
-      "address_section_phone": "Phone: (206) 233-5118",
-      "address_section_fax": "Fax: (206) 386-1900",
-      "address_section_email_address": "department@seattle.gov"
+      "address_section_title": "Seattle Department of Transportation (SDOT)",
+      "address_section_addr_line_1": "ORCA Regional Mail Center, KSC TR-0108, 201 S Jackson St",
+      "address_section_addr_line_2": "Seattle, WA, 98104-3856",
+      "address_section_phone": "",
+      "address_section_fax": "",
+      "address_section_email_address": ""
     },
     "seo_title": "ORCA Youth Card: Reduced Fare Available to Youth Age 6-18",
     "seo_description": "The ORCA Youth Card is available to youth age 6-18, allowing you to pay only $1.50 for your trip. Find out if you are eligible in 5 minutes!",
@@ -945,27 +874,15 @@
       "text": [
         {
           "category": "text",
-          "value": "You live within Seattle city limits (residents living in unincorporated King County are not eligible)"
+          "value": "You live in an area that offers Wave internet."
         },
         {
           "category": "text",
-          "value": "You are employed and/or enrolled in qualified education or job training program"
+          "value": "You are the homeowner or renter."
         },
         {
           "category": "text",
-          "value": "You have a child under 13 years old"
-        },
-        {
-          "category": "text",
-          "value": "You identify a child care provider contracted with the City of Seattle"
-        },
-        {
-          "category": "text",
-          "value": "You demonstrate ineligibility for any other child care subsidy program"
-        },
-        {
-          "category": "income",
-          "value": "You meet the income guidelines based on family size:"
+          "value": "- You meet one of the following income requirements:You qualify for the Utility Discount Program (internal link); You qualify for low-income subsidized housing; You have a child who qualifies for a free or reduced school lunch program; Your family is at or under following income guidelines [insert income verification table]"
         }
       ],
       "type": {
@@ -1032,29 +949,28 @@
       ]
     },
     "stuff_needed": [
-      "Your work or school schedule",
-      "Proof of your child's age",
-      "Proof of your address",
-      "Proof of family income"
+      "Your contact information",
+      "Proof of your income",
+      " If you are using the Seattle Free or Reduced School Lunch Program or City of Seattle Utility Discount Program as proof of your income, no additional information is needed",
+      "If you are using the National School Lunch Program’s Free Lunch Program as proof of your income, provide a referral form from your child's school"
     ],
     "how_it_works": [
-      "Successful applicants will receive one voucher per child to cover 25%-70% of tuition. Vouchers can be used for full-time, part-time, or before/after school care. You are responsible for paying the difference between the voucher subsidy amount and the provider's regular monthly rate.",
-      "You can apply at any time during the year and must recertify eligibility every 12 months"
+      "Simply Internet provides a high-speed connection (up to 10 Mbps) that enables a qualifying household to get online for a low monthly rate of $9.95.Wave provides all necessary installation services and equipment to provide basic connectivity and wireless internet service at no additional fee."
     ],
     "savings": 33,
     "savingsByPeriod": "$33 / Month",
-    "time_to_apply": "2 Hours",
-    "time_hear_back": "6 Weeks",
+    "time_to_apply": "30 minutes",
+    "time_hear_back": "2 Weeks",
     "address": {
-      "address_section_title": "Department of Education & Early Learning",
-      "address_section_addr_line_1": "700 5th Ave, Suite 1700",
-      "address_section_addr_line_2": "Seattle, WA, 98104",
-      "address_section_phone": "Phone: (206) 233-5118",
-      "address_section_fax": "Fax: (206) 386-1900",
-      "address_section_email_address": "department@seattle.gov"
+      "address_section_title": "Seattle Information Technology (SIT)",
+      "address_section_addr_line_1": "",
+      "address_section_addr_line_2": "",
+      "address_section_phone": "Phone: (206) 386-1989",
+      "address_section_fax": "",
+      "address_section_email_address": "brenda.tate@seattle.gov"
     },
     "seo_title": "Low Income Internet Assistance: Low-Cost, High Speed Internet",
-    "seo_description": "Who offers home internet service for low-income residents in Seattle? Find out if you are eligible for low-cost, high-speed Internet, all for around $10 a month.",
+    "seo_description": "Wave offers home internet service for low-income residents in Seattle. Find out if you are eligible for low-cost, high-speed Internet, all for around $10 a month.",
     "seo_keywords": "low income internet assistance, internet assistance low income families, wifi assistance for low income, internet assistance for low income families, comcast low income assistance, wave low income assistance"
   },
   {
@@ -1066,7 +982,7 @@
     "icon": "https://www.freshbuckseattle.org/wp-content/uploads/2016/07/FB_logo_114x114.png",
     "url": "https://www.internetessentials.com",
     "phone": "855-846-8376",
-    "email": "freshbucks@seattle.gov",
+    "email": "",
     "department": "Seattle Information Technology (SIT)",
     "dept-code": "SIT",
     "description-card": "Get low-cost, high-speed Internet and discounted rates on electronics.",
@@ -1081,27 +997,16 @@
       "text": [
         {
           "category": "text",
-          "value": "You live within Seattle city limits (residents living in unincorporated King County are not eligible)"
+          "value": "You live in an area that offers Comcast internet"
         },
         {
           "category": "text",
-          "value": "You are employed and/or enrolled in qualified education or job training program"
+          "value": "You are the homeowner or renter"
         },
+
         {
           "category": "text",
-          "value": "You have a child under 13 years old"
-        },
-        {
-          "category": "text",
-          "value": "You identify a child care provider contracted with the City of Seattle"
-        },
-        {
-          "category": "text",
-          "value": "You demonstrate ineligibility for any other child care subsidy program"
-        },
-        {
-          "category": "income",
-          "value": "You meet the income guidelines based on family size:"
+          "value": "You meet one of the following income requirements: Your child is eligible for the National School Lunch Program; You receive HUD housing assistance; You are a low-income verified veteran; You are a low-income senior; You are a community college student in Colorado or Illinois"
         }
       ],
       "type": {
@@ -1125,66 +1030,63 @@
       }
     },
     "stuff_needed": [
-      "Your work or school schedule",
-      "Proof of your child's age",
-      "Proof of your address",
-      "Proof of family income"
+      "Proof of one the following: Your child is eligible for the National School Lunch ProgramYou receive HUD housing assistanceYou are a low-income verified veteranYou are a low-income seniorYou are a community college student in Colorado or Illinois"
     ],
     "how_it_works": [
-      "Successful applicants will receive one voucher per child to cover 25%-70% of tuition. Vouchers can be used for full-time, part-time, or before/after school care. You are responsible for paying the difference between the voucher subsidy amount and the provider's regular monthly rate.",
-      "You can apply at any time during the year and must recertify eligibility every 12 months"
+      "Internet Essentials provides a high-speed connection (up to 10 Mbps) that enables a qualifying household to get online for a low monthly rate of $9.95.",
+      "Comcast provides all necessary installation services and equipment to provide basic connectivity and wireless internet service at no additional fee."
     ],
     "savings": 33,
     "savingsByPeriod": "$33 / Month",
-    "time_to_apply": "2 Hours",
-    "time_hear_back": "6 Weeks",
+    "time_to_apply": "1 Hour",
+    "time_hear_back": "30 minutes",
     "address": {
-      "address_section_title": "Department of Education & Early Learning",
-      "address_section_addr_line_1": "700 5th Ave, Suite 1700",
-      "address_section_addr_line_2": "Seattle, WA, 98104",
-      "address_section_phone": "Phone: (206) 233-5118",
-      "address_section_fax": "Fax: (206) 386-1900",
-      "address_section_email_address": "department@seattle.gov"
+      "address_section_title": "Seattle Information Technology (SIT)",
+      "address_section_addr_line_1": "",
+      "address_section_addr_line_2": "",
+      "address_section_phone": "855-846-8376",
+      "address_section_fax": "",
+      "address_section_email_address": ""
     },
     "seo_title": "Low Income Internet Assistance: Low-Cost, High Speed Internet",
-    "seo_description": "Who offers home internet service for low-income residents in Seattle? Find out if you are eligible for low-cost, high-speed Internet, all for around $10 a month.",
+    "seo_description": "Comcast offers home internet service for low-income residents in Seattle. Find out if you are eligible for low-cost, high-speed Internet, all for around $10 a month.",
     "seo_keywords": "low income internet assistance, internet assistance low income families, wifi assistance for low income, internet assistance for low income families, comcast low income assistance, wave low income assistance"
   },
   {
     "id": 11,
     "category": "Childcare",
-    "vanityUrl": "11-parks-preschool-scholarships",
+    "vanityUrl": "11-seattle-parks-and-recreation-before-or-after-school-care",
     "image": "https://www.seattle.gov/assets/images/2015_IMG/PageBackgrounds/DSC_1212-Edit.jpg",
-    "name": "Parks Preschool Scholarships",
+    "name": "Seattle Parks and Recreation Before/After School Care",
     "url": "https://www.seattle.gov/education/for-parents/child-care-and-preschool/seattle-preschool-program",
-    "description": "Scholarships available for half-day preschool programs in neighborhood community centers.",
+    "description": "Scholarships available for recreational child care for children in kindergarten to sixth grade.",
     "tier": 3,
     "household_cnt": 2,
     "criteria": {
       "text": [
         {
           "category": "text",
-          "value": "You live within Seattle city limits (residents living in unincorporated King County are not eligible)"
+          "value": "You have a child age 5 (in Kindergarten) to 12 (in grade 6 or below)"
         },
         {
           "category": "text",
-          "value": "You are employed and/or enrolled in qualified education or job training program"
+          "value": "Your child can attend a minimum of 60% of days for each program requested"
         },
         {
           "category": "text",
-          "value": "You have a child under 13 years old"
+          "value": "You meet one of the following income requirements"
         },
         {
           "category": "text",
-          "value": "You identify a child care provider contracted with the City of Seattle"
-        },
-        {
-          "category": "text",
-          "value": "You demonstrate ineligibility for any other child care subsidy program"
+          "value": "-- You receive TANF/Welfare benefits"
         },
         {
           "category": "income",
-          "value": "You meet the income guidelines based on family size:"
+          "value": "-- You qualify for the Utility Discount Program"
+        },
+        {
+          "category": "income",
+          "value": "-- Your family is at or under following income guidelines"
         }
       ],
       "type": {
@@ -1232,66 +1134,83 @@
       }
     },
     "stuff_needed": [
-      "Your work or school schedule",
-      "Proof of your child's age",
-      "Proof of your address",
-      "Proof of family income"
+      "Information about you and each member of your household (Name, Date of birth, Gender, Race/Ethnicity)",
+      "Proof of income for all adults. Provide a document that can prove your income. Here are some examples:",
+      "-- Preferred: 1040 Income Tax form (most recent)",
+      "-- Gross paycheck stubs (1 month of 32+ hours or 2 months of 31 hours or less for all household before tax income)",
+      "-- Social Security benefits (SSI, Dependent, Disability, Survivor’s, or Retirement) statement or benefit checks",
+      "-- Cash benefits (TANF/Welfare) statement or benefits check",
+      "-- Unemployment Income statement or benefits check",
+      "-- Utility Discount program qualification - provide bill statement",
+      "-- Retirement benefits (Pensions, Annuities, or IRA) statement",
+      "Proof of dependents. Documents that can prove your dependent eligibility include:",
+      "-- Preferred: 1040 Income Tax form (most recent)",
+      "-- Birth certificates for dependents",
+      "Program selection for each child"
     ],
     "how_it_works": [
-      "Successful applicants will receive one voucher per child to cover 25%-70% of tuition. Vouchers can be used for full-time, part-time, or before/after school care. You are responsible for paying the difference between the voucher subsidy amount and the provider's regular monthly rate.",
-      "You can apply at any time during the year and must recertify eligibility every 12 months"
+      "Preschool programs are hosted by the Associated Recreation Council (ARC) in partnership with Seattle Parks and Recreation for children and youth ages 5 through 12",
+      "Programs run from September to June",
+      "Vacancies are filled on a rolling basis",
+      "Scholarships are based on household size and parent/guardian income and successful applicants receive a 40% to 90% subsidy",
+      "Families apply for scholarships once per year",
+      "Scholarships are distributed once per quarter and amount may vary depending on funding."
     ],
-    "savings": 320,
-    "savingsByPeriod": "$320 / Month",
+    "savings": 500,
+    "savingsByPeriod": "$500 / Month",
     "time_to_apply": "2 Hours",
-    "time_hear_back": "6 Weeks",
+    "time_hear_back": "2 Weeks",
     "address": {
-      "address_section_title": "Department of Education & Early Learning",
-      "address_section_addr_line_1": "700 5th Ave, Suite 1700",
-      "address_section_addr_line_2": "Seattle, WA, 98104",
-      "address_section_phone": "Phone: (206) 233-5118",
-      "address_section_fax": "Fax: (206) 386-1900",
-      "address_section_email_address": "department@seattle.gov"
+      "address_section_title": "Department of Parks and Recreation (DPR)",
+      "address_section_addr_line_1": "Use our website to locate the nearest community center (http://www.seattle.gov/parks/find/centers)",
+      "address_section_addr_line_2": "or pool facility (http://www.seattle.gov/parks/find/pools)",
+      "address_section_phone": "",
+      "address_section_fax": "",
+      "address_section_email_address": ""
     },
-    "seo_title": "Seattle Parks and Recreation Preschool: Art, Nature & Play Based",
-    "seo_description": "Seattle Parks and Recreation offers a range of preschool programs art, nature & play based throughout Seattle. Competitive rates. Before and after school programs.",
+    "seo_title": "Seattle Parks and Recreation Before/After School Care",
+    "seo_description": "Available to children in kindergarten to sixth grade, the Seattle Parks and Recreation, in partnership with Associated Recreation Council offers programs that provide kids with activities in areas such as: arts and culture, environmental stewardship, health and fitness, academic support, and more.",
     "seo_keywords": "parks and rec preschool, rec center preschool, art preschool, nature preschool, playing preschool, outdoor preschool"
   },
   {
     "id": 12,
     "category": "Childcare",
-    "vanityUrl": "12-parks-school-age-scholarships",
+    "vanityUrl": "12-seattle-parks-and-recreation-preschool-scholarships",
     "image": "https://www.seattle.gov/assets/images/2015_IMG/PageBackgrounds/DSC_1212-Edit.jpg",
-    "name": "Parks School-Age Scholarships",
+    "name": "Seattle Parks and Recreation Preschool Scholarships",
     "url": "https://www.seattle.gov/parks/find/childcare-and-preschool",
-    "description": "Scholarships available for before and after-school programs.",
+    "description": "Half-day recreational preschool  programs for children 3-5 years.",
     "tier": 3,
     "household_cnt": 2,
     "criteria": {
       "text": [
         {
           "category": "text",
-          "value": "You live within Seattle city limits (residents living in unincorporated King County are not eligible)"
+          "value": "You have a child age 3, 4, or 5 who does not attend school"
         },
         {
           "category": "text",
-          "value": "You are employed and/or enrolled in qualified education or job training program"
+          "value": "Your child is fully toilet trained (no diapers or pull-ups permitted)"
         },
         {
           "category": "text",
-          "value": "You have a child under 13 years old"
+          "value": "Your child can attend a minimum of 60% of days for each program requesteds"
         },
         {
           "category": "text",
-          "value": "You identify a child care provider contracted with the City of Seattle"
+          "value": "You meet one of the following income requirements"
         },
         {
           "category": "text",
-          "value": "You demonstrate ineligibility for any other child care subsidy program"
+          "value": "-- You receive TANF/Welfare benefits"
         },
         {
           "category": "income",
-          "value": "You meet the income guidelines based on family size:"
+          "value": "-- You qualify for the Utility Discount Program"
+        },
+        {
+          "category": "income",
+          "value": "-- Your family is at or under following income guidelines"
         }
       ],
       "type": {
@@ -1339,66 +1258,71 @@
       }
     },
     "stuff_needed": [
-      "Your work or school schedule",
-      "Proof of your child's age",
-      "Proof of your address",
-      "Proof of family income"
+      "Information about you and each member of your household (Name, Date of birth, Gender, Race/Ethnicity)",
+      "Proof of income for all adults. Provide a document that can prove your income. Here are some examples:",
+      "-- Preferred: 1040 Income Tax form (most recent)",
+      "-- Gross paycheck stubs (1 month of 32+ hours or 2 months of 31 hours or less for all household before tax income)",
+      "-- Social Security benefits (SSI, Dependent, Disability, Survivor’s, or Retirement) statement or benefit checks",
+      "-- Cash benefits (TANF/Welfare) statement or benefits check",
+      "-- Unemployment Income statement or benefits check",
+      "-- Utility Discount program qualification - provide bill statement",
+      "-- Retirement benefits (Pensions, Annuities, or IRA) statement",
+      "Proof of dependents. Documents that can prove your dependent eligibility include:",
+      "-- Preferred: 1040 Income Tax form (most recent)",
+      "-- Birth certificates for dependents"
     ],
     "how_it_works": [
-      "Successful applicants will receive one voucher per child to cover 25%-70% of tuition. Vouchers can be used for full-time, part-time, or before/after school care. You are responsible for paying the difference between the voucher subsidy amount and the provider's regular monthly rate.",
-      "You can apply at any time during the year and must recertify eligibility every 12 months"
+      "Preschool programs are hosted by the Associated Recreation Council (ARC) in partnership with Seattle Parks and Recreation for children ages 3 through 5.",
+      "Classrooms are set up with rich environments, fun-filled learning areas, consistent schedules and routines, and both large and small group times with a low-teacher child ratio of 1:8.",
+      "Programs run from September to June.",
+      "Vacancies are filled on a rolling basis.",
+      "Scholarships are based on household size and parent/guardian income and successful applicants receive a 40% to 90% subsidy.",
+      "Families apply for scholarships once per year",
+      "Scholarships are distributed once per quarter and amount may vary depending on funding."
     ],
-    "savings": 320,
-    "savingsByPeriod": "$320 / Month",
-    "time_to_apply": "2 Hours",
-    "time_hear_back": "6 Weeks",
+    "savings": 500,
+    "savingsByPeriod": "$500 / Month",
+    "time_to_apply": "1 Hour",
+    "time_hear_back": "2 Weeks",
     "address": {
-      "address_section_title": "Department of Education & Early Learning",
-      "address_section_addr_line_1": "700 5th Ave, Suite 1700",
-      "address_section_addr_line_2": "Seattle, WA, 98104",
-      "address_section_phone": "Phone: (206) 233-5118",
-      "address_section_fax": "Fax: (206) 386-1900",
-      "address_section_email_address": "department@seattle.gov"
+      "address_section_title": "Department of Parks and Recreation (DPR)",
+      "address_section_addr_line_1": "Use our website to locate the nearest community center (http://www.seattle.gov/parks/find/centers)",
+      "address_section_addr_line_2": "or pool facility (http://www.seattle.gov/parks/find/pools)",
+      "address_section_phone": "",
+      "address_section_fax": "",
+      "address_section_email_address": ""
     },
-    "seo_title": "Seattle Parks and Recreation Preschool: School-Age Scholarships",
-    "seo_description": "Seattle Parks and Recreation offers a range of school-age scholarships based throughout Seattle. Before and after school programs.",
+    "seo_title": "Seattle Parks and Recreation Preschool Scholarship",
+    "seo_description": "Available to children 3-4 years old and 5 year olds not enrolled in school, the Seattle Parks and Recreation, in partnership with Associated Recreation Council operates half-day preschool programs. This program focuses on emotional, social, physical, and cognitive skills to prepare kids for success in school and in life.",
     "seo_keywords": "school scholarships, parks school scholarships, after-school scholarships"
   },
   {
     "id": 13,
     "category": "Childcare",
-    "vanityUrl": "13-step-ahead-program",
+    "vanityUrl": "13-seattle-preschool-program",
     "image": "https://www.seattle.gov/assets/images/2015_IMG/PageBackgrounds/DSC_1212-Edit.jpg",
-    "name": "Step Ahead Program",
-    "url": "http://www.seattle.gov/education/for-parents/child-care-and-preschool/child-care-assistance-program",
-    "description": "Step Ahead provides full- and half-day high-quality preeschool programs for low-income 3- and 4-year olds.",
+    "name": "Seattle Preschool Program",
+    "url": "http://www.seattle.gov/education/for-parents/child-care-and-preschool/seattle-preschool-program",
+    "description": "Get high-quality and affordable preschool for your 3- or 4-year-olds.",
     "tier": 3,
     "household_cnt": 2,
     "criteria": {
       "text": [
         {
           "category": "text",
+          "value": "*Staff will not ask information about immigration status"
+        },
+        {
+          "category": "text",
           "value": "You live within Seattle city limits (residents living in unincorporated King County are not eligible)"
         },
         {
           "category": "text",
-          "value": "You are employed and/or enrolled in qualified education or job training program"
+          "value": "You have a child age 3 or 4 by August of the participating year"
         },
         {
           "category": "text",
-          "value": "You have a child under 13 years old"
-        },
-        {
-          "category": "text",
-          "value": "You identify a child care provider contracted with the City of Seattle"
-        },
-        {
-          "category": "text",
-          "value": "You demonstrate ineligibility for any other child care subsidy program"
-        },
-        {
-          "category": "income",
-          "value": "You meet the income guidelines based on family size:"
+          "value": "You may be eligible for free or reduced tuition if: You meet the income guidelines based on family size"
         }
       ],
       "type": {
@@ -1446,29 +1370,31 @@
       }
     },
     "stuff_needed": [
-      "Your work or school schedule",
-      "Proof of your child's age",
-      "Proof of your address",
-      "Proof of family income"
+      "Your preschool selection",
+      "Completed application: https://earlylearning.microsoftcrmportals.com/parentportal/"
     ],
     "how_it_works": [
-      "Successful applicants will receive one voucher per child to cover 25%-70% of tuition. Vouchers can be used for full-time, part-time, or before/after school care. You are responsible for paying the difference between the voucher subsidy amount and the provider's regular monthly rate.",
-      "You can apply at any time during the year and must recertify eligibility every 12 months"
+      "Seattle Preschool Programs partners with schools and child care providers to offer preschool for 6 hours per day, 5 days per week.",
+      "Flexible schedules, such as part-day or 3 days per week, are not an option. Extended care is available at some sites.",
+      "Programs run from September to June",
+      "If you apply by April 1, 2019, you will receive your program assignment, if applicable, no later than April 30. If you apply between April 2 and April 22, 2019, you will receive your program selection no later than May 15. If your child is not selected and placed in Round 1 or 2 -or- your application is received after April 22, you will be placed on a waitlist.",
+      "Vacancies are filled on a rolling basis between May 15, 2019 and March 31, 2020.",
+      "Tuition is based on household size and parent/guardian income and can be free or on a sliding scale."
     ],
-    "savings": 320,
-    "savingsByPeriod": "$320 / Month",
+    "savings": 1118,
+    "savingsByPeriod": "$1118 / Month",
     "time_to_apply": "2 Hours",
-    "time_hear_back": "6 Weeks",
+    "time_hear_back": "2 Weeks",
     "address": {
-      "address_section_title": "Department of Education & Early Learning",
-      "address_section_addr_line_1": "700 5th Ave, Suite 1700",
-      "address_section_addr_line_2": "Seattle, WA, 98104",
-      "address_section_phone": "Phone: (206) 233-5118",
-      "address_section_fax": "Fax: (206) 386-1900",
-      "address_section_email_address": "department@seattle.gov"
+      "address_section_title": "Department of Education & Early Learning (DEEL)",
+      "address_section_addr_line_1": "Department of Education & Early Learning, PO Box 94665",
+      "address_section_addr_line_2": "Seattle, WA 98124-6965",
+      "address_section_phone": "Phone: (206) 386-1050",
+      "address_section_fax": "Fax: (206) 233-7152",
+      "address_section_email_address": "SPPApplication@seattle.gov"
     },
-    "seo_title": "Step Ahead Preschool: Affordable Preschool For Low Income Families",
-    "seo_description": "Step Ahead provides full- and half-day high-quality preschool programs for low-income 3- and 4-year olds. Find out if you are eligible in 5 min!",
+    "seo_title": "Seattle Preschool Program",
+    "seo_description": "Seattle Preschool Program offers high-quality, affordable preschool to all of Seattle's 3- and 4-year-olds. Students engage in a full time, research-based curriculum taught by certificated staff in a positive school climate and early childhood learning environment.",
     "seo_keywords": "step ahead preschool, pathways to nature preschool, preschool pathways to science, step ahead childcare and preschool, pathway to learning preschool, learning pathway preschool, pathway kindergarten"
   },
   {
