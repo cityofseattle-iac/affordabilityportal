@@ -4,7 +4,7 @@
     "category": "Food",
     "name": "Fresh Bucks Match",
     "vanityUrl": "1-fresh-bucks-match",
-    "image": "https://www.seattle.gov/assets/images/2015_IMG/PageBackgrounds/DSC_1212-Edit.jpg",
+    "image": "https://innovation-performance.seattle.gov/wp-content/uploads/2019/08/fresh-bucks-match.jpg",
     "icon": "https://www.freshbuckseattle.org/wp-content/uploads/2016/07/FB_logo_114x114.png",
     "url": "http://seattle.gov/freshbucks",
     "phone": "206-256-5158",
@@ -131,7 +131,7 @@
     "category": "Food",
     "vanityUrl": "2-fresh-bucks-vouchers",
     "name": "Fresh Bucks Vouchers",
-    "image": "https://www.seattle.gov/assets/images/2015_IMG/PageBackgrounds/DSC_1212-Edit.jpg",
+    "image": "https://innovation-performance.seattle.gov/wp-content/uploads/2019/08/Fresh-bucks.png",
     "icon": "https://www.freshbuckseattle.org/wp-content/uploads/2016/07/FB_logo_114x114.png",
     "url": "http://seattle.gov/freshbucks",
     "phone": "206-256-5159",
@@ -269,7 +269,7 @@
     "id": 3,
     "category": "Transportation",
     "vanityUrl": "3-orca-lift",
-    "image": "https://www.seattle.gov/assets/images/2015_IMG/PageBackgrounds/DSC_1212-Edit.jpg",
+    "image": "https://innovation-performance.seattle.gov/wp-content/uploads/2019/08/ORCA-lift.png",
     "icon": "https://www.seattle.gov/Images/Departments/Transit/ORCA-LIFT-Logo-125px.png",
     "name": "ORCA LIFT",
     "url": "https://www.seattle.gov/transit/orca-lift",
@@ -280,7 +280,7 @@
     "description-card": "ORCA LIFT offers to 50% discount on transit fares.",
     "description-results": "ORCA LIFT offers savings of up to 50% on transit. Available to income-qualified riders.",
     "description-jump": "ORCA LIFT makes riding transit more affordable. Income-qualified riders can save up to 50% or more on Metro Transit, Kitsap Transit, Sound Transit Link, Sound Transit Regional Express buses, Sounder Trains, King County Water Taxi, and Seattle Streetcar.",
-    "description": "ORCA LIFT makes riding transit more affordable. Income-qualified riders can save up to 50% or more on Metro Transit, Kitsap Transit, Sound Transit Link, Sound Transit Regional Express buses, Sounder Trains, King County Water Taxi, and Seattle Streetcar.",
+    "description": "ORCA LIFT offers to 50% discount on transit fares.",
     "tier": 1,
     "household_cnt": 1,
     "criteria": {
@@ -380,7 +380,7 @@
     "id": 4,
     "category": "Transportation",
     "vanityUrl": "4-orca-opportunity",
-    "image": "https://www.seattle.gov/assets/images/2015_IMG/PageBackgrounds/DSC_1212-Edit.jpg",
+    "image": "https://innovation-performance.seattle.gov/wp-content/uploads/2019/08/ORCA-opportunity.png",
     "name": "ORCA Opportunity",
     "url": "https://www.seattle.gov/transit/orca-opportunity",
     "department": "Seattle Department of Transportation (SDOT)",
@@ -390,7 +390,7 @@
     "description-card": "Free ORCA cards for middle and high school students enrolled in Seattle Public Schools.",
     "description-results": "Free, unlimited 12-month ORCA card for middle and high school students enrolled in Seattle Public Schools.",
     "description-jump": "The ORCA Opportunity program distributes free, unlimited 12-month ORCA cards to high school students at Seattle Public Schools, income-qualified middle school students at Seattle Public Schools, and Seattle Promise Scholars. Cards are valid on King County Metro, King County Water Taxi, Seattle Streetcar, Sound Transit, Community Transit, Pierce Transit, Kitsap Transit, and Everett Transit.",
-    "description": "The ORCA Opportunity program distributes free, unlimited 12-month ORCA cards to high school students at Seattle Public Schools, income-qualified middle school students at Seattle Public Schools, and Seattle Promise Scholars. Cards are valid on King County Metro, King County Water Taxi, Seattle Streetcar, Sound Transit, Community Transit, Pierce Transit, Kitsap Transit, and Everett Transit.",
+    "description": "Free ORCA cards for middle and high school students enrolled in Seattle Public Schools.",
     "tier": 1,
     "household_cnt": 1,
     "criteria": {
@@ -451,10 +451,13 @@
     "id": 5,
     "category": "Transportation",
     "vanityUrl": "5-youth-orca",
-    "image": "https://www.seattle.gov/assets/images/2015_IMG/PageBackgrounds/DSC_1212-Edit.jpg",
+    "image": "https://innovation-performance.seattle.gov/wp-content/uploads/2019/08/Youth-ORCA.png",
     "name": "Youth ORCA",
     "url": "https://www.seattle.gov/humanservices/services-and-programs/utility-discount-program",
-    "description": "Free ORCA cards for Youth",
+    "description_card": "The ORCA youth card offers youth ages 6-18 a discounted fare.",
+    "description_result": "The ORCA youth card is available to youth age 6-18. It offers a discounted fare of $1.50 per trip.",
+    "description_jump": "The ORCA youth card is available to youth age 6-18 and offers a discounted fare of $1.50 per trip. Cards are accepted on Community Transit, Everett Transit, King County Metro Transit, Kitsap Transit, Pierce Transit, and Sound Transit.\n",
+    "description": "The ORCA youth card offers youth ages 6-18 a discounted fare.",
     "tier": 1,
     "household_cnt": 1,
     "criteria": {
@@ -537,37 +540,24 @@
     "id": 6,
     "category": "Transportation",
     "vanityUrl": "6-vehicle-license-rebate",
-    "image": "https://www.seattle.gov/assets/images/2015_IMG/PageBackgrounds/DSC_1212-Edit.jpg",
+    "image": "https://innovation-performance.seattle.gov/wp-content/uploads/2019/08/Vehicle-License-Fee-Rebate.jpg",
     "name": "Vehicle License Rebate",
     "url": "https://www.seattle.gov/transportation/projects-and-programs/programs/transit-program/vehicle-license-fee-rebate",
-    "description": "Income-eligible vehicle owners with a car registered in Seattle can receive a $20 rebate on their license fee.",
+    "description_card": "Get a $20 license fee rebate for cars registered in Seattle.",
+    "description_jump": "Car tabs, also known as Vehicle License Fees, has increased to $80 per vehicle. With the Vehicle License Fee Rebate program, income qualified vehicle owners with a car registered in Seattle are eligible to receive a $20 rebate in the form of a check.",
+    "description_result": "Income-qualified vehicle owners with a car registered in Seattle are eligible to receive a $20 rebate on their license fee.",
+    "description": "Get a $20 license fee rebate for cars registered in Seattle.",
     "tier": 2,
     "household_cnt": 1,
     "criteria": {
       "text": [
         {
           "category": "text",
-          "value": "You live within Seattle city limits (residents living in unincorporated King County are not eligible)"
-        },
-        {
-          "category": "text",
-          "value": "You are employed and/or enrolled in qualified education or job training program"
-        },
-        {
-          "category": "text",
-          "value": "You have a child under 13 years old"
-        },
-        {
-          "category": "text",
-          "value": "You identify a child care provider contracted with the City of Seattle"
-        },
-        {
-          "category": "text",
-          "value": "You demonstrate ineligibility for any other child care subsidy program"
+          "value": "You are currently enrolled in the Supplemental Nutrition Assistance Program (SNAP) or Seattle Utility Discount Program (UDP)"
         },
         {
           "category": "income",
-          "value": "You meet the income guidelines based on family size:"
+          "value": "Your family is at or under following income guidelines during the monthly perod prior to applying: [insert income verification table]"
         }
       ],
       "type": {
@@ -617,26 +607,25 @@
       ]
     },
     "stuff_needed": [
-      "Your work or school schedule",
-      "Proof of your child's age",
-      "Proof of your address",
-      "Proof of family income"
+      "Government issued identification for all persons 18 years and older. Please provide a copy of one of the items below for each adult: State driver’s license; State identification card; Passport or Permanent Resident Card",
+      "Proof that you are currently enrolled in the Supplemental Nutrition Assistance Program (SNAP) or Seattle Utility Discount Program (UDP) -OR- Proof for total gross household income for all persons 18 years and older living in the house during the monthly period prior to applying.",
+      "Proof of payment of the $80 Vehicle License Fee"
     ],
     "how_it_works": [
-      "Successful applicants will receive one voucher per child to cover 25%-70% of tuition. Vouchers can be used for full-time, part-time, or before/after school care. You are responsible for paying the difference between the voucher subsidy amount and the provider's regular monthly rate.",
-      "You can apply at any time during the year and must recertify eligibility every 12 months"
+      "Car tabs, also known as Vehicle License Fees, increased to $80 per vehicle on June 1, 2015.",
+      "If you have a car registered in Seattle and meet income requirements, you are eligible to receive a $20 rebate in the form of a check."
     ],
     "savings": 2,
     "savingsByPeriod": "$2 / Month",
-    "time_to_apply": "2 Hours",
-    "time_hear_back": "6 Weeks",
+    "time_to_apply": "15 minutes",
+    "time_hear_back": "4 Weeks",
     "address": {
-      "address_section_title": "Department of Education & Early Learning",
-      "address_section_addr_line_1": "700 5th Ave, Suite 1700",
+      "address_section_title": "Seattle Department of Transportation (SDOT)",
+      "address_section_addr_line_1": "VLFR Program, 810 3rd Ave, Suite #440",
       "address_section_addr_line_2": "Seattle, WA, 98104",
-      "address_section_phone": "Phone: (206) 233-5118",
-      "address_section_fax": "Fax: (206) 386-1900",
-      "address_section_email_address": "department@seattle.gov"
+      "address_section_phone": "Phone: (206) 684-4141 ",
+      "address_section_fax": "Fax: (206) 621-5012",
+      "address_section_email_address": "CarTabRebate@seattle.gov"
     },
     "seo_title": "Vehicle License Fee Rebate For Income Qualified Vehicle Owners",
     "seo_description": "You may be eligible for the Vehicle License Fee Rebate Program. Income qualified vehicle owners get a $20 rebate for their car tab renewal. Find out if you qualify!",
@@ -645,10 +634,13 @@
   {
     "id": 7,
     "category": "Transportation",
-    "vanityUrl": "7-restricted-zone-parking-discount",
-    "image": "https://www.seattle.gov/assets/images/2015_IMG/PageBackgrounds/DSC_1212-Edit.jpg",
-    "name": "Restricted Zone Parking Discount",
+    "vanityUrl": "7-restricted-parking-zone-permit",
+    "image": "https://innovation-performance.seattle.gov/wp-content/uploads/2019/08/Low-Income-RPZ-Permit.png",
+    "name": "Low Income Restricted Parking Zone Permit",
     "url": "https://www.seattle.gov/transportation/permits-and-services/permits/parking-permits/rpz-permits/rpz-permit-types",
+    "description_card": "Restricted parking zone permits for $10.",
+    "description_result": "Income-eligible vehicle owners can receive a restricted parking zone permit for $10.",
+    "description_jump": "The Restricted Parking Zone Program was created to help ease parking congestion in residential neighborhoods. Permits generally cost $65. Income-eligible vehicle owners can receive a restricted parking zone permit for $10.\n",
     "description": "Income-eligible vehicle owners can receive a restricted parking zone (RPZ) permit for $10.",
     "tier": 2,
     "household_cnt": 1,
@@ -656,7 +648,7 @@
       "text": [
         {
           "category": "text",
-          "value": "You live within Seattle city limits (residents living in unincorporated King County are not eligible)"
+          "value": "Use this map for guidance on if your address is eligible for an RPZ permit (http://seattlecitygis.maps.arcgis.com/home/webmap/viewer.html?webmap=4a450bdf1e404f34b384ed22aaaa4182). Or you can use our lookup tool to see if your address is eligible for an RPZ permit (https://cosaccela.seattle.gov/Portal/cap/CapEdit.aspx?Module=AddressInquiry&stepNumber=2&pageNumber=1&isFeeEstimator=&TabName=AddressInquiry&agencyCode=SEATTLE)."
         },
         {
           "category": "text",
@@ -676,7 +668,7 @@
         },
         {
           "category": "income",
-          "value": "You meet the income guidelines based on family size:"
+          "value": "You are eligible for the low-income discount if you can prove your enrollment in one of the following programs: Supplemental Nutrition Assistance card (formerly food stamps); Energy assistance from Seattle City Light or Puget Sound Energy; Rental assistance from Seattle Housing Authority (Section 8) or copy of rental agreement in SHA property; Temporary Assistance to Needy Families (TANF) check or stub; Lease/rental agreement from Plymouth Housing, CHHIP, or other low-income housing providers; Proof of Supplemental Security Income (SSI) – NOT regular Social Security income; Issuance of King County Metro Transit Low-Income Fare Card (ORCA LIFT); Provider One or Apple Health card. **Other documentation considered on an individual basis."
         }
       ],
       "type": {
@@ -726,26 +718,22 @@
       ]
     },
     "stuff_needed": [
-      "Your work or school schedule",
-      "Proof of your child's age",
-      "Proof of your address",
-      "Proof of family income"
+      "You are eligible for the low-income discount if you can prove your enrollment in one of the following programs: Supplemental Nutrition Assistance card (formerly food stamps); Energy assistance from Seattle City Light or Puget Sound Energy; Rental assistance from Seattle Housing Authority (Section 8) or copy of rental agreement in SHA property; Temporary Assistance to Needy Families (TANF) check or stub; Lease/rental agreement from Plymouth Housing, CHHIP, or other low-income housing providers; Proof of Supplemental Security Income (SSI) – NOT regular Social Security income; Issuance of King County Metro Transit Low-Income Fare Card (ORCA LIFT); Provider One or Apple Health card. **Other documentation considered on an individual basis."
     ],
     "how_it_works": [
-      "Successful applicants will receive one voucher per child to cover 25%-70% of tuition. Vouchers can be used for full-time, part-time, or before/after school care. You are responsible for paying the difference between the voucher subsidy amount and the provider's regular monthly rate.",
-      "You can apply at any time during the year and must recertify eligibility every 12 months"
+      "Income-eligible vehicle owners can receive a restricted parking zone permit for $10 to park on the street in qualifying neighborhood."
     ],
     "savings": 10,
     "savingsByPeriod": "$10 / Month",
     "time_to_apply": "2 Hours",
-    "time_hear_back": "426 Weeks",
+    "time_hear_back": "1 week",
     "address": {
-      "address_section_title": "Department of Education & Early Learning",
-      "address_section_addr_line_1": "700 5th Ave, Suite 1700",
-      "address_section_addr_line_2": "Seattle, WA, 98104",
-      "address_section_phone": "Phone: (206) 233-5118",
-      "address_section_fax": "Fax: (206) 386-1900",
-      "address_section_email_address": "department@seattle.gov"
+      "address_section_title": "Seattle Department of Transportation (SDOT)",
+      "address_section_addr_line_1": "Seattle Department of Transportation, Traffic and Parking Permits, PO Box 34996",
+      "address_section_addr_line_2": "Seattle, WA 98124-4996",
+      "address_section_phone": "Phone: (206) 684-5086",
+      "address_section_fax": "Fax: ",
+      "address_section_email_address": "rpzinfo@seattle.gov"
     },
     "seo_title": "Low Income Restricted Parking Zone Permit",
     "seo_description": "You may be eligible for the Low Income Restricted Parking Zone Permit Program. Income-eligible vehicle owners can receive a RPZ permit for $10. Find out if you qualify!",
@@ -755,10 +743,13 @@
     "id": 8,
     "category": "Utilities",
     "vanityUrl": "8-utility-discount-program",
-    "image": "https://www.seattle.gov/assets/images/2015_IMG/PageBackgrounds/DSC_1212-Edit.jpg",
+    "image": "https://innovation-performance.seattle.gov/wp-content/uploads/2019/08/Utility-Discount-Program.png",
     "name": "Utility Discount Program",
     "url": "https://www.seattle.gov/humanservices/services-and-programs/utility-discount-program",
-    "description": "The  Utility Discount Program (UDP) offers customers a 50-60% discount on their electricity and utilities bills.",
+    "description_card": "Get discounted rates on Seattle City Light and Seattle Public Utilities bills. ",
+    "description_result": "The Utility Discount Program offers a 60% discount on Seattle City Light bill and a 50% discount on Seattle Public Utilities bill.",
+    "description_jump": "The  Utility Discount Program (UDP) offers customers a 50-60% discount on their electricity and utilities bills.",
+    "description": "Get discounted rates on Seattle City Light and Seattle Public Utilities bills. ",
     "tier": 2,
     "household_cnt": 1,
     "criteria": {
@@ -864,9 +855,12 @@
     "id": 9,
     "category": "Utilities",
     "vanityUrl": "9-wave-simply-internet",
-    "image": "https://www.seattle.gov/assets/images/2015_IMG/PageBackgrounds/DSC_1212-Edit.jpg",
+    "image": "https://innovation-performance.seattle.gov/wp-content/uploads/2019/08/Wave-internet.png",
     "name": "Wave Simply Internet",
     "url": "https://www.seattle.gov/tech/services/internet-access/low-cost-home-internet-access-for-residents",
+    "description_card": "Get low-cost, high-speed Internet for around $10 a month.",
+    "description_result": "Get low-cost, high-speed Internet for around $10 a month and get discounted rates on electronics.",
+    "description_jump":"Get unlimited high-speed internet for $9.95/month plus tax. Free installation and in-home Wi-Fi. No credit checks, contracts or equipment rental fees required. Refurbished laptops available for purchase.",
     "description": "Low-cost, high-speed Internet and discount on electronics and smart phones.",
     "tier": 2,
     "household_cnt": 1,
@@ -978,7 +972,7 @@
     "category": "Utilities",
     "vanityUrl": "10-internet-essentials-from-comcast",
     "name": "Internet Essentials from Comcast",
-    "image": "https://www.seattle.gov/assets/images/2015_IMG/PageBackgrounds/DSC_1212-Edit.jpg",
+    "image": "https://innovation-performance.seattle.gov/wp-content/uploads/2019/08/Comcast-internet.png",
     "icon": "https://www.freshbuckseattle.org/wp-content/uploads/2016/07/FB_logo_114x114.png",
     "url": "https://www.internetessentials.com",
     "phone": "855-846-8376",
@@ -1054,12 +1048,15 @@
   },
   {
     "id": 11,
-    "category": "Childcare",
+    "category": "Education and Childcare",
     "vanityUrl": "11-seattle-parks-and-recreation-before-or-after-school-care",
-    "image": "https://www.seattle.gov/assets/images/2015_IMG/PageBackgrounds/DSC_1212-Edit.jpg",
+    "image": "https://innovation-performance.seattle.gov/wp-content/uploads/2019/08/School-Age-Care.jpg",
     "name": "Seattle Parks and Recreation Before/After School Care",
     "url": "https://www.seattle.gov/education/for-parents/child-care-and-preschool/seattle-preschool-program",
-    "description": "Scholarships available for recreational child care for children in kindergarten to sixth grade.",
+    "description-card": "Recreational child care for children in kindergarten to sixth grade.",
+    "description-results": "Affordable child care focusing on social, recreational, and physical development. Available to children in kindergarten to sixth grade. ",
+    "description-jump": "Available to children in kindergarten to sixth grade, the Seattle Parks and Recreation, in partnership with Associated Recreation Council offers programs that provide kids with activities in areas such as: arts and culture, environmental stewardship, health and fitness, academic support, and more.",
+    "description": "Recreational child care for children in kindergarten to sixth grade.",
     "tier": 3,
     "household_cnt": 2,
     "criteria": {
@@ -1174,11 +1171,14 @@
   },
   {
     "id": 12,
-    "category": "Childcare",
+    "category": "Education and Childcare",
     "vanityUrl": "12-seattle-parks-and-recreation-preschool-scholarships",
-    "image": "https://www.seattle.gov/assets/images/2015_IMG/PageBackgrounds/DSC_1212-Edit.jpg",
+    "image": "https://innovation-performance.seattle.gov/wp-content/uploads/2019/08/Seattle-Parks-and-Recreation-Preschool.jpg",
     "name": "Seattle Parks and Recreation Preschool Scholarships",
     "url": "https://www.seattle.gov/parks/find/childcare-and-preschool",
+    "description-card": "Half-day recreational preschool  programs for children 3-5 years.",
+    "description-results": "Half-day preschool programs for children 3-5 years focusing on social, recreational, and physical development.",
+    "description-jump": "Available to children 3-4 years old and 5 year olds not enrolled in school, the Seattle Parks and Recreation, in partnership with Associated Recreation Council operates half-day preschool programs. This program focuses on emotional, social, physical, and cognitive skills to prepare kids for success in school and in life.",
     "description": "Half-day recreational preschool  programs for children 3-5 years.",
     "tier": 3,
     "household_cnt": 2,
@@ -1298,12 +1298,15 @@
   },
   {
     "id": 13,
-    "category": "Childcare",
+    "category": "Education and Childcare",
     "vanityUrl": "13-seattle-preschool-program",
-    "image": "https://www.seattle.gov/assets/images/2015_IMG/PageBackgrounds/DSC_1212-Edit.jpg",
+    "image": "https://innovation-performance.seattle.gov/wp-content/uploads/2019/08/Seattle-Preschool-Program.jpg",
     "name": "Seattle Preschool Program",
     "url": "http://www.seattle.gov/education/for-parents/child-care-and-preschool/seattle-preschool-program",
-    "description": "Get high-quality and affordable preschool for your 3- or 4-year-olds.",
+    "description-card": "Get high-quality and affordable preschool for your 3 or 4 year-olds.",
+    "description-results": "Seattle Preschool Program provides high-quality, and affordable early learning for Seattle's youngest learners.",
+    "description-jump": "Seattle Preschool Program offers high-quality, affordable preschool to all of Seattle's 3- and 4-year-olds. Students engage in a full time, research-based curriculum taught by certificated staff in a positive school climate and early childhood learning environment.",
+    "description": "Get high-quality and affordable preschool for your 3 or 4 year-olds.",
     "tier": 3,
     "household_cnt": 2,
     "criteria": {
@@ -1399,39 +1402,26 @@
   },
   {
     "id": 14,
-    "category": "Childcare",
-    "vanityUrl": "14-seattle-preschool-program",
-    "image": "https://scontent-sea1-1.cdninstagram.com/vp/af62f426a05f91a1347e3f22a57bdbfa/5D772B5D/t51.2885-15/e35/17818825_673066616198658_5842589719514316800_n.jpg?_nc_ht=scontent-sea1-1.cdninstagram.com",
-    "name": "Seattle Preschool Program",
-    "url": "https://www.seattle.gov/education/for-parents/child-care-and-preschool/seattle-preschool-program",
-    "description": "Seattle Preschool Program provides  high-quality, and affordable early learning for Seattle's youngest learners.",
+    "category": "Education and Childcare",
+    "vanityUrl": "14-seattle-promise",
+    "image": "https://innovation-performance.seattle.gov/wp-content/uploads/2019/08/Seattle-Promise-2.png",
+    "name": "Seattle Promise",
+    "url": "https://seattlepromise.seattlecolleges.edu/",
+    "description-card": "Get financial support and personal guidance needed to succeed in college.",
+    "description-results": "Get free tuition for the first two years of college and personal guidance needed to succeed.",
+    "description-jump": "The Seattle Promise program is designed to provide the financial support and personal guidance students need to succeed in college. Students get free tuition and many other supports.",
+    "description": "Get financial support and personal guidance needed to succeed in college.",
     "tier": 3,
     "household_cnt": 2,
     "criteria": {
       "text": [
         {
           "category": "text",
-          "value": "You live within Seattle city limits (residents living in unincorporated King County are not eligible)"
-        },
-        {
-          "category": "text",
-          "value": "You are employed and/or enrolled in qualified education or job training program"
-        },
-        {
-          "category": "text",
-          "value": "You have a child under 13 years old"
-        },
-        {
-          "category": "text",
-          "value": "You identify a child care provider contracted with the City of Seattle"
-        },
-        {
-          "category": "text",
-          "value": "You demonstrate ineligibility for any other child care subsidy program"
+          "value": "You are a graduating senior at Ingraham High School, Garfield High School, Chief Sealth International High School, Cleveland High School, Rainier Beach High School, or West Seattle High School."
         },
         {
           "category": "income",
-          "value": "You meet the income guidelines based on family size:"
+          "value": "After 2020, you are a graduation senior from a Seattle Public Schools high school."
         }
       ],
       "type": {
@@ -1479,39 +1469,40 @@
       }
     },
     "stuff_needed": [
-      "Your work or school schedule",
-      "Proof of your child's age",
-      "Proof of your address",
-      "Proof of family income"
+      "Applications for 2019 are closed.",
+      "Applications for 2020 will open in fall 2019."
     ],
     "how_it_works": [
-      "Successful applicants will receive one voucher per child to cover 25%-70% of tuition. Vouchers can be used for full-time, part-time, or before/after school care. You are responsible for paying the difference between the voucher subsidy amount and the provider's regular monthly rate.",
-      "You can apply at any time during the year and must recertify eligibility every 12 months"
+      "Seattle Promise currently offers up to two years or 90 credits of free tuition to all graduates of six eligible Seattle public high schools regardless of GPA, income, or background. By fall of 2020, the program will expand to offer this option to all Seattle public high school graduates who choose to attend any of the Seattle Colleges. After completing all application requirements, Seattle Promise Scholars will attend workshops designed to prepare them for educational and institutional success.",
+      "Seattle Promise Scholars are eligible for the following services: Support applying to Seattle Promise and Seattle Colleges; Support applying for and completing financial aid requirements; Full coverage of any tuition expenses remaining after other scholarships and financial aid; Assistance with choosing and registering for classes; Preparation for the transition to college; Guidance and mentorship through the first two years of college."
     ],
     "savings": 320,
-    "savingsByPeriod": "$320 / Month",
-    "time_to_apply": "2 Hours",
-    "time_hear_back": "6 Weeks",
+    "savingsByPeriod": "",
+    "time_to_apply": "1 Hour",
+    "time_hear_back": "2 Weeks",
     "address": {
       "address_section_title": "Department of Education & Early Learning",
       "address_section_addr_line_1": "700 5th Ave, Suite 1700",
       "address_section_addr_line_2": "Seattle, WA, 98104",
-      "address_section_phone": "Phone: (206) 233-5118",
-      "address_section_fax": "Fax: (206) 386-1900",
-      "address_section_email_address": "department@seattle.gov"
+      "address_section_phone": "Phone: (206) 256-5181",
+      "address_section_fax": "Fax: ",
+      "address_section_email_address": "clarence.dancer@seattle.gov"
     },
-    "seo_title": "Seattle Preschool Program: Affordable Pre K For Low Income Families",
-    "seo_description": "The Seattle Preschool Program offers free or affordable tuition for families to attend preschool in high quality classrooms. Find out if you are eligible in 5 min!",
+    "seo_title": "Seattle Promise",
+    "seo_description": "Get free tuition for the first two years of college and personal guidance needed to succeed.",
     "seo_keywords": "free preschool, preschool seattle, seattle preschool program, affordable preschool, low income preschool, free pre k, free school for 3 year olds, free preschool programs"
   },
   {
     "id": 15,
-    "category": "Childcare",
+    "category": "Education and Childcare",
     "vanityUrl": "15-childcare-assistance-program",
-    "image": "https://scontent-sea1-1.cdninstagram.com/vp/4e3727b80a58bbbf5863b01fbdefc097/5D6A2536/t51.2885-15/e35/47101794_1946485465428487_4926900327196521604_n.jpg?_nc_ht=scontent-sea1-1.cdninstagram.com",
+    "image": "https://innovation-performance.seattle.gov/wp-content/uploads/2019/08/Child-Care-Assistance.jpg",
     "name": "Childcare Assistance program",
     "url": "http://www.seattle.gov/education/for-parents/child-care-and-preschool/child-care-assistance-program",
-    "description": "Scholarships available for half-day preschool programs in neighborhood community centers.",
+    "description-card": "Get assistance with child care for children up to age 13.",
+    "description-results": "Get assistance with child care, for children up to age 13, from licensed family child care homes and centers in Seattle.",
+    "description-jump": "Choose from more than 180 licensed family child care homes and centers in Seattle, which contract with the City to provide high-quality and affordable child care for children up to age 13.",
+    "description": "Get assistance with child care for children up to age 13.",
     "tier": 3,
     "household_cnt": 2,
     "criteria": {
@@ -1534,7 +1525,7 @@
         },
         {
           "category": "text",
-          "value": "You demonstrate ineligibility for any other child care subsidy program"
+          "value": "You demonstrate ineligibility for any other childcare subsidy program"
         },
         {
           "category": "income",
@@ -1592,23 +1583,246 @@
       "Proof of family income"
     ],
     "how_it_works": [
-      "Successful applicants will receive one voucher per child to cover 25%-70% of tuition. Vouchers can be used for full-time, part-time, or before/after school care. You are responsible for paying the difference between the voucher subsidy amount and the provider's regular monthly rate.",
+      "Families can apply at any time during the year. Families are screened for eligibility before submitting unnecessary forms/documentation. Successful applicants receive one voucher per child to cover 25% to 70% of tuition at a qualifying child care provider. Vouchers can be used for full-time, part-time, or before/after school care. Families are responsible for paying the difference between the voucher subsidy amount and the provider's regular monthly rate. Families can choose from over 180 high-quality and affordable child care providers.",
       "You can apply at any time during the year and must recertify eligibility every 12 months"
     ],
     "savings": 320,
-    "savingsByPeriod": "$320 / Month",
-    "time_to_apply": "2 Hours",
-    "time_hear_back": "6 Weeks",
+    "savingsByPeriod": "$1000 / Month",
+    "time_to_apply": "1 Hour",
+    "time_hear_back": "2 Weeks",
     "address": {
       "address_section_title": "Department of Education & Early Learning",
       "address_section_addr_line_1": "700 5th Ave, Suite 1700",
       "address_section_addr_line_2": "Seattle, WA, 98104",
-      "address_section_phone": "Phone: (206) 233-5118",
-      "address_section_fax": "Fax: (206) 386-1900",
-      "address_section_email_address": "department@seattle.gov"
+      "address_section_phone": "Phone: (206) 386-1050",
+      "address_section_fax": "Fax: (206) 233-7152",
+      "address_section_email_address": "ccap@seattle.gov"
     },
-    "seo_title": "Child Care Assistance Program (CCAP): Low Income Daycare Help",
+    "seo_title": "Child Care Assistance Program (CCAP): Low Income Childcare Help",
     "seo_description": "You may be eligible for the Child Care Assistance Program (CCAP). Get 25-70% towards child care for low-income families. Find out if you are eligible in 5 min!",
     "seo_keywords": "ccap, child care assistance, daycare assistance, child care assistance program, low income daycare, low income child care, help with childcare, daycare subsidy"
+  },
+  {
+    "id": 16,
+    "category": "Education and Childcare",
+    "vanityUrl": "16-pathways-preschool-program",
+    "image": "https://innovation-performance.seattle.gov/wp-content/uploads/2019/08/Pathway-Preschool.jpg",
+    "name": "Pathways Preschool Program",
+    "url": "https://www.seattle.gov/education/early-learning/early-learning-providers/about-our-early-learning-programs/step-ahead-and-spp-pathway",
+    "description-card": "Free, flexible schedule, preschool for children ages 3 to 4.",
+    "description-results": "The Pathway Preschool Program offers families free full and half-day preschool programs for children ages 3 to 4.",
+    "description-jump": "The Pathway Preschool Program offers families free full and half-day preschool programs for children ages 3 to 4.",
+    "description": "Free, flexible schedule, preschool for children ages 3 to 4.",
+    "tier": 3,
+    "household_cnt": 2,
+    "criteria": {
+      "text": [
+        {
+          "category": "text",
+          "value": "You live within Seattle city limits (residents living in unincorporated King County are not eligible)"
+        },
+        {
+          "category": "text",
+          "value": "You have a child age 3 or 4 by August of the participating year"
+        },
+        {
+          "category": "text",
+          "value": "You meet the income guidelines based on family size"
+        }
+      ],
+      "type": {
+        "adults_cnt": 0,
+        "seniors_cnt": 0,
+        "children_cnt": 1,
+        "pre_schoolers_cnt": 1,
+        "infants_cnt": 1
+      },
+      "income_limit": [
+        {
+          "size": 2,
+          "income": 4116,
+          "weekly_income": 975,
+          "annual_income": 50724
+        },
+        {
+          "size": 3,
+          "income": 5196,
+          "weekly_income": 975,
+          "annual_income": 50724
+        },
+        {
+          "size": 4,
+          "income": 6276,
+          "weekly_income": 975,
+          "annual_income": 50724
+        },
+        {
+          "size": 5,
+          "income": 7356,
+          "weekly_income": 975,
+          "annual_income": 50724
+        },
+        {
+          "size": 6,
+          "income": 8436,
+          "weekly_income": 975,
+          "annual_income": 50724
+        }
+      ],
+      "ageRequirement": {
+        "min": 3,
+        "max": 4
+      }
+    },
+    "stuff_needed": [
+      "Your work or school schedule",
+      "Proof of your child's age",
+      "Proof of your address",
+      "Proof of family income"
+    ],
+    "how_it_works": [
+      "The Pathways Preschool Program provides full- and half-day high-quality preschool programs for 3- and 4-year olds.",
+      "Preschools are run by community-based organizations and schools, and are located in or near elementary schools.",
+      "Full-day programs provide 6 or more hours a day for children, 5 days a week. Half-day programs provide a 3½ hour instructional day for children, 4 to 5 days a week.",
+      "Programs run from September to June.",
+      "Successful applicants receive free tuition."
+    ],
+    "savings": 320,
+    "savingsByPeriod": "$320 / Month",
+    "time_to_apply": "30 minutes",
+    "time_hear_back": "1 Week",
+    "address": {
+      "address_section_title": "Department of Education & Early Learning (DEEL)",
+      "address_section_addr_line_1": "",
+      "address_section_addr_line_2": "",
+      "address_section_phone": "Phone: (206) 386-1050",
+      "address_section_fax": "",
+      "address_section_email_address": ""
+    },
+    "seo_title": "Seattle pathways preschool program",
+    "seo_description": "",
+    "seo_keywords": ""
+  },
+  {
+    "id": 17,
+    "category": "Education and Childcare",
+    "vanityUrl": "17-parks-and-recreation-summer-camps",
+    "image": "https://innovation-performance.seattle.gov/wp-content/uploads/2019/08/Seattle-Parks-and-Rec-Summer-Camp.jpg",
+    "name": "Seattle Parks and Recreation Summer Camps",
+    "url": "http://www.seattle.gov/education/for-parents/child-care-and-preschool/child-care-assistance-program",
+    "description-card": "Scholarships available for summer camps for youth ages 3 to 17.",
+    "description-results": "Seattle Parks and Recreation offers a wide variety of camps throughout the summer for youth ages 3 to 17.",
+    "description-jump": "Seattle Parks and Recreation offers hundreds of weekly camps throughout the summer for youth ages 3 to 17.",
+    "description": "Scholarships available for summer camps for youth ages 3 to 17.",
+    "tier": 3,
+    "household_cnt": 2,
+    "criteria": {
+      "text": [
+        {
+          "category": "text",
+          "value": "All children and youth ages 3 to 17 are eligible for Seattle Parks and Recreation Summer Camps."
+        },
+        {
+          "category": "text",
+          "value": "Your child can attend a minimum of 60% of days for each program requested"
+        },
+        {
+          "category": "text",
+          "value": "You meet one of the following income requirements"
+        },
+        {
+          "category": "text",
+          "value": "-- You receive TANF/Welfare benefits"
+        },
+        {
+          "category": "income",
+          "value": "-- You qualify for the Utility Discount Program"
+        },
+        {
+          "category": "income",
+          "value": "-- Your family is at or under following income guidelines"
+        }
+      ],
+      "type": {
+        "adults_cnt": 0,
+        "seniors_cnt": 0,
+        "children_cnt": 1,
+        "pre_schoolers_cnt": 1,
+        "infants_cnt": 1
+      },
+      "income_limit": [
+        {
+          "size": 2,
+          "income": 4116,
+          "weekly_income": 975,
+          "annual_income": 50724
+        },
+        {
+          "size": 3,
+          "income": 5196,
+          "weekly_income": 975,
+          "annual_income": 50724
+        },
+        {
+          "size": 4,
+          "income": 6276,
+          "weekly_income": 975,
+          "annual_income": 50724
+        },
+        {
+          "size": 5,
+          "income": 7356,
+          "weekly_income": 975,
+          "annual_income": 50724
+        },
+        {
+          "size": 6,
+          "income": 8436,
+          "weekly_income": 975,
+          "annual_income": 50724
+        }
+      ],
+      "ageRequirement": {
+        "min": 3,
+        "max": 17
+      }
+    },
+    "stuff_needed": [
+      "Information about you and each member of your household (Name, Date of birth, Gender, Race/Ethnicity)",
+      "Proof of income for all adults. Provide a document that can prove your income. Here are some examples:",
+      "-- Preferred: 1040 Income Tax form (most recent)",
+      "-- Gross paycheck stubs (1 month of 32+ hours or 2 months of 31 hours or less for all household before tax income)",
+      "-- Social Security benefits (SSI, Dependent, Disability, Survivor’s, or Retirement) statement or benefit checks",
+      "-- Cash benefits (TANF/Welfare) statement or benefits check",
+      "-- Unemployment Income statement or benefits check",
+      "-- Utility Discount program qualification - provide bill statement",
+      "-- Retirement benefits (Pensions, Annuities, or IRA) statement",
+      "Proof of dependents. Documents that can prove your dependent eligibility include:",
+      "-- Preferred: 1040 Income Tax form (most recent)",
+      "-- Birth certificates for dependents",
+      "Program selection for each child"
+    ],
+    "how_it_works": [
+      "- Seattle Parks and Recreation Summer Camps are for children and youth ages 3 through 17.",
+      "- Programs run from June to August",
+      "- Vacancies are filled on a rolling basis.",
+      "- Scholarships are based on household size and parent/guardian income and successful applicants receive a 40% to 90% subsidy.",
+      "- Families apply for scholarships once per year."
+    ],
+    "savings": 320,
+    "savingsByPeriod": "$320 / Month",
+    "time_to_apply": "1 Hour",
+    "time_hear_back": "1 Week",
+    "address": {
+      "address_section_title": "Department of Parks and Recreation (DPR)",
+      "address_section_addr_line_1": "Use our website to locate the nearest community center (http://www.seattle.gov/parks/find/centers) or \npool facility (http://www.seattle.gov/parks/find/pools)",
+      "address_section_addr_line_2": "",
+      "address_section_phone": "",
+      "address_section_fax": "",
+      "address_section_email_address": "ParksBSC@seattle.gov"
+    },
+    "seo_title": "Seattle Parks and Recreation Summer Camps",
+    "seo_description": "",
+    "seo_keywords": ""
   }
 ]
