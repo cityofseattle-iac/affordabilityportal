@@ -2,8 +2,8 @@
   {
     "id": 1,
     "iconImage": "http://amie.is/ap/icon-childcare.png",
-    "name": "Education and Childcare",
-    "factHeaderText": "Education and Childcare Fact",
+    "name": "Childcare",
+    "factHeaderText": "Childcare Fact",
     "factText": "Did you know that if you are a family of 4 with an annual income of under $75,000, you might qualify for free or discounted child care through the City of Seattle.",
     "factCTAText": "See if you qualify"
   },
