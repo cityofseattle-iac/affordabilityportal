@@ -11,6 +11,7 @@
     "unittest": "node node_modules/jest/bin/jest"
   },
   "devDependencies": {
+    "babel-polyfill": "6.26.0",
     "concurrently": "^4.1.0",
     "enzyme": "3.10.0",
     "enzyme-adapter-react-16": "1.14.0",
