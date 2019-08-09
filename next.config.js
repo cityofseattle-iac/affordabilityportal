@@ -5,7 +5,7 @@ module.exports = {
         config.entry = async () => {
             const entries = await originalEntry();
             if (entries['main.js']) {
-                entries['main.js'].unshift('./polyfill.js'); // <- polyfill here
+                entries['main.js'].unshift('./polyfill.js');
             }
             return entries;
         };
