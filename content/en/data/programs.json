@@ -110,6 +110,7 @@
       "2. Pay with your EBT card",
       "3. Get 50% off your fruit and vegetable purchase"
     ],
+    "application_info": "To use Fresh Bucks Match, you must receive Basic Food Assistance (SNAP/EBT/food stamps) (https://www.dshs.wa.gov/esa/community-services-offices/basic-food) through Washington State. Here are your options",
     "savings": 23,
     "savingsByPeriod": "$23 / Month",
     "time_to_apply": "1 Hour",
@@ -1004,7 +1005,7 @@
         }
       ],
       "type": {
-        "adults_cnt": 0,
+        "adults_cnt": 1,
         "seniors_cnt": 0,
         "children_cnt": 0,
         "pre_schoolers_cnt": 0,
@@ -1384,6 +1385,7 @@
       "Vacancies are filled on a rolling basis between May 15, 2019 and March 31, 2020.",
       "Tuition is based on household size and parent/guardian income and can be free or on a sliding scale."
     ],
+    "application_info": "Here are your options:\nApply online at seattle.gov/applyspp - Application is available in English, Amharic, Chinese, Oromo, Somali, Spanish, Vietnamese\nApply by email to sppapplication@seattle.gov\nApply by fax to 206-233-7152\nApply by mail to Department of Education & Early Learning, PO Box 94665, Seattle, WA 98124-6965",
     "savings": 1118,
     "savingsByPeriod": "$1118 / Month",
     "time_to_apply": "2 Hours",
@@ -1396,7 +1398,6 @@
       "address_section_fax": "Fax: (206) 233-7152",
       "address_section_email_address": "SPPApplication@seattle.gov"
     },
-    "screening_form": "Here are your options:\nApply online at seattle.gov/applyspp - Application is available in English, Amharic, Chinese, Oromo, Somali, Spanish, Vietnamese\nApply by email to sppapplication@seattle.gov\nApply by fax to 206-233-7152\nApply by mail to Department of Education & Early Learning, PO Box 94665, Seattle, WA 98124-6965",
     "seo_title": "Seattle Preschool Program",
     "seo_description": "Seattle Preschool Program offers high-quality, affordable preschool to all of Seattle's 3- and 4-year-olds. Students engage in a full time, research-based curriculum taught by certificated staff in a positive school climate and early childhood learning environment.",
     "seo_keywords": "step ahead preschool, pathways to nature preschool, preschool pathways to science, step ahead childcare and preschool, pathway to learning preschool, learning pathway preschool, pathway kindergarten"

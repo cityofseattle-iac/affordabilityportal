@@ -13,6 +13,11 @@ const styles = {
         marginTop: 10
     }
 };
+/*
+CHANGE: I removed <Typography variant={"body1"}>{t('cta')} {t('screening')}</Typography> and replaced it by
+<Typography variant={"body1"}>{program.application_info}</Typography> so that there could be a text at the
+head of the HOW TO APPLY section
+ */
 
 class HowtoApply extends React.Component {
 
@@ -26,7 +31,7 @@ class HowtoApply extends React.Component {
                 <Divider/>
                 <Grid className={classes.info} container direction={"column"} spacing={2}>
                     <Grid item>
-                        <Typography variant={"body1"}>{t('cta')} {t('screening')}</Typography>
+                        <Typography variant={"body1"}>{program.application_info}</Typography>
                     </Grid>
                     <Grid item>
                         <Typography variant={"h6"}>
