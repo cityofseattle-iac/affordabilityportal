@@ -1396,6 +1396,7 @@
       "address_section_fax": "Fax: (206) 233-7152",
       "address_section_email_address": "SPPApplication@seattle.gov"
     },
+    "screening_form": "Here are your options:\nApply online at seattle.gov/applyspp - Application is available in English, Amharic, Chinese, Oromo, Somali, Spanish, Vietnamese\nApply by email to sppapplication@seattle.gov\nApply by fax to 206-233-7152\nApply by mail to Department of Education & Early Learning, PO Box 94665, Seattle, WA 98124-6965",
     "seo_title": "Seattle Preschool Program",
     "seo_description": "Seattle Preschool Program offers high-quality, affordable preschool to all of Seattle's 3- and 4-year-olds. Students engage in a full time, research-based curriculum taught by certificated staff in a positive school climate and early childhood learning environment.",
     "seo_keywords": "step ahead preschool, pathways to nature preschool, preschool pathways to science, step ahead childcare and preschool, pathway to learning preschool, learning pathway preschool, pathway kindergarten"
@@ -1470,16 +1471,17 @@
     },
     "stuff_needed": [
       "Applications for 2019 are closed.",
-      "Applications for 2020 will open in fall 2019."
+      "Applications for 2020 will open in fall 2019.",
+      "Students will need either a completed FAFSA or WASFA."
     ],
     "how_it_works": [
       "Seattle Promise currently offers up to two years or 90 credits of free tuition to all graduates of six eligible Seattle public high schools regardless of GPA, income, or background. By fall of 2020, the program will expand to offer this option to all Seattle public high school graduates who choose to attend any of the Seattle Colleges. After completing all application requirements, Seattle Promise Scholars will attend workshops designed to prepare them for educational and institutional success.",
       "Seattle Promise Scholars are eligible for the following services: Support applying to Seattle Promise and Seattle Colleges; Support applying for and completing financial aid requirements; Full coverage of any tuition expenses remaining after other scholarships and financial aid; Assistance with choosing and registering for classes; Preparation for the transition to college; Guidance and mentorship through the first two years of college."
     ],
-    "savings": 335,
-    "savingsByPeriod": "$335/month",
+    "savings": 444,
+    "savingsByPeriod": "$444/month",
     "time_to_apply": "1 Hour",
-    "time_hear_back": "2 Weeks",
+    "time_hear_back": "Varies",
     "address": {
       "address_section_title": "Department of Education & Early Learning",
       "address_section_addr_line_1": "700 5th Ave, Suite 1700",
@@ -1592,8 +1594,8 @@
     "time_hear_back": "2 Weeks",
     "address": {
       "address_section_title": "Department of Education & Early Learning",
-      "address_section_addr_line_1": "700 5th Ave, Suite 1700",
-      "address_section_addr_line_2": "Seattle, WA, 98104",
+      "address_section_addr_line_1": "P.O. Box 94665",
+      "address_section_addr_line_2": "Seattle, WA, 98124-6965",
       "address_section_phone": "Phone: (206) 386-1050",
       "address_section_fax": "Fax: (206) 233-7152",
       "address_section_email_address": "ccap@seattle.gov"
@@ -1687,10 +1689,10 @@
       "Programs run from September to June.",
       "Successful applicants receive free tuition."
     ],
-    "savings": 320,
-    "savingsByPeriod": "$320 / Month",
+    "savings": 1343,
+    "savingsByPeriod": "$1343/Month",
     "time_to_apply": "30 minutes",
-    "time_hear_back": "1 Week",
+    "time_hear_back": "2 Weeks",
     "address": {
       "address_section_title": "Department of Education & Early Learning (DEEL)",
       "address_section_addr_line_1": "",
@@ -1699,6 +1701,7 @@
       "address_section_fax": "",
       "address_section_email_address": ""
     },
+    "Screening_form": "",
     "seo_title": "Seattle pathways preschool program",
     "seo_description": "",
     "seo_keywords": ""
