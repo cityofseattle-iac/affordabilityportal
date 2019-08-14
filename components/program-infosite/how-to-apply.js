@@ -17,6 +17,12 @@ const styles = {
 CHANGE: I removed <Typography variant={"body1"}>{t('cta')} {t('screening')}</Typography> and replaced it by
 <Typography variant={"body1"}>{program.application_info}</Typography> so that there could be a text at the
 head of the HOW TO APPLY section
+
+I also added a field for a website and online application
+
+removed the Fax on the field of apply by mail and change the position of the Information of apply by phone
+<Typography variant={"body1"}>{program.address.address_section_fax}</Typography>
+<Typography variant={"body1"}>{program.phone} {t('phone_timings')}</Typography>
  */
 
 class HowtoApply extends React.Component {
@@ -43,6 +49,14 @@ class HowtoApply extends React.Component {
                     </Grid>
                     <Grid item>
                         <Typography variant={"h6"}>
+                            {t('website')}
+                        </Typography>
+                        <Typography variant={"body1"}>
+                            {program.online_application}
+                        </Typography>
+                    </Grid>
+                    <Grid item>
+                        <Typography variant={"h6"}>
                             {t('fax')}
                         </Typography>
                         <Typography variant={"body1"}>
@@ -53,20 +67,16 @@ class HowtoApply extends React.Component {
                         <Typography variant={"h6"}>
                             {t('mail')}
                         </Typography>
-
+                        <Typography variant={"h6"}>{program.address.address_section_title}</Typography>
                         <Typography variant={"body1"}>{program.address.address_section_addr_line_1}</Typography>
                         <Typography variant={"body1"}>{program.address.address_section_addr_line_2}</Typography>
-                        <br/>
-                        <Typography variant={"body1"}>{program.address.address_section_phone}</Typography>
-                        <Typography variant={"body1"}>{program.address.address_section_fax}</Typography>
-
                     </Grid>
                     <Grid item>
                         <Typography variant={"h6"}>
                             {t('phone')}
                         </Typography>
                         <Typography variant={"body1"}>
-                            {program.phone} {t('phone_timings')}
+                            {program.address.address_section_phone} {t('phone_timings')}
                         </Typography>
                     </Grid>
                 </Grid>
