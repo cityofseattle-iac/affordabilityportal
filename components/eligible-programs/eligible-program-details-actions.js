@@ -37,10 +37,17 @@ function ccyFormat(num) {
     return `${num.toFixed(2)}`;
 }
 
+/*
+
+I added a column for the age range to show
+make sure to change in -Details - Table - and update the parameters of the constance int this class "age"
+ */
+
+
 class EligibleProgramDetailsActions extends React.Component {
     render() {
 
-        const {classes, time_hear_back, time_to_apply, savings, class_name} = this.props;
+        const {classes, time_hear_back, time_to_apply, savings, age, class_name} = this.props;
 
         return (
             <React.Fragment>
@@ -51,24 +58,31 @@ class EligibleProgramDetailsActions extends React.Component {
                         justify="space-evenly"
                         alignItems="stretch"
                     >
-                        <Grid item lg={4} md={4} xs={12} sm={4}>
+                        <Grid item lg={3} md={4} xs={12} sm={3}>
                             <div className={classes.resultSectionLight}>
                                 <Typography variant="body2" component="h2">
                                     Average savings: ${ccyFormat(savings)} / Month
                                 </Typography>
                             </div>
                         </Grid>
-                        <Grid item lg={4} md={4} xs={12} sm={4}>
+                        <Grid item lg={3} md={4} xs={12} sm={3}>
                             <div className={classes.resultSectionDark}>
+                                <Typography variant="body2" component="h2">
+                                    Who It's For: {age}
+                                </Typography>
+                            </div>
+                        </Grid>
+                        <Grid item lg={3} md={4} xs={12} sm={3}>
+                            <div className={classes.resultSectionLight}>
                                 <Typography variant="body2" component="h2">
                                     Average time to apply: {time_to_apply}
                                 </Typography>
                             </div>
                         </Grid>
-                        <Grid item lg={4} md={4} xs={12} sm={4}>
-                            <div className={classes.resultSectionLight}>
+                        <Grid item lg={3} md={4} xs={12} sm={3}>
+                            <div className={classes.resultSectionDark}>
                                 <Typography variant="body2" component="h2">
-                                    Avg Response time: {time_hear_back}
+                                    Average Response time: {time_hear_back}
                                 </Typography>
                             </div>
                         </Grid>

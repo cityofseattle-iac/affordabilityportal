@@ -39,11 +39,15 @@ const styles = theme => ({
     },
 });
 
+/*
+Change the size of the card from lg = {4} and md = {4} to  lg = {3} and md = {3}
+ */
+
 class ProgramCategorySection extends React.Component {
 
     render() {
 
-        const numRowElements = 3; // Number of programs to display per row
+        const numRowElements = 7; // Number of programs to display per row
         const {classes, programCategoryText, programs} = this.props;
 
         let header = <Typography component="h4" variant="h5">{programCategoryText}</Typography>;
@@ -62,7 +66,7 @@ class ProgramCategorySection extends React.Component {
                             return (
                                 <Grid key={"program_" + program.name}
                                       item
-                                      lg={4} md={4} xs={12} sm={12}
+                                      lg={3} md={3} xs={12} sm={12}
                                 >
                                     <Card className={classes.card}>
                                         <div className={classes.cardInsides}>

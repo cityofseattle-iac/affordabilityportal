@@ -3,6 +3,16 @@ import {Card, CardContent, CardHeader, Typography, withStyles} from "@material-u
 
 const styles = theme => ({});
 
+
+/*
+
+                <Typography variant={"body1"}>{program.address.address_section_addr_line_1}</Typography>
+                <Typography variant={"body1"}>{program.address.address_section_addr_line_2}</Typography>
+                <br/>
+                <Typography variant={"body1"}>{program.address.address_section_phone}</Typography>
+                <Typography variant={"body1"}>{program.address.address_section_fax}</Typography>
+ */
+
 class AddressInfoSection extends React.Component {
 
     render() {
@@ -11,12 +21,7 @@ class AddressInfoSection extends React.Component {
 
         return (
             <React.Fragment>
-                <Typography variant={"h6"}>{program.address.address_section_title}</Typography>
-                <Typography variant={"body1"}>{program.address.address_section_addr_line_1}</Typography>
-                <Typography variant={"body1"}>{program.address.address_section_addr_line_2}</Typography>
-                <br/>
-                <Typography variant={"body1"}>{program.address.address_section_phone}</Typography>
-                <Typography variant={"body1"}>{program.address.address_section_fax}</Typography>
+                <Typography variant={"h6"}>{program.department}</Typography>
             </React.Fragment>
         );
 

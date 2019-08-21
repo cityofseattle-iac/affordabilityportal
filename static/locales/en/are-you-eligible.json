@@ -1,7 +1,7 @@
 {
   "title": "Are you eligible?",
   "col-1-header": "Household Size",
-  "col-2-header": "Income in a year",
-  "col-3-header": "Income in a month",
-  "col-4-header": "Income in a week"
+  "col-2-header": "",
+  "col-3-header": "Monthly Income",
+  "col-4-header": ""
 }
