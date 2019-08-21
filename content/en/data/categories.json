@@ -2,9 +2,9 @@
   {
     "id": 1,
     "iconImage": "http://amie.is/ap/icon-childcare.png",
-    "name": "Childcare",
-    "factHeaderText": "Childcare Fact",
-    "factText": "Did you know that if you are a family of 4 with an annual income of under $75,000, you might qualify for free or discounted child care through the City of Seattle.",
+    "name": "Education and Childcare",
+    "factHeaderText": "Education and Childcare Fact",
+    "factText": "Did you know that if you are a family of 4 with an annual income under $75,000, you might qualify for free or discounted child care through the City of Seattle?   ",
     "factCTAText": "See if you qualify"
   },
   {
@@ -12,7 +12,7 @@
     "name": "Food",
     "iconImage": "http://amie.is/ap/icon-food.png",
     "factHeaderText": "Food Fact",
-    "factText": "Some content/visual that can help individuals to understand they could qualify for services....",
+    "factText": "Did you know that if you or your family are enrolled in SNAP or use an EBT card you could get fresh fruits and vegetables at Seattle grocery stores and farmers markets?  ",
     "factCTAText": "See if you qualify"
   },
   {
@@ -20,7 +20,7 @@
     "name": "Transportation",
     "iconImage": "http://amie.is/ap/icon-transportation.png",
     "factHeaderText": "Transportation Fact",
-    "factText": "Some content/visual that can help individuals to understand they could qualify for services....",
+    "factText": "Did you know that ORCA provides free or reduced-priced ORCA passes for Seattle Public School students and low-income families or individuals?  ",
     "factCTAText": "See if you qualify"
   },
   {
@@ -28,7 +28,7 @@
     "name": "Utilities",
     "iconImage": "http://amie.is/ap/icon-utilities.png",
     "factHeaderText": "Utilities Fact",
-    "factText": "Some content/visual that can help individuals to understand they could qualify for services....",
+    "factText": "Did you know that if you are a family of 4 with an annual income under $65,000, you might qualify to receive a 60% discount on your Seattle City Light bill and a 50% discount on your Seattle Public Utilities bill?  ",
     "factCTAText": "See if you qualify"
 
   }

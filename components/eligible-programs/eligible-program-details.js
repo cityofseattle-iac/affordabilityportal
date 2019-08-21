@@ -139,6 +139,7 @@ class EligibleProgramDetails extends React.Component {
                                             <Actions time_hear_back={result.time_hear_back}
                                                      time_to_apply={result.time_to_apply}
                                                      savings={result.savings}
+                                                     age = {result.age_range}
                                                      class_name="cardActions"/>
                                         </Card>
                                     </Grid>

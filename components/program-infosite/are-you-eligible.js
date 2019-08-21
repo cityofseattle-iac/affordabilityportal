@@ -87,13 +87,13 @@ class AreYouEligible extends React.Component {
                                                                     align="center">{result.size}</StyledTableCell>
                                                                 <Hidden only={['sm', 'xs']}>
                                                                     <StyledTableCell
-                                                                        align="center">{result.annual_income}</StyledTableCell>
+                                                                        align="center">{""}</StyledTableCell>
                                                                 </Hidden>
                                                                 <StyledTableCell
                                                                     align="center">{result.income}</StyledTableCell>
                                                                 <Hidden only={['sm', 'xs']}>
                                                                     <StyledTableCell
-                                                                        align="center">{result.weekly_income}</StyledTableCell>
+                                                                        align="center">{""}</StyledTableCell>
                                                                 </Hidden>
                                                             </TableRow>
                                                         );
@@ -114,3 +114,36 @@ class AreYouEligible extends React.Component {
 }
 
 export default withStyles(styles)(withTranslation('are-you-eligible')(AreYouEligible));
+
+
+/*
+
+Removed Annual and Weekly income
+
+<TableBody>
+            {program.criteria.income_limit.map((result) => {
+                return (
+                    <TableRow key={result.size}>
+                        <StyledTableCell
+                            align="center">{result.size}</StyledTableCell>
+                        <Hidden only={['sm', 'xs']}>
+                            <StyledTableCell
+                                align="center">{result.annual_income}</StyledTableCell>
+                        </Hidden>
+                        <StyledTableCell
+                            align="center">{result.income}</StyledTableCell>
+                        <Hidden only={['sm', 'xs']}>
+                            <StyledTableCell
+                                align="center">{result.weekly_income}</StyledTableCell>
+                        </Hidden>
+                    </TableRow>
+                );
+            })}
+</TableBody>
+
+
+
+
+
+
+ */
