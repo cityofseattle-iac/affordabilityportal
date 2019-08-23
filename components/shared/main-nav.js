@@ -10,11 +10,14 @@ const styles = {
     root: {
         flexGrow: 1,
         backgroundColor: '#003da5',
+        margin: '0 auto',
+        width: '100%',
     },
     navBar: {
         boxShadow: 'none!important',
-        maxWidth: 1200,
+        Width: '100%',
         margin: '0 auto',
+        position: 'fixed',
     },
 
     toolbar: {
@@ -63,7 +66,7 @@ const styles = {
     }
 
 };
-
+//className={classes.navBar}
 class MainNav extends React.Component {
 
     render() {
@@ -72,16 +75,16 @@ class MainNav extends React.Component {
 
         return (
             <div className={classes.root}>
-                <AppBar position="sticky" className={classes.navBar}>
-                    <Toolbar className={classes.toolbar}>
+                <AppBar position="static" className={classes.navBar}>
+                    <Toolbar className={classes.toolbar} >
                         <div className={classes.logo}>
-                            <Link href={'/'}>
+                            <Link href={"https://www.seattle.gov"}>
                                 <a className={"logoImageContainer"}>
                                     <img className={classes.logoImage} src={"/static/logo.png"}
                                          alt={t('image_alt')}/>
                                 </a>
                             </Link>
-                            <Link href={'/'}>
+                            <Link href={"https://www.seattle.gov"}>
                                 <a className={classes.logoTitle}>{t('title')}</a>
                             </Link>
                             <span className={classes.logoSlogan}>{t('mayor-name')}</span>
