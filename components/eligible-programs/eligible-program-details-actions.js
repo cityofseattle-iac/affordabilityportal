@@ -68,7 +68,7 @@ class EligibleProgramDetailsActions extends React.Component {
                         <Grid item lg={3} md={4} xs={12} sm={3}>
                             <div className={classes.resultSectionDark}>
                                 <Typography variant="body2" component="h2">
-                                    Who It's For: {age}
+                                    Who it's for: {age}
                                 </Typography>
                             </div>
                         </Grid>
@@ -82,7 +82,7 @@ class EligibleProgramDetailsActions extends React.Component {
                         <Grid item lg={3} md={4} xs={12} sm={3}>
                             <div className={classes.resultSectionDark}>
                                 <Typography variant="body2" component="h2">
-                                    Average Response time: {time_hear_back}
+                                    Average response time: {time_hear_back}
                                 </Typography>
                             </div>
                         </Grid>

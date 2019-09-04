@@ -13,15 +13,16 @@ const styles = {
         width: '100%',
         backgroundColor: '#EAEAEA',
         margin: '0 auto',
-
+        paddingTop: '40px',
     },
 
     body: {
         flexGrow: 1,
-        maxWidth: '1200',
+        maxWidth: '1200px',
         textAlign: 'left',
         padding: '40px 20px',
         margin: '0 auto',
+        position: 'sticky',
     },
 
     titleCTA: {

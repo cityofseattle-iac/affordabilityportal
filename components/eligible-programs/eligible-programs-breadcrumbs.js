@@ -9,6 +9,7 @@ import Typography from "@material-ui/core/Typography";
 const styles = {
     root: {
         margin: '20px',
+        paddingTop: '40px',
     }
 };
 
@@ -19,14 +20,16 @@ class EligibleProgramsBreadcrumbs extends React.Component {
         const {classes, t} = this.props;
 
         return (
-            <Breadcrumbs separator="›" aria-label="Breadcrumb">
-                <Link href="/">
-                    <IconButton>
-                        <HomeIcon/>
-                    </IconButton>
-                </Link>
-                <Typography color="textPrimary">{t('eligible_programs')}</Typography>
-            </Breadcrumbs>
+            <div className={classes.root}>
+                <Breadcrumbs separator="›" aria-label="Breadcrumb">
+                    <Link href="/">
+                        <IconButton>
+                            <HomeIcon/>
+                        </IconButton>
+                    </Link>
+                    <Typography color="textPrimary">{t('eligible_programs')}</Typography>
+                </Breadcrumbs>
+            </div>
         );
     }
 }

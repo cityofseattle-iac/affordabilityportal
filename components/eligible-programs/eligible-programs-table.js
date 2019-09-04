@@ -73,8 +73,9 @@ class EligibleProgramsTable extends React.Component {
                             <CustomTableCell className={classes.header}>{t('col-1-header')}</CustomTableCell>
                             <Hidden only={['sm', 'xs']}>
                                 <CustomTableCell className={classes.header} align="left">{t('col-5-header')}</CustomTableCell>
-                                <CustomTableCell className={classes.header} align="left">{t('col-2-header')}</CustomTableCell>
                                 <CustomTableCell className={classes.header} align="left">{t('col-3-header')}</CustomTableCell>
+                                <CustomTableCell className={classes.header} align="left">{t('col-2-header')}</CustomTableCell>
+
                             </Hidden>
                             <CustomTableCell className={classes.header} align="right">{t('col-4-header')}</CustomTableCell>
                         </TableRow>
@@ -86,8 +87,8 @@ class EligibleProgramsTable extends React.Component {
                                     <CustomTableCell component="th" scope="row">{result.name}</CustomTableCell>
                                     <Hidden only={['sm', 'xs']}>
                                         <CustomTableCell align="left">{result.age_range}</CustomTableCell>
-                                        <CustomTableCell align="left">{result.time_hear_back}</CustomTableCell>
                                         <CustomTableCell align="left">{result.time_to_apply}</CustomTableCell>
+                                        <CustomTableCell align="left">{result.time_hear_back}</CustomTableCell>
                                     </Hidden>
                                     <CustomTableCell align="right">{ccyFormat(result.savings)}</CustomTableCell>
                                 </TableRow>

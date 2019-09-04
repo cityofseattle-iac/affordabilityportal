@@ -7,6 +7,7 @@ import Grid from "@material-ui/core/Grid";
 import {Link} from "../programs/program-category-fact";
 import Table from "@material-ui/core/Table/Table";
 import TableRow from "@material-ui/core/TableRow/TableRow";
+import Button from "@material-ui/core/Button/Button";
 
 const styles = {
     root: {
@@ -39,6 +40,7 @@ class HowtoApply extends React.Component {
 
         const {classes, t, program} = this.props;
 
+
         return (
             <div className={classes.root}>
                 <Typography variant={"h4"}>{t('title')}</Typography>
@@ -52,8 +54,13 @@ class HowtoApply extends React.Component {
                         <Typography variant={"h6"}>
                             {t('website')}
                         </Typography>
+
                         <Typography variant={"body1"}>
                             {program.online_application}
+                        </Typography>
+
+                        <Typography variant={"body1"}>
+                            <a href={program.online_application_link}>{program.online_application_link}</a>
                         </Typography>
                     </Grid>
 
@@ -61,8 +68,13 @@ class HowtoApply extends React.Component {
                         <Typography variant={"h6"}>
                             {t('paper_form')}
                         </Typography>
+
                         <Typography variant={"body1"}>
                             {program.application_form}
+                        </Typography>
+
+                        <Typography variant={"body1"}>
+                            <a href={program.application_form_link}>{program.application_form_link}</a>
                         </Typography>
                     </Grid>
 
@@ -85,12 +97,8 @@ class HowtoApply extends React.Component {
                     </Grid>
 
                     <Grid item>
-                        <Typography variant={"h6"}>
-                            {t('phone')}
-                        </Typography>
-                        <Typography variant={"body1"}>
-                            {program.address.address_section_phone} {t('phone_timings')}
-                        </Typography>
+                        <Typography variant={"h6"}>{t('phone')}</Typography>
+                        <Typography variant={"body1"}>{program.address.address_section_phone}</Typography>
                     </Grid>
 
                     <Grid item>

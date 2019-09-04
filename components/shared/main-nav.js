@@ -18,6 +18,7 @@ const styles = {
         Width: '100%',
         margin: '0 auto',
         position: 'fixed',
+        paddingLeft: '17%',
     },
 
     toolbar: {
@@ -66,7 +67,7 @@ const styles = {
     }
 
 };
-//className={classes.navBar}
+
 class MainNav extends React.Component {
 
     render() {
@@ -75,8 +76,8 @@ class MainNav extends React.Component {
 
         return (
             <div className={classes.root}>
-                <AppBar position="static" className={classes.navBar}>
-                    <Toolbar className={classes.toolbar} >
+                <AppBar position="fixed" className={classes.navBar}>
+                    <Toolbar className={classes.toolbar}>
                         <div className={classes.logo}>
                             <Link href={"https://www.seattle.gov"}>
                                 <a className={"logoImageContainer"}>
