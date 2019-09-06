@@ -10,20 +10,20 @@ const styles = {
     root: {
         flexGrow: 1,
         backgroundColor: '#003da5',
-        margin: '0 auto',
-        width: '100%',
+
     },
     navBar: {
         boxShadow: 'none!important',
-        Width: '100%',
-        margin: '0 auto',
+        width: '100%',
         position: 'fixed',
-        paddingLeft: '17%',
     },
 
     toolbar: {
         alignItems: 'center',
-        justifyContent: 'spaceBetween',
+        maxWidth: '1200px',
+        margin: '0 auto',
+        width: '100%',
+        padding: '0'
     },
 
     logo: {

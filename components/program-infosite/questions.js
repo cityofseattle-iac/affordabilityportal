@@ -27,29 +27,14 @@ class Questions extends React.Component {
 
                 <div className={classes.info}>
                     {program.questions.text.map((item, index) =>{
-                        if (item.category == 'cell') {
-                            return (
-                                <React.Fragment key={index}>
-                                    <Typography key={index} variant={"body1"}>{item.value}</Typography>
-                                </React.Fragment>
-                            )
+                        if (item.category === 'cell' || item.category === 'email') {
+                            return (<Typography key={index} variant={"body1"}>{item.value}</Typography>)
                         }
-                        else if (item.category == 'email'){
-                            return (
-                                <React.Fragment key={index}>
-                                    <Typography key={index} variant={"body1"}>{item.value}</Typography>
-                                </React.Fragment>
-                            )
-                        }
-                        else if (item.category == 'website'){
-                            return (
-                                <React.Fragment key={index}>
-                                    <Typography key={index} variant={"body1"}>{item.value}</Typography>
-                                </React.Fragment>
-                            )
+                        else if (item.category === 'website'){
+                            return (<Typography key={index} variant={"body1"}>
+                                <a href={item.value}>{'Ask Questions Here'}</a> </Typography>)
                         }
                     })}
-
                 </div>
             </div>
         );
@@ -58,25 +43,3 @@ class Questions extends React.Component {
 }
 
 export default withStyles(styles)(withTranslation('questions')(Questions));
-
-/*
-
- <Grid item>
-                        <Typography variant={"h6"}>
-                            {t('email')}
-                        </Typography>
-                        <Typography variant={"body1"}>
-                            {program.email}
-                        </Typography>
-                    </Grid>
-
-
-                    <Grid item>
-                        <Typography variant={"h6"}>
-                            {t('phone')}
-                        </Typography>
-                        <Typography variant={"body1"}>
-                            {program.phone}
-                        </Typography>
-                    </Grid>
- */

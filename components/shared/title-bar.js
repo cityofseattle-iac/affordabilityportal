@@ -25,6 +25,10 @@ const styles = {
         position: 'sticky',
     },
 
+    gridItem:{
+        width: '100%'
+    },
+
     titleCTA: {
         padding: '20px 0',
         height: '100%',
@@ -52,7 +56,7 @@ class TitleBar extends React.Component {
                           justify="space-evenly"
                           alignItems="center"
                     >
-                        <Grid item>
+                        <Grid item className={classes.gridItem}>
                             <Grid container
                                   direction="row"
                                   justify="space-evenly"
