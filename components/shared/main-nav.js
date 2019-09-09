@@ -78,13 +78,13 @@ class MainNav extends React.Component {
                 <AppBar position="fixed" className={classes.navBar}>
                     <Toolbar className={classes.toolbar}>
                         <div className={classes.logo}>
-                            <Link href={"https://www.seattle.gov"}>
+                            <Link href={"https://www.seattle.gov"} rel={"noopener"}>
                                 <a className={"logoImageContainer"}>
                                     <img className={classes.logoImage} src={"/static/logo.png"}
                                          alt={t('image_alt')}/>
                                 </a>
                             </Link>
-                            <Link href={"https://www.seattle.gov"}>
+                            <Link href={"https://www.seattle.gov"} rel={"noopener"}>
                                 <a className={classes.logoTitle}>{t('title')}</a>
                             </Link>
                             <span className={classes.logoSlogan}>{t('mayor-name')}</span>
