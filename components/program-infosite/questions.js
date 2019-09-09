@@ -32,7 +32,7 @@ class Questions extends React.Component {
                         }
                         else if (item.category === 'website'){
                             return (<Typography key={index} variant={"body1"}>
-                                <a href={item.value}>{'Ask Questions Here'}</a> </Typography>)
+                                <a href={item.value} target={"_blank"}>{'Ask Questions Here'}</a> </Typography>)
                         }
                     })}
                 </div>

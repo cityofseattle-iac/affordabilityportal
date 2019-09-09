@@ -1300,7 +1300,11 @@
         },
         {
           "category": "email",
-          "value": "Email: freshbuck@seattle.org"
+          "value": "Email: freshbucks@seattle.org"
+        },
+        {
+          "category": "website",
+          "value": "https://www.freshbuckseattle.org/contact-us/"
         }
       ]
     },
@@ -1456,7 +1460,11 @@
         },
         {
           "category": "email",
-          "value": "Email: freshbuck@seattle.org"
+          "value": "Email: freshbucks@seattle.org"
+        },
+        {
+          "category": "website",
+          "value": "https://www.freshbuckseattle.org/contact-us/"
         }
       ]
     },
