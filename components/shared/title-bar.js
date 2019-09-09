@@ -13,15 +13,20 @@ const styles = {
         width: '100%',
         backgroundColor: '#EAEAEA',
         margin: '0 auto',
-
+        paddingTop: '40px',
     },
 
     body: {
         flexGrow: 1,
-        maxWidth: '1200',
+        maxWidth: '1200px',
         textAlign: 'left',
         padding: '40px 20px',
         margin: '0 auto',
+        position: 'sticky',
+    },
+
+    gridItem:{
+        width: '100%'
     },
 
     titleCTA: {
@@ -51,7 +56,7 @@ class TitleBar extends React.Component {
                           justify="space-evenly"
                           alignItems="center"
                     >
-                        <Grid item>
+                        <Grid item className={classes.gridItem}>
                             <Grid container
                                   direction="row"
                                   justify="space-evenly"

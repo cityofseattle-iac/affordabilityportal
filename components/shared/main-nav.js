@@ -10,16 +10,19 @@ const styles = {
     root: {
         flexGrow: 1,
         backgroundColor: '#003da5',
+
     },
     navBar: {
         boxShadow: 'none!important',
-        maxWidth: 1200,
-        margin: '0 auto',
+        width: '100%',
+        position: 'fixed',
     },
 
     toolbar: {
         alignItems: 'center',
-        justifyContent: 'spaceBetween',
+        maxWidth: '1200px',
+        margin: '0 auto',
+        width: '100%',
     },
 
     logo: {
@@ -72,16 +75,16 @@ class MainNav extends React.Component {
 
         return (
             <div className={classes.root}>
-                <AppBar position="sticky" className={classes.navBar}>
+                <AppBar position="fixed" className={classes.navBar}>
                     <Toolbar className={classes.toolbar}>
                         <div className={classes.logo}>
-                            <Link href={'/'}>
+                            <Link href={"https://www.seattle.gov"}>
                                 <a className={"logoImageContainer"}>
                                     <img className={classes.logoImage} src={"/static/logo.png"}
                                          alt={t('image_alt')}/>
                                 </a>
                             </Link>
-                            <Link href={'/'}>
+                            <Link href={"https://www.seattle.gov"}>
                                 <a className={classes.logoTitle}>{t('title')}</a>
                             </Link>
                             <span className={classes.logoSlogan}>{t('mayor-name')}</span>

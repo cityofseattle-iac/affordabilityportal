@@ -45,7 +45,7 @@ class ProgramInfo extends React.Component {
 
         return {
             namespacesRequired: ['common', 'main-nav', 'program-info-card',
-                'how-it-works', 'how-to-apply', 'stuff-needed', 'learn-more',
+                'how-it-works', 'how-to-apply', 'stuff-needed', 'learn-more', 'questions',
                 'program-info-breadcrumbs'],
             programs: programs,
             categories: categories,
