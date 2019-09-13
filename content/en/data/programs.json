@@ -126,7 +126,7 @@
       " Social Security benefits (SSI, Dependent, Disability, Survivor’s, or Retirement) statement or benefit checks",
       " Cash benefits (TANF/Welfare) statement or benefits check",
       " Unemployment Income statement or benefits check",
-      " Utility Discount program qualification - provide bill statement",
+      " Utility Discount program qualification - provide bill statement (qualifies up to 50% scholarship)",
       " Retirement benefits (Pensions, Annuities, or IRA) statement",
       "Proof of dependents. Documents that can prove your dependent eligibility include:",
       " Preferred: 1040 Income Tax form (most recent)",
@@ -134,12 +134,11 @@
       "Program selection for each child"
     ],
     "how_it_works": [
-      "Preschool programs are hosted by the Associated Recreation Council (ARC) in partnership with Seattle Parks and Recreation for children and youth ages 5 through 12",
+      "School-age care programs are hosted by the Associated Recreation Council (ARC) in partnership with Seattle Parks and Recreation for children and youth ages 5 through 12",
       "Programs run from September to June",
       "Vacancies are filled on a rolling basis",
-      "Scholarships are based on household size and parent/guardian income and successful applicants receive a 40% to 90% subsidy",
+      "Scholarships are based on household size and parent/guardian income and successful applicants receive a 40% to 90% subsidy as funds are available",
       "Families apply for scholarships once per year",
-      "Scholarships are distributed once per quarter and amount may vary depending on funding.",
       "- ",
       "Use our website to locate the nearest community center (http://www.seattle.gov/parks/find/centers) or pool facility (http://www.seattle.gov/parks/find/pools). ",
       "- ",
@@ -231,7 +230,7 @@
     },
     "age_range": "Households with children in kindergarten - 6th grade",
     "person_application": "N/A",
-    "application_info": "Download scholarship application on-line or request a copy in-person at any of our community centers or pool locations. -Application is available in English, Chinese, Somali, Spanish, Vietnamese.  ",
+    "application_info": "Download scholarship application on-line or request a copy in-person at any of our community centers or pool locations. Application is available in English, Chinese, Somali, Spanish, Vietnamese.  ",
     "savings": 500,
     "savingsByPeriod": "$500 / Month",
     "time_to_apply": "2 Hours",
@@ -278,7 +277,7 @@
         },
         {
           "category": "text",
-          "value": "Your child can attend a minimum of 60% of days for each program requesteds"
+          "value": "Your child can attend a minimum of 60% of days for each program requested"
         },
         {
           "category": "text",
@@ -389,7 +388,7 @@
       "-- Social Security benefits (SSI, Dependent, Disability, Survivor’s, or Retirement) statement or benefit checks",
       "-- Cash benefits (TANF/Welfare) statement or benefits check",
       "-- Unemployment Income statement or benefits check",
-      "-- Utility Discount program qualification - provide bill statement",
+      "-- Utility Discount program qualification - provide bill statement (qualifies up to 50% scholarship)",
       "-- Retirement benefits (Pensions, Annuities, or IRA) statement",
       "Proof of dependents. Documents that can prove your dependent eligibility include:",
       "-- Preferred: 1040 Income Tax form (most recent)",
@@ -400,9 +399,8 @@
       "Classrooms are set up with rich environments, fun-filled learning areas, consistent schedules and routines, and both large and small group times with a low-teacher child ratio of 1:8.",
       "Programs run from September to June.",
       "Vacancies are filled on a rolling basis.",
-      "Scholarships are based on household size and parent/guardian income and successful applicants receive a 40% to 90% subsidy.",
+      "Scholarships are based on household size and parent/guardian income and successful applicants receive a 40% to 90% subsidy as funds are available.",
       "Families apply for scholarships once per year",
-      "Scholarships are distributed once per quarter and amount may vary depending on funding.",
       "  ",
       "Use our website to locate the nearest community center (http://www.seattle.gov/parks/find/centers) or pool facility (http://www.seattle.gov/parks/find/pools). ",
       "Fill out scholarship application (https://www.seattle.gov/parks/find/scholarships-and-financial-aid). Application is available in English, Chinese, Somali, Spanish, Vietnamese. ",
@@ -885,7 +883,7 @@
       ]
     },
     "age_range": "Households with 0 - 13 year old children",
-    "person_application": "N/A",
+    "person_application": "Seattle Municipal Tower, 17th Floor (Monday to Friday, 8 AM – 4:30 PM, except holidays)",
     "application_info": "Prior to applying, ensure you meet the eligibility criteria by completing the pre-screening. here is the link to the screening form (https://www.seattle.gov/education/for-parents/child-care-and-preschool/child-care-assistance-program) \n\t-If you cannot fill out the form, provide the following information: Home Address; Email Address; Phone Number; number of Adults (over 18) in your family; number of Children in your family (include the age of each child); Are all adults either working or enrolled in school?; What is your family's estimated gross monthly income?; Have you already identified a CCAP provider? If so, who? ",
     "application_form_link": "https://www.seattle.gov/education/for-parents/child-care-and-preschool/child-care-assistance-program",
     "savings": 1258,
@@ -1062,7 +1060,7 @@
     "name": "Seattle Parks and Recreation Summer Camps",
     "url": "https://www.seattle.gov/parks/find/camps",
     "department": "Department of Parks and Recreation (DPR)",
-    "email": "ParksBSC@seattle.gov",
+    "email": "N/A",
     "description-card": "Scholarships available for summer camps for youth ages 3 to 17.",
     "description-results": "Seattle Parks and Recreation offers a wide variety of camps throughout the summer for youth ages 3 to 17.",
     "description-jump": "Seattle Parks and Recreation offers hundreds of weekly camps throughout the summer for youth ages 3 to 17.",
@@ -1153,7 +1151,7 @@
       "-- Social Security benefits (SSI, Dependent, Disability, Survivor’s, or Retirement) statement or benefit checks",
       "-- Cash benefits (TANF/Welfare) statement or benefits check",
       "-- Unemployment Income statement or benefits check",
-      "-- Utility Discount program qualification - provide bill statement",
+      "-- Utility Discount program qualification - provide bill statement (qualifies up to 50% scholarship)",
       "-- Retirement benefits (Pensions, Annuities, or IRA) statement",
       "Proof of dependents. Documents that can prove your dependent eligibility include:",
       "-- Preferred: 1040 Income Tax form (most recent)",
@@ -1164,14 +1162,14 @@
       "- Seattle Parks and Recreation Summer Camps are for children and youth ages 3 through 17.",
       "- Programs run from June to August",
       "- Vacancies are filled on a rolling basis.",
-      "- Scholarships are based on household size and parent/guardian income and successful applicants receive a 40% to 90% subsidy.",
+      "- Scholarships are based on household size and parent/guardian income and successful applicants receive a 40% to 90% subsidy as funds are available.",
       "- Families apply for scholarships once per year."
     ],
     "questions": {
       "text": [
         {
           "category": "email",
-          "value": "Email: ParksBSC@seattle.gov"
+          "value": "Contact your local Community Center: https://www.seattle.gov/parks/find/centers"
         }
       ]
     },
@@ -2001,7 +1999,7 @@
     "email": "rpzinfo@seattle.gov",
     "description-card": "Restricted parking zone permits for $10.",
     "description-result": "Income-eligible vehicle owners can receive a restricted parking zone permit for $10.",
-    "description-jump": "The Restricted Parking Zone Program was created to help ease parking congestion in residential neighborhoods. Permits generally cost $65. Income-eligible vehicle owners can receive a restricted parking zone permit for $10.\n  ",
+    "description-jump": "The Restricted Parking Zone Program was created to help ease parking congestion in residential neighborhoods. Permits generally cost $65. Income-eligible vehicle owners can receive a restricted parking zone permit for $10, which is generally good for 2 years. This is a one-time, yearly saving of $55. ",
     "description": "Income-eligible vehicle owners can receive a restricted parking zone (RPZ) permit for $10.",
     "tier": 2,
     "household_cnt": 1,
@@ -2069,7 +2067,8 @@
       }
     },
     "stuff_needed": [
-      "N/A"
+      "Proof of enrollment in one of the following programs: Supplemental Nutrition Assistance card (formerly food stamps); Energy assistance from Seattle City Light or Puget Sound Energy; Rental assistance from Seattle Housing Authority (Section 8) or copy of rental agreement in SHA property; Temporary Assistance to Needy Families (TANF) check or stub; Lease/rental agreement from Plymouth Housing, CHHIP, or other low-income housing providers; Proof of Supplemental Security Income (SSI) – NOT regular Social Security income; Issuance of King County Metro Transit Low-Income Fare Card (ORCA LIFT); Provider One or Apple Health card. ",
+      "**Other documentation considered on an individual basis."
     ],
     "how_it_works": [
       "Income-eligible vehicle owners can receive a restricted parking zone permit for $10 to park on the street in qualifying neighborhood."
@@ -2078,15 +2077,19 @@
       "text": [
         {
           "category": "cell",
-          "value": ""
+          "value": "Call: (206) 684-5086"
+        },
+        {
+          "category": "email",
+          "value": "Email: rpzinfo@seattle.gov "
         }
       ]
     },
     "age_range": "Anyone with a vehicle",
     "person_application": "Apply in person at Seattle Municipal Tower, 700 5th Ave. Ste, 3768, Seattle, WA 98104 (Monday to Friday, 8:30 am - 4:30 pm, except holidays).",
     "application_info": "You can apply online, by email, by mail, or in-person for a Low Income Restricted Parking Zone Permit: ",
-    "savings": 55,
-    "savingsByPeriod": "$55",
+    "savings": 4,
+    "savingsByPeriod": "$4 / Month",
     "time_to_apply": "2 Hours",
     "time_hear_back": "1 Week",
     "online_application_link": "http://www.seattle.gov/transportation/permits-and-services/permits/parking-permits/rpz-permits/discounted-permits",
@@ -2520,12 +2523,13 @@
     "time_to_apply": "1 Hour",
     "time_hear_back": "30 Minutes",
     "online_application_link": "https://apply.internetessentials.com",
+    "online_application_linkText": "Apply online here",
     "application_form": "N/A",
     "address": {
       "address_section_title": "Seattle Information Technology (SIT)",
       "address_section_addr_line_1": "N/A",
       "address_section_addr_line_2": "",
-      "address_section_phone": "855-846-8376",
+      "address_section_phone": "(855) 846-8376",
       "address_section_fax": "N/A",
       "address_section_email_address": "N/A"
     },
