@@ -61,7 +61,7 @@ class HowtoApply extends React.Component {
 
                         <Typography variant={"body1"}>
                             <a href={program.online_application_link} target={"_blank"} rel={"noopener"}>
-                                {program.online_application_link}</a>
+                                {program.online_application_linkText}</a>
                         </Typography>
                     </Grid>
 
@@ -76,7 +76,7 @@ class HowtoApply extends React.Component {
 
                         <Typography variant={"body1"}>
                             <a href={program.application_form_link} target={"_blank"} rel={"noopener"}>
-                                {program.application_form_link}</a>
+                                {program.application_form_linkText}</a>
                         </Typography>
                     </Grid>
 
