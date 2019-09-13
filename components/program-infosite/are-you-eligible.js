@@ -81,22 +81,42 @@ class AreYouEligible extends React.Component {
                                                 </TableHead>
                                                 <TableBody>
                                                     {program.criteria.income_limit.map((result) => {
-                                                        return (
-                                                            <TableRow key={result.size}>
-                                                                <StyledTableCell
-                                                                    align="center">{result.size}</StyledTableCell>
-                                                                <Hidden only={['sm', 'xs']}>
+                                                        if (result.min_income !== 0) {
+                                                            return (
+                                                                <TableRow key={result.size}>
                                                                     <StyledTableCell
-                                                                        align="center">{""}</StyledTableCell>
-                                                                </Hidden>
-                                                                <StyledTableCell
-                                                                    align="center">{result.income}</StyledTableCell>
-                                                                <Hidden only={['sm', 'xs']}>
+                                                                        align="center">{result.size}</StyledTableCell>
+                                                                    <Hidden only={['sm', 'xs']}>
+                                                                        <StyledTableCell
+                                                                            align="center">{""}</StyledTableCell>
+                                                                    </Hidden>
                                                                     <StyledTableCell
-                                                                        align="center">{""}</StyledTableCell>
-                                                                </Hidden>
-                                                            </TableRow>
-                                                        );
+                                                                        align="center">{"$"}{result.min_income}{" - $"}{result.income}</StyledTableCell>
+                                                                    <Hidden only={['sm', 'xs']}>
+                                                                        <StyledTableCell
+                                                                            align="center">{""}</StyledTableCell>
+                                                                    </Hidden>
+                                                                </TableRow>
+                                                            );
+                                                        }
+                                                        else if (result.min_income === 0){
+                                                            return (
+                                                                <TableRow key={result.size}>
+                                                                    <StyledTableCell
+                                                                        align="center">{result.size}</StyledTableCell>
+                                                                    <Hidden only={['sm', 'xs']}>
+                                                                        <StyledTableCell
+                                                                            align="center">{""}</StyledTableCell>
+                                                                    </Hidden>
+                                                                    <StyledTableCell
+                                                                        align="center">{"$"}{result.income}</StyledTableCell>
+                                                                    <Hidden only={['sm', 'xs']}>
+                                                                        <StyledTableCell
+                                                                            align="center">{""}</StyledTableCell>
+                                                                    </Hidden>
+                                                                </TableRow>
+                                                            );
+                                                        }
                                                     })}
                                                 </TableBody>
                                             </Table>

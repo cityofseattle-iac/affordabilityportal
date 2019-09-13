@@ -11,7 +11,7 @@
     "description-card": "Recreational child care for children in kindergarten to sixth grade.",
     "description-results": "Affordable child care focusing on social, recreational, and physical development. Available to children in kindergarten to sixth grade. ",
     "description-jump": "Available to children ages five (5) to twelve (12) years old, the Seattle Parks and Recreation, in partnership with Associated Recreation Council offers programs that provide kids with activities in areas such as: arts and culture, environmental stewardship, health and fitness, academic support, and more.",
-    "description": "Licensed childcare for children ages five (5) to twelve (12) years old.",
+    "description": "Recreational child care for children 5-12 year old.",
     "tier": 3,
     "household_cnt": 2,
     "criteria": {
@@ -114,23 +114,23 @@
         }
       ],
       "ageRequirement": {
-        "min": 3,
-        "max": 4
+        "min": 5,
+        "max": 12
       }
     },
     "stuff_needed": [
       "Information about you and each member of your household (Name, Date of birth, Gender, Race/Ethnicity)",
-      "Proof of income for all adults. Provide a document that can prove your income. Here are some examples:",
-      "-- Preferred: 1040 Income Tax form (most recent)",
-      "-- Gross paycheck stubs (1 month of 32+ hours or 2 months of 31 hours or less for all household before tax income)",
-      "-- Social Security benefits (SSI, Dependent, Disability, Survivor’s, or Retirement) statement or benefit checks",
-      "-- Cash benefits (TANF/Welfare) statement or benefits check",
-      "-- Unemployment Income statement or benefits check",
-      "-- Utility Discount program qualification - provide bill statement",
-      "-- Retirement benefits (Pensions, Annuities, or IRA) statement",
+      "Proof of income for all adults. Provide a document that can prove your income. here are some examples:",
+      " Preferred: 1040 Income Tax form (most recent)",
+      " Gross paycheck stubs (1 month of 32+ hours or 2 months of 31 hours or less for all household before tax income)",
+      " Social Security benefits (SSI, Dependent, Disability, Survivor’s, or Retirement) statement or benefit checks",
+      " Cash benefits (TANF/Welfare) statement or benefits check",
+      " Unemployment Income statement or benefits check",
+      " Utility Discount program qualification - provide bill statement",
+      " Retirement benefits (Pensions, Annuities, or IRA) statement",
       "Proof of dependents. Documents that can prove your dependent eligibility include:",
-      "-- Preferred: 1040 Income Tax form (most recent)",
-      "-- Birth certificates for dependents",
+      " Preferred: 1040 Income Tax form (most recent)",
+      " Birth certificates for dependents",
       "Program selection for each child"
     ],
     "how_it_works": [
@@ -225,19 +225,20 @@
       "text": [
         {
           "category": "cell",
-          "value": ""
+          "value": "Contact your local Community Center: http://www.seattle.gov/parks/find/centers"
         }
       ]
     },
     "age_range": "Households with children in kindergarten - 6th grade",
-    "person_application": "Apply in person at any of Seattle Parks and Recreation's community centers (http://www.seattle.gov/parks/find/centers) or pool facilities (http://www.seattle.gov/parks/find/pools).",
-    "application_info": "Apply in-person or over the phone at any of our community centers or pool locations. -Application is available in English, Chinese, Somali, Spanish, Vietnamese. ",
+    "person_application": "N/A",
+    "application_info": "Download scholarship application on-line or request a copy in-person at any of our community centers or pool locations. -Application is available in English, Chinese, Somali, Spanish, Vietnamese.  ",
     "savings": 500,
     "savingsByPeriod": "$500 / Month",
     "time_to_apply": "2 Hours",
     "time_hear_back": "2 Weeks",
-    "online_application_link": "https://www.seattle.gov/parks/find/scholarships-and-financial-aid",
+    "online_application": "N/A",
     "application_form_link": "https://www.seattle.gov/parks/find/scholarships-and-financial-aid ",
+    "application_form_linkText": "Printable application here",
     "address": {
       "address_section_title": "Department of Parks and Recreation (DPR)",
       "address_section_addr_line_1": "N/A",
@@ -382,7 +383,7 @@
     },
     "stuff_needed": [
       "Information about you and each member of your household (Name, Date of birth, Gender, Race/Ethnicity)",
-      "Proof of income for all adults. Provide a document that can prove your income. Here are some examples:",
+      "Proof of income for all adults. Provide a document that can prove your income. here are some examples:",
       "-- Preferred: 1040 Income Tax form (most recent)",
       "-- Gross paycheck stubs (1 month of 32+ hours or 2 months of 31 hours or less for all household before tax income)",
       "-- Social Security benefits (SSI, Dependent, Disability, Survivor’s, or Retirement) statement or benefit checks",
@@ -466,19 +467,20 @@
       "text": [
         {
           "category": "cell",
-          "value": ""
+          "value": "Contact your local Community Center: http://www.seattle.gov/parks/find/centers"
         }
       ]
     },
     "age_range": "Households with 3 - 5 year old children",
-    "person_application": "Apply in person at any of Seattle Parks and Recreation's community centers (http://www.seattle.gov/parks/find/centers) or pool facilities (http://www.seattle.gov/parks/find/pools).",
-    "application_info": "Apply in-person or by phone at any of our community centers or pool locations. A non-refundable $25 deposit is required to hold your spot in a program. Parks and Recreation staff can help you determine what financial aid program to apply for. ",
+    "person_application": "N/A",
+    "application_info": "Download scholarship application on-line or request a copy in-person at any of our community centers or pool locations. -Application is available in English, Chinese, Somali, Spanish, Vietnamese. ",
     "savings": 500,
     "savingsByPeriod": "$500 / Month",
     "time_to_apply": "1 Hour",
     "time_hear_back": "2 Weeks",
     "online_application": "N/A",
     "application_form_link": "https://www.seattle.gov/parks/find/scholarships-and-financial-aid",
+    "application_form_linkText": "Printable application here",
     "address": {
       "address_section_title": "Department of Parks and Recreation (DPR)",
       "address_section_addr_line_1": "N/A",
@@ -522,7 +524,7 @@
         },
         {
           "category": "text",
-          "value": "You may be eligible for free or reduced tuition if: You meet the income guidelines based on family size"
+          "value": "You may be eligible for free or reduced tuition if: You meet the income guidelines based on family size. Calculate your expected tuition here: https://www.seattle.gov/applyspp"
         }
       ],
       "type": {
@@ -549,7 +551,7 @@
         },
         {
           "size": 4,
-          "income": 16310,
+          "income": 16309,
           "min_income": 0,
           "weekly_income": 975,
           "annual_income": 50724
@@ -563,14 +565,14 @@
         },
         {
           "size": 6,
-          "income": 21911,
+          "income": 21910,
           "min_income": 0,
           "weekly_income": 975,
           "annual_income": 50724
         },
         {
           "size": 7,
-          "income": 24708,
+          "income": 24707,
           "min_income": 0,
           "weekly_income": 975,
           "annual_income": 50724
@@ -590,7 +592,7 @@
     },
     "stuff_needed": [
       "Your preschool selection",
-      "Completed application: https://earlylearning.microsoftcrmportals.com/parentportal/"
+      "Completed application: https://www.seattle.gov/applyspp"
     ],
     "how_it_works": [
       "Seattle Preschool Programs partners with schools and child care providers to offer preschool for 6 hours per day, 5 days per week.",
@@ -604,19 +606,25 @@
       "text": [
         {
           "category": "cell",
-          "value": ""
+          "value": "Call: (206) 386-1050"
+        },
+        {
+          "category": "email",
+          "value": "Email: preschool@seattle.gov"
         }
       ]
     },
     "age_range": "Households with 3 - 4 year old children",
     "person_application": "N/A",
     "application_info": "Application is available in English, Amharic, Chinese, Oromo, Somali, Spanish, Vietnamese), by email, by fax, or by mail:",
-    "savings": 1118,
-    "savingsByPeriod": "$1118 / Month",
-    "time_to_apply": "2 Hours",
+    "savings": 1760,
+    "savingsByPeriod": "$1760 / Month",
+    "time_to_apply": "30 Minutes",
     "time_hear_back": "2 Weeks",
-    "online_application_link": "https://www.seattle.gov/parks/find/scholarships-and-financial-aid ",
+    "online_application_link": "https://www.seattle.gov/applyspp",
     "application_form_link": "https://www.seattle.gov/applyspp",
+    "online_application_linkText": "Apply online here",
+    "application_form_linkText": "Printable application here",
     "address": {
       "address_section_title": "Department of Education & Early Learning (DEEL)",
       "address_section_addr_line_1": "Department of Education & Early Learning, PO Box 94665",
@@ -648,11 +656,7 @@
       "text": [
         {
           "category": "text",
-          "value": "You are a graduating senior at Ingraham High School, Garfield High School, Chief Sealth International High School, Cleveland High School, Rainier Beach High School, or West Seattle High School."
-        },
-        {
-          "category": "text",
-          "value": "After 2020, you are a graduation senior from a Seattle Public Schools high school."
+          "value": "you are a graduation senior from a Seattle Public Schools high school. "
         }
       ],
       "type": {
@@ -713,11 +717,10 @@
     },
     "stuff_needed": [
       "Applications for 2019 are closed.",
-      "Applications for 2020 will open in fall 2019.",
-      "Students will need either a completed FAFSA or WASFA."
+      "Applications for 2020 will open in fall 2019."
     ],
     "how_it_works": [
-      "Seattle Promise currently offers up to two years or 90 credits of free tuition to all graduates of six eligible Seattle public high schools regardless of GPA, income, or background. By fall of 2020, the program will expand to offer this option to all Seattle public high school graduates who choose to attend any of the Seattle Colleges. After completing all application requirements, Seattle Promise Scholars will attend workshops designed to prepare them for educational and institutional success.",
+      "Seattle Promise currently offers up to two years or 90 credits of free tuition to all graduates of six eligible Seattle public high schools regardless of GPA, income, or background. By Fall of 2019, the program will expand to offer this option to all 17 Seattle public high school graduates (graduating class of 2020) who choose to attend either of the three Seattle Colleges. After completing all application requirements, Seattle Promise Scholars will attend workshops designed to prepare them for educational and institutional success. ",
       "Seattle Promise Scholars are eligible for the following services: Support applying to Seattle Promise and Seattle Colleges; Support applying for and completing financial aid requirements; Full coverage of any tuition expenses remaining after other scholarships and financial aid; Assistance with choosing and registering for classes; Preparation for the transition to college; Guidance and mentorship through the first two years of college."
     ],
     "questions": {
@@ -736,12 +739,13 @@
     "time_to_apply": "1 Hour",
     "time_hear_back": "Varies",
     "online_application_link": "https://seattlepromise.seattlecolleges.edu/apply",
+    "online_application_linkText": "Apply online here",
     "application_form": "N/A",
     "address": {
       "address_section_title": "Department of Education & Early Learning",
       "address_section_addr_line_1": "N/A",
       "address_section_addr_line_2": "",
-      "address_section_phone": "/A",
+      "address_section_phone": "N/A",
       "address_section_fax": "N/A",
       "address_section_email_address": "N/A"
     },
@@ -789,6 +793,10 @@
         {
           "category": "income",
           "value": "You meet the income guidelines based on family size:"
+        },
+        {
+          "category": "text",
+          "value": "Families with income that falls below these amounts may be eligible for the State’s Working Connections Child Care (WCCC) program. To apply for WCCC, visit https://www.washingtonconnection.org/eapplication/home.go?action=Introduction&source="
         }
       ],
       "type": {
@@ -802,35 +810,49 @@
         {
           "size": 2,
           "income": 4932,
-          "min_income": 0,
+          "min_income": 2819,
           "weekly_income": 975,
           "annual_income": 50724
         },
         {
           "size": 3,
           "income": 6221,
-          "min_income": 0,
+          "min_income": 3557,
           "weekly_income": 975,
           "annual_income": 50724
         },
         {
           "size": 4,
-          "income": 7510,
-          "min_income": 0,
+          "income": 7511,
+          "min_income": 4293,
           "weekly_income": 975,
           "annual_income": 50724
         },
         {
           "size": 5,
           "income": 8799,
-          "min_income": 0,
+          "min_income": 5029,
           "weekly_income": 975,
           "annual_income": 50724
         },
         {
           "size": 6,
-          "income": 10089,
-          "min_income": 0,
+          "income": 10091,
+          "min_income": 5766,
+          "weekly_income": 975,
+          "annual_income": 50724
+        },
+        {
+          "size": 7,
+          "income": 11379,
+          "min_income": 6503,
+          "weekly_income": 975,
+          "annual_income": 50724
+        },
+        {
+          "size": 8,
+          "income": 12667,
+          "min_income": 7239,
           "weekly_income": 975,
           "annual_income": 50724
         }
@@ -854,19 +876,24 @@
       "text": [
         {
           "category": "cell",
-          "value": ""
+          "value": "Call: (206) 386-1050"
+        },
+        {
+          "category": "email",
+          "value": "Email: CCAP@seattle.gov"
         }
       ]
     },
     "age_range": "Households with 0 - 13 year old children",
     "person_application": "N/A",
-    "application_info": "Prior to applying, ensure you meet the eligibility criteria by completing the pre-screening. Here is the link to the screening form (https://www.seattle.gov/education/for-parents/child-care-and-preschool/child-care-assistance-program) \n\t-If you cannot fill out the form, provide the following information: Home Address; Email Address; Phone Number; number of Adults (over 18) in your family; number of Children in your family (include the age of each child); Are all adults either working or enrolled in school?; What is your family's estimated gross monthly income?; Have you already identified a CCAP provider? If so, who? ",
+    "application_info": "Prior to applying, ensure you meet the eligibility criteria by completing the pre-screening. here is the link to the screening form (https://www.seattle.gov/education/for-parents/child-care-and-preschool/child-care-assistance-program) \n\t-If you cannot fill out the form, provide the following information: Home Address; Email Address; Phone Number; number of Adults (over 18) in your family; number of Children in your family (include the age of each child); Are all adults either working or enrolled in school?; What is your family's estimated gross monthly income?; Have you already identified a CCAP provider? If so, who? ",
     "application_form_link": "https://www.seattle.gov/education/for-parents/child-care-and-preschool/child-care-assistance-program",
-    "savings": 320,
-    "savingsByPeriod": "$1000 / Month",
-    "time_to_apply": "1 Hour",
+    "savings": 1258,
+    "savingsByPeriod": "$1258/ Month",
+    "time_to_apply": "2 Hours",
     "time_hear_back": "2 Weeks",
     "online_application_link": "https://www.seattle.gov/education/for-parents/child-care-and-preschool/child-care-assistance-program",
+    "online_application_linkText": "Apply online here",
     "address": {
       "address_section_title": "Department of Education & Early Learning",
       "address_section_addr_line_1": "Department of Education & Early Learning, P.O. Box 94665",
@@ -919,49 +946,49 @@
       "income_limit": [
         {
           "size": 2,
-          "income": 3123,
+          "income": 4932,
           "min_income": 0,
           "weekly_income": 975,
           "annual_income": 50724
         },
         {
           "size": 3,
-          "income": 4228,
+          "income": 6221,
           "min_income": 0,
           "weekly_income": 975,
           "annual_income": 50724
         },
         {
           "size": 4,
-          "income": 5333,
+          "income": 7510,
           "min_income": 0,
           "weekly_income": 975,
           "annual_income": 50724
         },
         {
           "size": 5,
-          "income": 6438,
+          "income": 8800,
           "min_income": 0,
           "weekly_income": 975,
           "annual_income": 50724
         },
         {
           "size": 6,
-          "income": 7543,
+          "income": 10089,
           "min_income": 0,
           "weekly_income": 975,
           "annual_income": 50724
         },
         {
           "size": 7,
-          "income": 8648,
+          "income": 11365,
           "min_income": 0,
           "weekly_income": 975,
           "annual_income": 50724
         },
         {
           "size": 8,
-          "income": 9753,
+          "income": 12650,
           "min_income": 0,
           "weekly_income": 975,
           "annual_income": 50724
@@ -973,7 +1000,6 @@
       }
     },
     "stuff_needed": [
-      "Your work or school schedule",
       "Proof of your child's age",
       "Proof of your address",
       "Proof of family income"
@@ -997,23 +1023,21 @@
       "- El Centro de la Raza: Jose Martí (Beacon Hill), 206-957-4619",
       "- Hearing, Speech, & Deafness Center (Central District), 206-388-1284",
       "- West African Community Center: One Family Learning Center (Brighton), 206-913-2538",
-      "",
-      "These preschool locations offer free half-day preschool:",
-      "- Tiny Trees: Carkeek Park (NW Seattle), 206-701-0245"
+      ""
     ],
     "questions": {
       "text": [
         {
           "category": "cell",
-          "value": ""
+          "value": "Call: (206) 386-1050"
         }
       ]
     },
     "age_range": "Households with 3 - 4 year old children",
-    "person_application": "Apply in-person at the preschool location in which you are interested (see \"How it works\" for more details.",
+    "person_application": "Apply in-person at the preschool location in which you are interested (see \"How it works\" for more details).",
     "application_info":"",
-    "savings": 1343,
-    "savingsByPeriod": "$1343 / Month",
+    "savings": 1790,
+    "savingsByPeriod": "$1790/ Month",
     "time_to_apply": "30 Minutes",
     "time_hear_back": "2 Weeks",
     "online_application":"N/A",
@@ -1022,7 +1046,7 @@
       "address_section_title": "Department of Education & Early Learning (DEEL)",
       "address_section_addr_line_1": "N/A",
       "address_section_addr_line_2": "",
-      "address_section_phone": "(206) 386-1050",
+      "address_section_phone": "N/A",
       "address_section_fax": "N/A",
       "address_section_email_address": "N/A"
     },
@@ -1123,7 +1147,7 @@
     },
     "stuff_needed": [
       "Information about you and each member of your household (Name, Date of birth, Gender, Race/Ethnicity)",
-      "Proof of income for all adults. Provide a document that can prove your income. Here are some examples:",
+      "Proof of income for all adults. Provide a document that can prove your income. here are some examples:",
       "-- Preferred: 1040 Income Tax form (most recent)",
       "-- Gross paycheck stubs (1 month of 32+ hours or 2 months of 31 hours or less for all household before tax income)",
       "-- Social Security benefits (SSI, Dependent, Disability, Survivor’s, or Retirement) statement or benefit checks",
@@ -1146,28 +1170,28 @@
     "questions": {
       "text": [
         {
-          "category": "cell",
-          "value": ""
+          "category": "email",
+          "value": "Email: ParksBSC@seattle.gov"
         }
       ]
     },
     "age_range": "Households with 3 - 17 year old children",
-    "person_application": "Apply in person at any of Seattle Parks and Recreation's community centers (http://www.seattle.gov/parks/find/centers) or pool facilities (http://www.seattle.gov/parks/find/pools).",
-    "application_info": "Apply online or in-person at any of our community centers (http://www.seattle.gov/parks/find/centers) or pool facilities (http://www.seattle.gov/parks/find/pools):  ",
+    "person_application": "N/A",
+    "application_info": "Download scholarship application on-line or request a copy in-person at any of our community centers or pool locations. -Application is available in English, Chinese, Somali, Spanish, Vietnamese. ",
     "savings": 320,
     "savingsByPeriod": "$320 / Month",
     "time_to_apply": "1 Hour",
-    "time_hear_back": "1 Week",
-    "online_application_link": "https://www.seattle.gov/parks/find/scholarships-and-financial-aid ",
-    "online_application2": "http://bit.ly/spr_registration_account",
+    "time_hear_back": "2 Weeks",
+    "online_application": "N/A ",
     "application_form_link": "https://www.seattle.gov/parks/find/scholarships-and-financial-aid",
+    "application_form_linkText": "Printable application here",
     "address": {
       "address_section_title": "Department of Parks and Recreation (DPR)",
       "address_section_addr_line_1": "N/A",
       "address_section_addr_line_2": "",
       "address_section_phone": "N/A",
       "address_section_fax": "N/A",
-      "address_section_email_address": "ParksBSC@seattle.gov"
+      "address_section_email_address": "N/A"
     },
     "seo_title": "Seattle Parks and Recreation Summer Camps",
     "seo_description": "",
@@ -1317,6 +1341,8 @@
     "time_hear_back": "Instant for SNAP",
     "online_application_link": "https://www.washingtonconnection.org/home",
     "application_form_link": "https://www.dshs.wa.gov/sites/default/files/FSA/forms/pdf/14-001.pdf",
+    "online_application_linkText": "Apply online here",
+    "application_form_linkText": "Printable application here",
 
     "address": {
       "address_section_title": "Office of Sustainability & Environment (OSE)",
@@ -1475,7 +1501,8 @@
     "savingsByPeriod": "$40 / Month",
     "time_to_apply": "30 Minutes",
     "time_hear_back": "4 Weeks",
-    "online_application_link": " https://www.washingtonconnection.org/home",
+    "online_application_link": "https://www.freshbuckseattle.org",
+    "online_application_linkText": "Apply online here",
     "application_form": "N/A",
     "address": {
       "address_section_title": "Office of Sustainability & Environment (OSE)",
@@ -1528,14 +1555,14 @@
       "income_limit": [
         {
           "size": 1,
-          "income": 2082,
+          "income": 2081,
           "min_income": 0,
           "weekly_income": 975,
           "annual_income": 50724
         },
         {
           "size": 2,
-          "income": 2820,
+          "income": 2818,
           "min_income": 0,
           "weekly_income": 975,
           "annual_income": 50724
@@ -1549,7 +1576,7 @@
         },
         {
           "size": 4,
-          "income": 4292,
+          "income": 4291,
           "min_income": 0,
           "weekly_income": 975,
           "annual_income": 50724
@@ -1563,30 +1590,34 @@
         },
         {
           "size": 6,
-          "income": 5766,
+          "income": 5765,
           "min_income": 0,
           "weekly_income": 975,
           "annual_income": 50724
         },
         {
           "size": 7,
-          "income": 6502,
+          "income": 6501,
           "min_income": 0,
           "weekly_income": 975,
           "annual_income": 50724
         },
         {
           "size": 8,
-          "income": 7238,
+          "income": 7237,
           "min_income": 0,
           "weekly_income": 975,
           "annual_income": 50724
         }
       ]
     },
+    "ageRequirement": {
+      "min": 19,
+      "max": 64
+    },
     "stuff_needed": [
       "Proof of Identity",
-      "Proof of income"
+      "Proof of income ONLY if you do not currently receive Food Stamps (EBT), Apple Health Care (Medicaid), or TANF "
     ],
     "how_it_works": [
       "Once you qualify for the ORCA LIFT program, you'll receive an ORCA LIFT card registered to your name, with the same features every ORCA card has. You can load an E-purse value on your card to pay for trips one at a time, or load a discounted monthly pass that lets you take unlimited trips for an entire month. But what makes ORCA LIFT special is you have all the power and convenience of the ORCA card system at a fraction of the cost.",
@@ -1596,7 +1627,7 @@
       "text": [
         {
           "category": "cell",
-          "value": ""
+          "value": "Call: (206) 553-3000"
         }
       ]
     },
@@ -1651,6 +1682,10 @@
         {
           "category": "text",
           "value": "You are a Seattle Promise Scholar"
+        },
+        {
+          "category": "text",
+          "value": "You are a Seattle Housing Authority tenant aged 19-64 who lives at or below 30% AMI: https://www.seattle.gov/transit/orca-opportunity/orca-opportunity-sha-tenants "
         }
       ],
       "type": {
@@ -1671,22 +1706,31 @@
       ]
     },
     "stuff_needed": [
-      "Proof that your a student at Seattle Public Schools or Seattle Colleges."
+      "High School Students need their Student ID",
+      "middle School Students need a parent signature",
+      "Seattle Promise scholars need to be in a good academic standing with the program"
     ],
     "how_it_works": [
       "Successful applicants will receive one voucher per child to cover 25%-70% of tuition. Vouchers can be used for full-time, part-time, or before/after school care. You are responsible for paying the difference between the voucher subsidy amount and the provider's regular monthly rate.",
-      "You can apply at any time during the year and must recertify eligibility every 12 months",
+      "You can apply at any time during the year and must re-certify eligibility every 12 months",
       "",
       "ORCA Opportunity is available to qualifying students.",
       "- If you are a high school student enrolled in Seattle Public Schools, no application is necessary, and you can pick up your ORCA card at the main office of your school. ",
-      "- If you are a Seattle Promise Scholar, no application is necessary, and you can arrange the pick up of your ORCA card via email.",
-      "- If you are a middle school student enrolled in Seattle Public Schools, apply in-person at the main office of your school, by email, or by filling out the online application form."
+      "- If you are a Seattle Promise Scholar, no application is necessary, and you can pick up your ORCA Card at your Bridge Program on September 11.  If you miss those dates, please email ORCAOpportunity@seattle.gov.",
+      "- If you are a middle school student enrolled in Seattle Public Schools, you must be income-qualified and ineligible for transportation from Seattle Public Schools.",
+      "Students who were in the program last year do not need to complete a new application, unless you have transferred to a new school.",
+      "The City will verify that students are not eligible for transportation from Seattle Public Schools and then issue students new ORCA cards.",
+      "Students should pick up their cards in their attendance office or main office. If you did not participate last year, please submit the application posted.  "
     ],
     "questions": {
       "text": [
         {
           "category": "cell",
-          "value": ""
+          "value": "Call: (206) 256-6722"
+        },
+        {
+          "category": "email",
+          "value": "Email: ORCAOpportunity@seattle.gov"
         }
       ]
     },
@@ -1695,10 +1739,11 @@
     "application_info": "ORCA Opportunity is available to qualifying students.",
     "savings": 60,
     "savingsByPeriod": "$60 / Month",
-    "time_to_apply": "30 Minutes",
+    "time_to_apply": "10 Minutes",
     "time_hear_back": "2 Weeks",
     "online_application": "N/A",
     "application_form_link": "https://www.seattle.gov/Documents/Departments/Transit/ORCA_Opportunity_Application.pdf",
+    "application_form_linkText": "Printable application here",
     "address": {
       "address_section_title": "Seattle Department of Transportation (SDOT)",
       "address_section_addr_line_1": "Seattle Department of Transportation, 700 5th Ave, Suite 3800",
@@ -1759,13 +1804,14 @@
       "$5 for the cost  of the card"
     ],
     "how_it_works": [
-      "An ORCA youth card is available to youth age 6-18. It allows you to pay only $1.50 for your trip including transferring to other services (within a 2 hour window) like Link light rail, Sound Transit buses, Community Transit and other participating agencies."
+      "An ORCA youth card is available to youth age 6-18. It allows you to pay only $1.50 for your trip including transferring to other services (within a 2 hour window) like Link light rail, Sound Transit buses, Community Transit and other participating agencies.",
+      "Note: If you are a Seattle Public Schools student, please see the ORCA Opportunity Section as you may be eligible for a free ORCA card.  "
     ],
     "questions": {
       "text": [
         {
           "category": "cell",
-          "value": ""
+          "value": "Call: (206) 553-3000"
         }
       ]
     },
@@ -1778,6 +1824,7 @@
     "time_hear_back": "1 Week",
     "online_application": "N/A",
     "application_form_link": "https://www.soundtransit.org/sites/default/files/documents/orca_card_order_value_form.pdf",
+    "application_form_linkText": "Printable application here",
     "address": {
       "address_section_title": "Seattle Department of Transportation (SDOT)",
       "address_section_addr_line_1": "ORCA Regional Mail Center, KSC TR-0108, 201 S Jackson St",
@@ -1793,14 +1840,14 @@
   {
     "id": 6,
     "category": "Transportation",
-    "vanityUrl": "6-vehicle-license-rebate",
+    "vanityUrl": "6-vehicle-license-fee-rebate",
     "image": "https://innovation-performance.seattle.gov/wp-content/uploads/2019/08/Vehicle-License-Fee-Rebate.jpg",
-    "name": "Vehicle License Rebate",
+    "name": "Vehicle License Fee Rebate",
     "department": "Seattle Department of Transportation (SDOT)",
     "email": "CarTabRebate@seattle.gov",
     "url": "https://www.seattle.gov/transportation/projects-and-programs/programs/transit-program/vehicle-license-fee-rebate",
     "description-card": "Get a $20 license fee rebate for cars registered in Seattle.",
-    "description-jump": "Car tabs, also known as Vehicle License Fees, has increased to $80 per vehicle. With the Vehicle License Fee Rebate program, income qualified vehicle owners with a car registered in Seattle are eligible to receive a $20 rebate in the form of a check.",
+    "description-jump": "In 2014, voters in the City of Seattle approved a car tab increase to pay for improved transit service.  With this voter-approved proposition, car tabs, also known as Vehicle License Fees, increased to $80 per vehicle per year. With the Vehicle License Fee Rebate program, income-qualified vehicle owners with a car registered in Seattle are eligible to receive a $20 rebate in the form of a check. ",
     "description-result": "Income-qualified vehicle owners with a car registered in Seattle are eligible to receive a $20 rebate on their license fee.",
     "description": "Get a $20 license fee rebate for cars registered in Seattle.",
     "tier": 2,
@@ -1906,14 +1953,18 @@
       "Proof of payment of the $80 Vehicle License Fee"
     ],
     "how_it_works": [
-      "Car tabs, also known as Vehicle License Fees, increased to $80 per vehicle on June 1, 2015.",
+      "Car tabs, also known as Vehicle License Fees, increased to $80 per vehicle on June 1, 2015. ",
       "If you have a car registered in Seattle and meet income requirements, you are eligible to receive a $20 rebate in the form of a check."
     ],
     "questions": {
       "text": [
         {
           "category": "cell",
-          "value": ""
+          "value": "Call: (206) 684-4141"
+        },
+        {
+          "category": "email",
+          "value": "Email: CarTabRebate@seattle.gov"
         }
       ]
     },
@@ -1926,6 +1977,7 @@
     "time_hear_back": "4 Weeks",
     "online_application": "N/A",
     "application_form_link": "https://www.seattle.gov/Documents/Departments/SDOT/TransitProgram/Cartabrebateprogramapplication.pdf",
+    "application_form_linkText": "Printable application here",
     "address": {
       "address_section_title": "Seattle Department of Transportation (SDOT)",
       "address_section_addr_line_1": "VLFR Program, 810 3rd Ave, Suite 440",
@@ -2017,16 +2069,7 @@
       }
     },
     "stuff_needed": [
-      "You are eligible for the low-income discount if you can prove your enrollment in ONE of the following programs:",
-      "   Supplemental Nutrition Assistance card (formerly food stamps)",
-      "   Energy assistance from Seattle City Light or Puget Sound Energy",
-      "   Rental assistance from Seattle Housing Authority (Section 8) or copy of rental agreement in SHA property",
-      "   Temporary Assistance to Needy Families (TANF) check or stub",
-      "   Lease/rental agreement from Plymouth Housing, CHHIP, or other low-income housing providers",
-      "   Proof of Supplemental Security Income (SSI) – NOT regular Social Security income",
-      "   Issuance of King County Metro Transit Low-Income Fare Card (ORCA LIFT)",
-      "   Provider One or Apple Health card",
-      "   Other documentation considered on an individual basis."
+      "N/A"
     ],
     "how_it_works": [
       "Income-eligible vehicle owners can receive a restricted parking zone permit for $10 to park on the street in qualifying neighborhood."
@@ -2048,6 +2091,8 @@
     "time_hear_back": "1 Week",
     "online_application_link": "http://www.seattle.gov/transportation/permits-and-services/permits/parking-permits/rpz-permits/discounted-permits",
     "application_form_link": "https://www.seattle.gov/Documents/Departments/SDOT/Services/Parking/RPZLowIncomeGenericAp.pdf",
+    "online_application_linkText": "Apply online here",
+    "application_form_linkText": "Printable application here",
     "address": {
       "address_section_title": "Seattle Department of Transportation (SDOT)",
       "address_section_addr_line_1": "Seattle Department of Transportation, Traffic and Parking Permits, PO Box 34996",
@@ -2072,7 +2117,7 @@
     "phone": "Phone: (206) 684-0268",
     "description-card": "Get discounted rates on Seattle City Light and Seattle Public Utilities bills. ",
     "description-result": "The Utility Discount Program offers a 60% discount on Seattle City Light bill and a 50% discount on Seattle Public Utilities bill.",
-    "description-jump": "The Utility Discount Program (UDP) offers customers a 50-60% discount on their electricity and utilities bills.",
+    "description-jump": "The Utility Discount Program (UDP) offers eligible customers a 60% discount on their Seattle City Light bill and a 50% discount on their Seattle Public Utilities bill. ",
     "description": "Get discounted rates on Seattle City Light and Seattle Public Utilities bills. ",
     "tier": 2,
     "household_cnt": 1,
@@ -2080,27 +2125,19 @@
       "text": [
         {
           "category": "text",
-          "value": "You live within Seattle city limits (residents living in unincorporated King County are not eligible)"
+          "value": "You are the homeowner or renter; if a landlord pays all utilities, qualifying low-income tenants may still be eligible for utility financial help. "
         },
         {
           "category": "text",
-          "value": "You are employed and/or enrolled in qualified education or job training program"
+          "value": "You have a Seattle City Light and/or Seattle Public Utilities bill in your name. "
         },
         {
           "category": "text",
           "value": "You have a child under 13 years old"
         },
         {
-          "category": "text",
-          "value": "You identify a child care provider contracted with the City of Seattle"
-        },
-        {
-          "category": "text",
-          "value": "You demonstrate ineligibility for any other child care subsidy program"
-        },
-        {
           "category": "income",
-          "value": "You meet the income guidelines based on family size:"
+          "value": "Your total household income in the one-month prior to applying matches the table below: "
         }
       ],
       "type": {
@@ -2184,20 +2221,20 @@
       ]
     },
     "stuff_needed": [
-      "Your work or school schedule",
-      "Proof of your child's age",
-      "Proof of your address",
-      "Proof of family income"
+      "Income documentation for everyone 18 years and older living in your household ",
+      "Identification for everyone 18 years and older living in your household "
     ],
     "how_it_works": [
-      "Successful applicants will receive one voucher per child to cover 25%-70% of tuition. Vouchers can be used for full-time, part-time, or before/after school care. You are responsible for paying the difference between the voucher subsidy amount and the provider's regular monthly rate.",
-      "You can apply at any time during the year and must recertify eligibility every 12 months"
+      "Step 1: Check your eligibility for UDP using the 2018 Eligibility Requirements below.",
+      "Step 2: Complete your UDP application (see “How to Apply” for an application form).",
+      "Step 3: Mail your application to: Utility Discount Program",
+      "Step 4: UDP will contact you to complete the application process. "
     ],
     "questions": {
       "text": [
         {
           "category": "cell",
-          "value": "phone: (206) 684-0268"
+          "value": "Call: (206) 684-0268"
         }
       ]
     },
@@ -2210,6 +2247,7 @@
     "time_hear_back": "4 to 6 Weeks",
     "online_application": "N/A",
     "application_form_link": "https://www.seattle.gov/Documents/Departments/HumanServices/UtilityDiscountProgram/updated%20udp%20documents/UDP%20application%202017%20PDF.pdf",
+    "application_form_linkText": "Printable application here",
     "address": {
       "address_section_title": "Seattle City Light",
       "address_section_addr_line_1": "Utility Discount Program - 810 3rd Ave, Suite 440",
@@ -2263,10 +2301,6 @@
         {
           "category": "text",
           "value": "- You have a child who qualifies for a free or reduced school lunch program"
-        },
-        {
-          "category": "income",
-          "value": "- Your family is at or under following income guidelines:"
         }
       ],
       "type": {
@@ -2279,77 +2313,69 @@
       "income_limit": [
         {
           "size": 1,
-          "income": 1926,
+          "income": 2812,
           "min_income": 0,
           "weekly_income": 975,
           "annual_income": 50724
         },
         {
           "size": 2,
-          "income": 2607,
+          "income": 3677,
           "min_income": 0,
           "weekly_income": 975,
           "annual_income": 50724
         },
         {
           "size": 3,
-          "income": 3289,
+          "income": 4542,
           "min_income": 0,
           "weekly_income": 975,
           "annual_income": 50724
         },
         {
           "size": 4,
-          "income": 3970,
+          "income": 5407,
           "min_income": 0,
           "weekly_income": 975,
           "annual_income": 50724
         },
         {
           "size": 5,
-          "income": 4652,
+          "income": 6272,
           "min_income": 0,
           "weekly_income": 975,
           "annual_income": 50724
         },
         {
           "size": 6,
-          "income": 5333,
+          "income": 7137,
           "min_income": 0,
           "weekly_income": 975,
           "annual_income": 50724
         },
         {
           "size": 7,
-          "income": 6015,
+          "income": 7299,
           "min_income": 0,
           "weekly_income": 975,
           "annual_income": 50724
         },
         {
           "size": 8,
-          "income": 6696,
+          "income": 7462,
           "min_income": 0,
           "weekly_income": 975,
           "annual_income": 50724
         }
       ],
       "zipCodeRequirement": [
-        "98101",
-        "98102",
-        "98104",
-        "98108",
-        "98109",
-        "98112",
-        "98115",
-        "98118",
-        "98119",
-        "98121",
-        "98122",
-        "98134",
-        "98144",
-        "98174",
-        "98178"
+        "98101","98102","98104","98105","98108", "98109","98112", "98113","98114",
+        "98115","98117","98118","98103","98106", "98107","98111","98116",
+        "98119","98125","98126","98132","98133","98138","98139","98141","98124",
+        "98121","98127","98129","98131","98136","98145","98155","98160","98161",
+        "98122","98164","98165","98168","98170","98146","98154","98158","98166",
+        "98134","98175","98190","98191","98177","98181","98185","98188","98189",
+        "98144","98194","98195","98199","98198", "98174", "98178"
       ]
     },
     "stuff_needed": [
@@ -2365,7 +2391,11 @@
       "text": [
         {
           "category": "cell",
-          "value": ""
+          "value": "Call: (206) 386-1989"
+        },
+        {
+          "category": "email",
+          "value": "Email: brenda.tate@seattle.gov"
         }
       ]
     },
@@ -2378,6 +2408,7 @@
     "time_hear_back": "2 Weeks",
     "online_application": "N/A",
     "application_form_link": "https://www.seattle.gov/Documents/Departments/SeattleIT/cable/Wave%20Internet%20Program%20Low%20Income%20Application%20(Combined).pdf",
+    "application_form_linkText": "Printable application here",
     "address": {
       "address_section_title": "Seattle Information Technology (SIT)",
       "address_section_addr_line_1": "Wave - 502 Rainier Ave S, Suite 101 ",
@@ -2473,7 +2504,11 @@
       "text": [
         {
           "category": "cell",
-          "value": ""
+          "value": "Call: (206) 386-1989"
+        },
+        {
+          "category": "email",
+          "value": "Email: brenda.tate@seattle.gov"
         }
       ]
     },

@@ -1,4 +1,4 @@
 {
   "headerText": "Your Program Eligibility",
-  "description": "For your household you qualify for ${count} programs."
+  "description": "For your household you may qualify for the following ${count} programs."
 }
