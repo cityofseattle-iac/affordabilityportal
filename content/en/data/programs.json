@@ -2520,6 +2520,7 @@
     "time_to_apply": "1 Hour",
     "time_hear_back": "30 Minutes",
     "online_application_link": "https://apply.internetessentials.com",
+    "online_application_linkText": "Apply online here",
     "application_form": "N/A",
     "address": {
       "address_section_title": "Seattle Information Technology (SIT)",
