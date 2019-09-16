@@ -10,8 +10,8 @@
     "email": "N/A",
     "description-card": "Recreational child care for children in kindergarten to sixth grade.",
     "description-results": "Affordable child care focusing on social, recreational, and physical development. Available to children in kindergarten to sixth grade. ",
-    "description-jump": "Available to children ages five (5) to twelve (12) years old, the Seattle Parks and Recreation, in partnership with Associated Recreation Council offers programs that provide kids with activities in areas such as: arts and culture, environmental stewardship, health and fitness, academic support, and more.",
-    "description": "Recreational child care for children 5-12 year old.",
+    "description-jump": "Available to children ages 5 - 12 years old, the Seattle Parks and Recreation, in partnership with Associated Recreation Council offers programs that provide kids with activities in areas such as arts and culture, environmental stewardship, health and fitness, academic support, and more.",
+    "description": "Recreational child care for children 5-12 years old.",
     "tier": 3,
     "household_cnt": 2,
     "criteria": {
@@ -126,7 +126,7 @@
       " Social Security benefits (SSI, Dependent, Disability, Survivor’s, or Retirement) statement or benefit checks",
       " Cash benefits (TANF/Welfare) statement or benefits check",
       " Unemployment Income statement or benefits check",
-      " Utility Discount program qualification - provide bill statement",
+      " Utility Discount program qualification - provide bill statement (qualifies up to 50% scholarship)",
       " Retirement benefits (Pensions, Annuities, or IRA) statement",
       "Proof of dependents. Documents that can prove your dependent eligibility include:",
       " Preferred: 1040 Income Tax form (most recent)",
@@ -134,12 +134,11 @@
       "Program selection for each child"
     ],
     "how_it_works": [
-      "Preschool programs are hosted by the Associated Recreation Council (ARC) in partnership with Seattle Parks and Recreation for children and youth ages 5 through 12",
-      "Programs run from September to June",
-      "Vacancies are filled on a rolling basis",
-      "Scholarships are based on household size and parent/guardian income and successful applicants receive a 40% to 90% subsidy",
-      "Families apply for scholarships once per year",
-      "Scholarships are distributed once per quarter and amount may vary depending on funding.",
+      "School-age care programs are hosted by the Associated Recreation Council (ARC) in partnership with Seattle Parks and Recreation for children and youth ages 5 through 12.",
+      "Programs run from September to June.",
+      "Vacancies are filled on a rolling basis.",
+      "Scholarships are based on household size and parent/guardian income and successful applicants receive a 40% to 90% subsidy as funds are available.",
+      "Families apply for scholarships once per year.",
       "- ",
       "Use our website to locate the nearest community center (http://www.seattle.gov/parks/find/centers) or pool facility (http://www.seattle.gov/parks/find/pools). ",
       "- ",
@@ -231,7 +230,7 @@
     },
     "age_range": "Households with children in kindergarten - 6th grade",
     "person_application": "N/A",
-    "application_info": "Download scholarship application on-line or request a copy in-person at any of our community centers or pool locations. -Application is available in English, Chinese, Somali, Spanish, Vietnamese.  ",
+    "application_info": "Download scholarship application online or request a copy in-person at any of our community centers or pool locations. Application is available in English, Chinese, Somali, Spanish, and Vietnamese.  ",
     "savings": 500,
     "savingsByPeriod": "$500 / Month",
     "time_to_apply": "2 Hours",
@@ -248,7 +247,7 @@
       "address_section_email_address": "N/A"
     },
     "seo_title": "Seattle Parks and Recreation Before/After School Care",
-    "seo_description": "Available to children in kindergarten to sixth grade, the Seattle Parks and Recreation, in partnership with Associated Recreation Council offers programs that provide kids with activities in areas such as: arts and culture, environmental stewardship, health and fitness, academic support, and more.",
+    "seo_description": "Available to children in kindergarten - 6th grade, the Seattle Parks and Recreation, in partnership with Associated Recreation Council offers programs that provide kids with activities in areas such as: arts and culture, environmental stewardship, health and fitness, academic support, and more.",
     "seo_keywords": "parks and rec preschool, rec center preschool, art preschool, nature preschool, playing preschool, outdoor preschool"
   },
   {
@@ -262,7 +261,7 @@
     "email":"N/A",
     "description-card": "Half-day recreational preschool  programs for children 3-5 years.",
     "description-results": "Half-day preschool programs for children 3-5 years focusing on social, recreational, and physical development.",
-    "description-jump": "Available to children 3-4 years old and 5 year olds not enrolled in school, the Seattle Parks and Recreation, in partnership with Associated Recreation Council operates half-day preschool programs. This program focuses on emotional, social, physical, and cognitive skills to prepare kids for success in school and in life.",
+    "description-jump": "Available to children 3-5 years old not enrolled in school, the Seattle Parks and Recreation, in partnership with Associated Recreation Council operates half-day preschool programs. This program focuses on emotional, social, physical, and cognitive skills to prepare kids for success in school and in life.",
     "description": "Half-day recreational preschool  programs for children 3-5 years.",
     "tier": 3,
     "household_cnt": 2,
@@ -270,7 +269,7 @@
       "text": [
         {
           "category": "text",
-          "value": "You have a child age 3, 4, or 5 who does not attend school"
+          "value": "You have a 3 - 5 year old child who does not attend school"
         },
         {
           "category": "text",
@@ -278,7 +277,7 @@
         },
         {
           "category": "text",
-          "value": "Your child can attend a minimum of 60% of days for each program requesteds"
+          "value": "Your child can attend a minimum of 60% of days for each program requested"
         },
         {
           "category": "text",
@@ -389,20 +388,19 @@
       "-- Social Security benefits (SSI, Dependent, Disability, Survivor’s, or Retirement) statement or benefit checks",
       "-- Cash benefits (TANF/Welfare) statement or benefits check",
       "-- Unemployment Income statement or benefits check",
-      "-- Utility Discount program qualification - provide bill statement",
+      "-- Utility Discount program qualification - provide bill statement (qualifies up to 50% scholarship)",
       "-- Retirement benefits (Pensions, Annuities, or IRA) statement",
       "Proof of dependents. Documents that can prove your dependent eligibility include:",
       "-- Preferred: 1040 Income Tax form (most recent)",
       "-- Birth certificates for dependents"
     ],
     "how_it_works": [
-      "Preschool programs are hosted by the Associated Recreation Council (ARC) in partnership with Seattle Parks and Recreation for children ages 3 through 5.",
+      "Preschool programs are hosted by the Associated Recreation Council (ARC) in partnership with Seattle Parks and Recreation for children ages 3 - 5.",
       "Classrooms are set up with rich environments, fun-filled learning areas, consistent schedules and routines, and both large and small group times with a low-teacher child ratio of 1:8.",
       "Programs run from September to June.",
       "Vacancies are filled on a rolling basis.",
-      "Scholarships are based on household size and parent/guardian income and successful applicants receive a 40% to 90% subsidy.",
-      "Families apply for scholarships once per year",
-      "Scholarships are distributed once per quarter and amount may vary depending on funding.",
+      "Scholarships are based on household size and parent/guardian income and successful applicants receive a 40% to 90% subsidy as funds are available.",
+      "Families apply for scholarships once per year.",
       "  ",
       "Use our website to locate the nearest community center (http://www.seattle.gov/parks/find/centers) or pool facility (http://www.seattle.gov/parks/find/pools). ",
       "Fill out scholarship application (https://www.seattle.gov/parks/find/scholarships-and-financial-aid). Application is available in English, Chinese, Somali, Spanish, Vietnamese. ",
@@ -597,7 +595,7 @@
     "how_it_works": [
       "Seattle Preschool Programs partners with schools and child care providers to offer preschool for 6 hours per day, 5 days per week.",
       "Flexible schedules, such as part-day or 3 days per week, are not an option. Extended care is available at some sites.",
-      "Programs run from September to June",
+      "Programs run from September to June.",
       "If you apply by April 1, 2019, you will receive your program assignment, if applicable, no later than April 30. If you apply between April 2 and April 22, 2019, you will receive your program selection no later than May 15. If your child is not selected and placed in Round 1 or 2 -or- your application is received after April 22, you will be placed on a waitlist.",
       "Vacancies are filled on a rolling basis between May 15, 2019 and March 31, 2020.",
       "Tuition is based on household size and parent/guardian income and can be free or on a sliding scale."
@@ -616,7 +614,7 @@
     },
     "age_range": "Households with 3 - 4 year old children",
     "person_application": "N/A",
-    "application_info": "Application is available in English, Amharic, Chinese, Oromo, Somali, Spanish, Vietnamese), by email, by fax, or by mail:",
+    "application_info": "Application is available in English, Amharic, Chinese, Oromo, Somali, Spanish, and Vietnamese; by email, by fax, or by mail:",
     "savings": 1760,
     "savingsByPeriod": "$1760 / Month",
     "time_to_apply": "30 Minutes",
@@ -885,7 +883,7 @@
       ]
     },
     "age_range": "Households with 0 - 13 year old children",
-    "person_application": "N/A",
+    "person_application": "Seattle Municipal Tower, 17th Floor (Monday to Friday, 8 AM – 4:30 PM, except holidays)",
     "application_info": "Prior to applying, ensure you meet the eligibility criteria by completing the pre-screening. here is the link to the screening form (https://www.seattle.gov/education/for-parents/child-care-and-preschool/child-care-assistance-program) \n\t-If you cannot fill out the form, provide the following information: Home Address; Email Address; Phone Number; number of Adults (over 18) in your family; number of Children in your family (include the age of each child); Are all adults either working or enrolled in school?; What is your family's estimated gross monthly income?; Have you already identified a CCAP provider? If so, who? ",
     "application_form_link": "https://www.seattle.gov/education/for-parents/child-care-and-preschool/child-care-assistance-program",
     "savings": 1258,
@@ -1062,7 +1060,7 @@
     "name": "Seattle Parks and Recreation Summer Camps",
     "url": "https://www.seattle.gov/parks/find/camps",
     "department": "Department of Parks and Recreation (DPR)",
-    "email": "ParksBSC@seattle.gov",
+    "email": "N/A",
     "description-card": "Scholarships available for summer camps for youth ages 3 to 17.",
     "description-results": "Seattle Parks and Recreation offers a wide variety of camps throughout the summer for youth ages 3 to 17.",
     "description-jump": "Seattle Parks and Recreation offers hundreds of weekly camps throughout the summer for youth ages 3 to 17.",
@@ -1153,7 +1151,7 @@
       "-- Social Security benefits (SSI, Dependent, Disability, Survivor’s, or Retirement) statement or benefit checks",
       "-- Cash benefits (TANF/Welfare) statement or benefits check",
       "-- Unemployment Income statement or benefits check",
-      "-- Utility Discount program qualification - provide bill statement",
+      "-- Utility Discount program qualification - provide bill statement (qualifies up to 50% scholarship)",
       "-- Retirement benefits (Pensions, Annuities, or IRA) statement",
       "Proof of dependents. Documents that can prove your dependent eligibility include:",
       "-- Preferred: 1040 Income Tax form (most recent)",
@@ -1164,14 +1162,14 @@
       "- Seattle Parks and Recreation Summer Camps are for children and youth ages 3 through 17.",
       "- Programs run from June to August",
       "- Vacancies are filled on a rolling basis.",
-      "- Scholarships are based on household size and parent/guardian income and successful applicants receive a 40% to 90% subsidy.",
+      "- Scholarships are based on household size and parent/guardian income and successful applicants receive a 40% to 90% subsidy as funds are available.",
       "- Families apply for scholarships once per year."
     ],
     "questions": {
       "text": [
         {
           "category": "email",
-          "value": "Email: ParksBSC@seattle.gov"
+          "value": "Contact your local Community Center: https://www.seattle.gov/parks/find/centers"
         }
       ]
     },
@@ -1473,7 +1471,7 @@
     },
     "stuff_needed": [
       "Application for 2019 are now closed",
-      "Application for 2020 will br available in 2010"
+      "Application for 2020 will be available in 2010"
     ],
     "how_it_works": [
       "If you are enrolled for Fresh Bucks Vouchers, you will receive Fresh Bucks vouchers in the mail that can be used like cash to buy fruits and vegetables at any participating Fresh Bucks retailer."
@@ -1494,9 +1492,9 @@
         }
       ]
     },
-    "age_range": "Income eligible Seattle residents",
+    "age_range": "Income-eligible Seattle residents",
     "person_application": "N/A",
-    "application_info": "Applications for 2019 are closed. Fresh Bucks Voucher applications will be available in 2020, visit www.freshbuckseattle.org for up to date information.",
+    "application_info": "Applications for 2019 are closed. Fresh Bucks Voucher applications will be available in 2020, visit www.freshbuckseattle.org for up-to-date information.",
     "savings": 40,
     "savingsByPeriod": "$40 / Month",
     "time_to_apply": "30 Minutes",
@@ -1531,7 +1529,7 @@
     "description-card": "ORCA LIFT offers to 50% discount on transit fares.",
     "description-results": "ORCA LIFT offers savings of up to 50% on transit. Available to income-qualified riders.",
     "description-jump": "ORCA LIFT makes riding transit more affordable. Income-qualified riders can save up to 50% or more on Metro Transit, Kitsap Transit, Sound Transit Link, Sound Transit Regional Express buses, Sounder Trains, King County Water Taxi, and Seattle Streetcar.",
-    "description": "ORCA LIFT offers to 50% discount on transit fares.",
+    "description": "ORCA LIFT offers up to 50% discount on transit fares.",
     "tier": 1,
     "household_cnt": 1,
     "criteria": {
@@ -1631,7 +1629,7 @@
         }
       ]
     },
-    "age_range": "19 - 64 years old",
+    "age_range": "19 - 64 year olds",
     "person_application": "Call 206-553-3000 or 800-756-5437, or use King County's website to find enrollment locations (https://kingcounty.gov/depts/health/locations/health-insurance/coverage/enrollment-assistance/ORCA-LIFT-card.aspx#enrollment-orca#skc).",
     "application_info": "ORCA LIFT is offered through King County Metro. You can apply in-person (use use King County's website to find enrollment locations) or over the phone: ",
     "savings": 50,
@@ -1666,7 +1664,7 @@
     "description-card": "Free ORCA cards for middle and high school students enrolled in Seattle Public Schools.",
     "description-results": "Free, unlimited 12-month ORCA card for middle and high school students enrolled in Seattle Public Schools.",
     "description-jump": "The ORCA Opportunity program distributes free, unlimited 12-month ORCA cards to high school students at Seattle Public Schools, income-qualified middle school students at Seattle Public Schools, and Seattle Promise Scholars. Cards are valid on King County Metro, King County Water Taxi, Seattle Streetcar, Sound Transit, Community Transit, Pierce Transit, Kitsap Transit, and Everett Transit.",
-    "description": "Free ORCA cards for middle and high school students enrolled in Seattle Public Schools.",
+    "description": "Free ORCA cards for Seattle Public School high school and income-qualified middle school students, Seattle Promise scholars, and qualified SHA tenants.",
     "tier": 1,
     "household_cnt": 1,
     "criteria": {
@@ -1685,7 +1683,7 @@
         },
         {
           "category": "text",
-          "value": "You are a Seattle Housing Authority tenant aged 19-64 who lives at or below 30% AMI: https://www.seattle.gov/transit/orca-opportunity/orca-opportunity-sha-tenants "
+          "value": "You are a Seattle Housing Authority (SHA) tenant aged 19-64 who lives at or below 30% AMI: https://www.seattle.gov/transit/orca-opportunity/orca-opportunity-sha-tenants "
         }
       ],
       "type": {
@@ -1707,13 +1705,10 @@
     },
     "stuff_needed": [
       "High School Students need their Student ID",
-      "middle School Students need a parent signature",
+      "Middle School Students need a parent signature",
       "Seattle Promise scholars need to be in a good academic standing with the program"
     ],
     "how_it_works": [
-      "Successful applicants will receive one voucher per child to cover 25%-70% of tuition. Vouchers can be used for full-time, part-time, or before/after school care. You are responsible for paying the difference between the voucher subsidy amount and the provider's regular monthly rate.",
-      "You can apply at any time during the year and must re-certify eligibility every 12 months",
-      "",
       "ORCA Opportunity is available to qualifying students.",
       "- If you are a high school student enrolled in Seattle Public Schools, no application is necessary, and you can pick up your ORCA card at the main office of your school. ",
       "- If you are a Seattle Promise Scholar, no application is necessary, and you can pick up your ORCA Card at your Bridge Program on September 11.  If you miss those dates, please email ORCAOpportunity@seattle.gov.",
@@ -1734,9 +1729,9 @@
         }
       ]
     },
-    "age_range": "High school and middle school SPS students; Seattle Promise scholars",
+    "age_range": "Seattle Public School high school and income-qualified middle school students, Seattle Promise scholars, and qualified SHA tenants ",
     "person_application": "If you are a high school or middle school student enrolled in Seattle Public Schools, pick up your ORCA card at the main office of your school.\n",
-    "application_info": "ORCA Opportunity is available to qualifying students.",
+    "application_info": "ORCA Opportunity is available to qualifying students and SHA tenants.",
     "savings": 60,
     "savingsByPeriod": "$60 / Month",
     "time_to_apply": "10 Minutes",
@@ -1759,9 +1754,9 @@
   {
     "id": 5,
     "category": "Transportation",
-    "vanityUrl": "5-youth-orca",
+    "vanityUrl": "5-orca-youth-card",
     "image": "https://innovation-performance.seattle.gov/wp-content/uploads/2019/08/Youth-ORCA.png",
-    "name": "Youth ORCA",
+    "name": "ORCA Youth Card",
     "department": "Seattle Department of Transportation (SDOT)",
     "email": "N/A",
     "url": "https://kingcounty.gov/depts/transportation/metro/fares-orca/orca-cards/youth.aspx",
@@ -1804,7 +1799,7 @@
       "$5 for the cost  of the card"
     ],
     "how_it_works": [
-      "An ORCA youth card is available to youth age 6-18. It allows you to pay only $1.50 for your trip including transferring to other services (within a 2 hour window) like Link light rail, Sound Transit buses, Community Transit and other participating agencies.",
+      "An ORCA youth card is available to youth aged 6-18. It allows you to pay only $1.50 for your trip including transferring to other services (within a 2 hour window) like Link light rail, Sound Transit buses, Community Transit and other participating agencies.",
       "Note: If you are a Seattle Public Schools student, please see the ORCA Opportunity Section as you may be eligible for a free ORCA card.  "
     ],
     "questions": {
@@ -1815,7 +1810,7 @@
         }
       ]
     },
-    "age_range": "6 - 18 years old",
+    "age_range": "6 - 18 year olds",
     "person_application": "Apply in person at King Street Center, 201 S Jackson St, Seattle, WA 98104 (Monday to Friday, 8:30 am to 4:30 pm).",
     "application_info": "ORCA Youth is offered through King County Metro. You can apply in-person or by mail by completing the online application form in advance:  ",
     "savings": 60,
@@ -1954,7 +1949,7 @@
     ],
     "how_it_works": [
       "Car tabs, also known as Vehicle License Fees, increased to $80 per vehicle on June 1, 2015. ",
-      "If you have a car registered in Seattle and meet income requirements, you are eligible to receive a $20 rebate in the form of a check."
+      "If you have a car registered in Seattle and meet income requirements, you are eligible to receive a $20 rebate in the form of a check. This is a one-time, yearly $20 savings, rather than a monthly savings."
     ],
     "questions": {
       "text": [
@@ -2001,7 +1996,7 @@
     "email": "rpzinfo@seattle.gov",
     "description-card": "Restricted parking zone permits for $10.",
     "description-result": "Income-eligible vehicle owners can receive a restricted parking zone permit for $10.",
-    "description-jump": "The Restricted Parking Zone Program was created to help ease parking congestion in residential neighborhoods. Permits generally cost $65. Income-eligible vehicle owners can receive a restricted parking zone permit for $10.\n  ",
+    "description-jump": "The Restricted Parking Zone Program was created to help ease parking congestion in residential neighborhoods. Permits generally cost $65. Income-eligible vehicle owners can receive a restricted parking zone permit for $10, which is generally good for 2 years. This is a one-time savings of $55, rather than a monthly savings. ",
     "description": "Income-eligible vehicle owners can receive a restricted parking zone (RPZ) permit for $10.",
     "tier": 2,
     "household_cnt": 1,
@@ -2069,7 +2064,8 @@
       }
     },
     "stuff_needed": [
-      "N/A"
+      "Proof of enrollment in one of the following programs: Supplemental Nutrition Assistance card (formerly food stamps); Energy assistance from Seattle City Light or Puget Sound Energy; Rental assistance from Seattle Housing Authority (Section 8) or copy of rental agreement in SHA property; Temporary Assistance to Needy Families (TANF) check or stub; Lease/rental agreement from Plymouth Housing, CHHIP, or other low-income housing providers; Proof of Supplemental Security Income (SSI) – NOT regular Social Security income; Issuance of King County Metro Transit Low-Income Fare Card (ORCA LIFT); Provider One or Apple Health card. ",
+      "**Other documentation considered on an individual basis."
     ],
     "how_it_works": [
       "Income-eligible vehicle owners can receive a restricted parking zone permit for $10 to park on the street in qualifying neighborhood."
@@ -2078,15 +2074,19 @@
       "text": [
         {
           "category": "cell",
-          "value": ""
+          "value": "Call: (206) 684-5086"
+        },
+        {
+          "category": "email",
+          "value": "Email: rpzinfo@seattle.gov "
         }
       ]
     },
     "age_range": "Anyone with a vehicle",
     "person_application": "Apply in person at Seattle Municipal Tower, 700 5th Ave. Ste, 3768, Seattle, WA 98104 (Monday to Friday, 8:30 am - 4:30 pm, except holidays).",
     "application_info": "You can apply online, by email, by mail, or in-person for a Low Income Restricted Parking Zone Permit: ",
-    "savings": 55,
-    "savingsByPeriod": "$55",
+    "savings": 4,
+    "savingsByPeriod": "$4 / Month",
     "time_to_apply": "2 Hours",
     "time_hear_back": "1 Week",
     "online_application_link": "http://www.seattle.gov/transportation/permits-and-services/permits/parking-permits/rpz-permits/discounted-permits",
@@ -2381,7 +2381,7 @@
     "stuff_needed": [
       "Your contact information",
       "Proof of your income",
-      " If you are using the Seattle Free or Reduced School Lunch Program or City of Seattle Utility Discount Program as proof of your income, no additional information is needed",
+      "If you are using the Seattle Free or Reduced School Lunch Program or City of Seattle Utility Discount Program as proof of your income, no additional information is needed",
       "If you are using the National School Lunch Program’s Free Lunch Program as proof of your income, provide a referral form from your child's school"
     ],
     "how_it_works": [
@@ -2419,7 +2419,7 @@
     },
     "seo_title": "Low Income Internet Assistance: Low-Cost, High Speed Internet",
     "seo_description": "Wave offers home internet service for low-income residents in Seattle. Find out if you are eligible for low-cost, high-speed Internet, all for around $10 a month.",
-    "seo_keywords": "low income internet assistance, internet assistance low income families, wifi assistance for low income, internet assistance for low income families, comcast low income assistance, wave low income assistance"
+    "seo_keywords": "low income internet assistance, internet assistance low income families, wifi assistance for low income, internet assistance for low income families, Comcast low income assistance, wave low income assistance"
   },
   {
     "id": 10,
@@ -2494,7 +2494,7 @@
       }
     },
     "stuff_needed": [
-      "Proof of one the following: Your child is eligible for the National School Lunch ProgramYou receive HUD housing assistanceYou are a low-income verified veteranYou are a low-income seniorYou are a community college student in Colorado or Illinois"
+      "Proof of one the following: Your child is eligible for the National School Lunch Program; You receive HUD housing assistance; You are a low-income verified veteranYou are a low-income senior; You are a community college student in Colorado or Illinois"
     ],
     "how_it_works": [
       "Internet Essentials provides a high-speed connection (up to 10 Mbps) that enables a qualifying household to get online for a low monthly rate of $9.95.",
@@ -2520,12 +2520,13 @@
     "time_to_apply": "1 Hour",
     "time_hear_back": "30 Minutes",
     "online_application_link": "https://apply.internetessentials.com",
+    "online_application_linkText": "Apply online here",
     "application_form": "N/A",
     "address": {
       "address_section_title": "Seattle Information Technology (SIT)",
       "address_section_addr_line_1": "N/A",
       "address_section_addr_line_2": "",
-      "address_section_phone": "855-846-8376",
+      "address_section_phone": "(855) 846-8376",
       "address_section_fax": "N/A",
       "address_section_email_address": "N/A"
     },
@@ -2533,5 +2534,4 @@
     "seo_description": "Comcast offers home internet service for low-income residents in Seattle. Find out if you are eligible for low-cost, high-speed Internet, all for around $10 a month.",
     "seo_keywords": "low income internet assistance, internet assistance low income families, wifi assistance for low income, internet assistance for low income families, comcast low income assistance, wave low income assistance"
   }
-
 ]
