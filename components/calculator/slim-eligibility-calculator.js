@@ -17,6 +17,7 @@ const styles = theme => ({
         flexGrow: 1,
         maxWidth: '100%',
         margin: '24px 12px',
+        paddingTop: '80px',
     },
     body: {
         flexGrow: 1,
@@ -146,13 +147,22 @@ class SlimEligibilityCalculator extends React.Component {
         };
 
         //Income Rule
-        const incomeQualified = (programCriteria, size, income) => {
+      /*  const incomeQualified = (programCriteria, size, income) => {
             if (_.has(programCriteria, 'income_limit')) {
                 return _.some(programCriteria.income_limit,
                     p => income <= p.income && size >= p.size);
             }
             return true;
+        };*/
+        // Modifying so that the code takes accounts of min and max income (p.min_income < income < p.income)
+        const incomeQualified = (programCriteria, size, income) => {
+            if (_.has(programCriteria, 'income_limit')) {
+                return _.some(programCriteria.income_limit,
+                    p => (income <= p.income && p.min_income <= income) && size >= p.size);
+            }
+            return true;
         };
+
 
         //Age Rule
         const ageQualified = (programCriteria, ages) => {
