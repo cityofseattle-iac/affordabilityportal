@@ -16,8 +16,9 @@ const styles = theme => ({
     root: {
         flexGrow: 1,
         maxWidth: '100%',
-        margin: '24px 12px',
-        paddingTop: '80px',
+        margin: '12px 12px',
+        backgroundColor: '#fff',
+        padding:'10px'        
     },
     body: {
         flexGrow: 1,
@@ -211,8 +212,8 @@ class SlimEligibilityCalculator extends React.Component {
                 <div className={classes.body}>
                     <form onSubmit={this.handleSubmit}>
                         <Typography
-                            variant={"h6"}
-                            align={'center'}
+                            variant={"h5"}
+                            align={'left'}
                             className={classes.headerText}
                         >
                             {t('introText')}

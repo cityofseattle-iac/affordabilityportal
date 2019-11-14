@@ -94,17 +94,6 @@ class EligibleProgramsTable extends React.Component {
                                 </TableRow>
                             );
                         })}
-                        <TableRow>
-                            <Hidden only={['sm', 'xs']}>
-                                <CustomTableCell colSpan={4} align="right" className="totalRow">
-                                    <span className="totalRow">{t('est-monthly-savings')}</span></CustomTableCell>
-                            </Hidden>
-                            <Hidden only={['xl', 'lg', 'md']}>
-                                <CustomTableCell colSpan={1} align="right" className="totalRow">
-                                    <span className="totalRow">{t('total-savings')}</span></CustomTableCell>
-                            </Hidden>
-                            <CustomTableCell align="right" className="totalRow">{ccyFormat(total)}</CustomTableCell>
-                        </TableRow>
                     </TableBody>
 
 

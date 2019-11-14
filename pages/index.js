@@ -18,6 +18,17 @@ const style = theme => ({
         maxWidth: 1200,
         margin: '0 auto',
     },
+    repos: {
+        width: '100%',
+        maxWidth: 1200,
+        margin: '0 auto',
+        padding: '10px',
+    },
+    bkgContainer: {
+      width: '100%',
+      backgroundImage: 'url(https://www.seattle.gov/assets/images/2015_IMG/PageBackgrounds/DSC_1212-Edit.jpg)',
+      minHeight: '350px'    
+    }
 });
 
 class Index extends React.Component {
@@ -61,9 +72,12 @@ class Index extends React.Component {
         return (
             <Page title={t('title')} description={t('description')} keywords={t('keywords')}>
                 <TitleBar/>
-                <div className={classes.root}>
+                <div className={classes.bkgContainer}>
+                  <div className={classes.repos}>
                     <SlimEligibilityCalculator/>
-                    <HeroImage/>
+                  </div>
+                </div>                
+                <div className={classes.root}>
                     <Programs/>
                 </div>
             </Page>

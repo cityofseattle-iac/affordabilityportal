@@ -21,7 +21,7 @@ const style = theme => ({
         },
     },
     resultSectionLight: {
-        backgroundColor: 'rgba(79, 79, 79, 0.26)',
+        backgroundColor: 'rgba(155, 155, 155, 1)',
         padding: '10px',
         height: '100%',
     },

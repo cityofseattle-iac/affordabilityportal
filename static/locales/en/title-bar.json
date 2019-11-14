@@ -1,5 +1,8 @@
 {
-  "button-text": "View Available Programs",
-  "text": "Affordability Portal",
-  "intro-text": "The Affordability Portal is an online resource to help you find benefits you may be eligible for in the City of Seattle."
+  "text": "Benefits Calculator",
+  "intro-text": "The Benefits Calculator is an online resource to help you find benefits you may be eligible for in the City of Seattle.",
+  "promo-title": "Visit the Affordability Portal", 
+  "promo-text": "Explore a comprehensive list of City, County, and Stat free and discounted resources to support you and your family.",
+  "button-text": "View All Programs",
+  "button-link": "https://www.seattle.gov/affordability"
 }
