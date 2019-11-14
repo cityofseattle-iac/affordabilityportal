@@ -46,6 +46,7 @@ class EligibleProgramSummary extends React.Component {
                     <Grid item xs={12} sm={12} md={12} lg={8}>
                         <div className={classes.desc}>
                             <Typography variant={"body1"}>{final_desc}</Typography>
+                            <Typography variant={"body1"}><a href="#programdetails">View program details</a></Typography>
                         </div>
                     </Grid>
                 </Grid>
