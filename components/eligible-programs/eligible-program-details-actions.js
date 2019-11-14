@@ -21,12 +21,12 @@ const style = theme => ({
         },
     },
     resultSectionLight: {
-        backgroundColor: 'rgba(155, 155, 155, 1)',
+        backgroundColor: 'rgba(153, 153, 153, 0.10)',
         padding: '10px',
         height: '100%',
     },
     resultSectionDark: {
-        backgroundColor: 'rgba(153, 153, 153, 0.33)',
+        backgroundColor: 'rgba(79, 79, 79, 0.15)',
         padding: '10px',
         height: '100%',
     }

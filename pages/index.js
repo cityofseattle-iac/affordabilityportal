@@ -26,8 +26,9 @@ const style = theme => ({
     },
     bkgContainer: {
       width: '100%',
-      backgroundImage: 'url(https://www.seattle.gov/assets/images/2015_IMG/PageBackgrounds/DSC_1212-Edit.jpg)',
-      minHeight: '350px'    
+      backgroundImage: 'url(static/DSC_1212-Edit.jpg)',
+      minHeight: '350px',
+      display: 'block'    
     }
 });
 

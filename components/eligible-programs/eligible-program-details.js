@@ -72,11 +72,11 @@ const style = theme => ({
 
     },
     resultSectionLight: {
-        backgroundColor: 'rgba(79, 79, 79, 0.26)',
+        backgroundColor: 'rgba(153, 153, 153, 0.10)',
         padding: 10,
     },
     resultSectionDark: {
-        backgroundColor: 'rgba(153, 153, 153, 0.33)',
+        backgroundColor: 'rgba(79, 79, 79, 0.15)',
         padding: 10,
     },
     resultActions: {

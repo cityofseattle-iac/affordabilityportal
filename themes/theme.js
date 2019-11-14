@@ -4,7 +4,7 @@ import {createMuiTheme} from '@material-ui/core/styles';
 const theme = createMuiTheme({
     palette: {
         primary: {main: '#003da5'}, // Blue Navigation
-        secondary: {main: '#003da5'}, // This is just green for now.
+        secondary: {main: '#003da5'}, // Blue secondary for button color
     },
     overrides: {
         MuiButton: {
