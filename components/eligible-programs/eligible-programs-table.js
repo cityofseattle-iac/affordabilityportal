@@ -19,7 +19,7 @@ const CustomTableCell = withStyles(theme => ({
     },
     body: {
         fontSize: 14,
-        backgroundColor: 'rgba(153, 153, 153, 0.33)',
+        backgroundColor: 'rgba(153, 153, 153, 0.10)',
     },
 }))(TableCell);
 
@@ -44,7 +44,7 @@ const styles = theme => ({
     row: {
         '&:nth-of-type(odd)': {
             // backgroundColor: theme.palette.background.default,
-            backgroundColor: 'rgba(79, 79, 79, 0.26)',
+            backgroundColor: 'rgba(79, 79, 79, 0.15)',
         },
     },
 });
@@ -94,17 +94,6 @@ class EligibleProgramsTable extends React.Component {
                                 </TableRow>
                             );
                         })}
-                        <TableRow>
-                            <Hidden only={['sm', 'xs']}>
-                                <CustomTableCell colSpan={4} align="right" className="totalRow">
-                                    <span className="totalRow">{t('est-monthly-savings')}</span></CustomTableCell>
-                            </Hidden>
-                            <Hidden only={['xl', 'lg', 'md']}>
-                                <CustomTableCell colSpan={1} align="right" className="totalRow">
-                                    <span className="totalRow">{t('total-savings')}</span></CustomTableCell>
-                            </Hidden>
-                            <CustomTableCell align="right" className="totalRow">{ccyFormat(total)}</CustomTableCell>
-                        </TableRow>
                     </TableBody>
 
 

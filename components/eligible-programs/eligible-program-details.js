@@ -72,11 +72,11 @@ const style = theme => ({
 
     },
     resultSectionLight: {
-        backgroundColor: 'rgba(79, 79, 79, 0.26)',
+        backgroundColor: 'rgba(153, 153, 153, 0.10)',
         padding: 10,
     },
     resultSectionDark: {
-        backgroundColor: 'rgba(153, 153, 153, 0.33)',
+        backgroundColor: 'rgba(79, 79, 79, 0.15)',
         padding: 10,
     },
     resultActions: {
@@ -99,7 +99,7 @@ class EligibleProgramDetails extends React.Component {
         return (
             <div className={classes.root}>
                 <div className={classes.body}>
-                    <Typography variant={'h3'} align={'left'}>{filtered_programs.header}</Typography>
+                    <Typography variant={'h3'} align={'left'}>Program Details {filtered_programs.header}</Typography>
                     {filtered_programs.map((result) => {
 
                         return (

@@ -11,7 +11,9 @@ import Button from "@material-ui/core/Button/Button";
 
 const styles = {
     root: {
-        marginTop: 10,
+        backgroundColor: "#dcf4ff",
+        padding: 10,
+        marginTop: 0,
     },
     info: {
         marginTop: 10

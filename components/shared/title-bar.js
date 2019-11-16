@@ -11,7 +11,7 @@ const styles = {
     root: {
         flexGrow: 1,
         width: '100%',
-        backgroundColor: '#EAEAEA',
+        backgroundColor: '#FFFFFF',
         margin: '0 auto',
         paddingTop: '40px',
     },
@@ -32,6 +32,7 @@ const styles = {
     titleCTA: {
         padding: '20px 0',
         height: '100%',
+        backgroundColor: '#eeeeee'
     },
 
     button: {
@@ -60,7 +61,7 @@ class TitleBar extends React.Component {
                             <Grid container
                                   direction="row"
                                   justify="space-evenly"
-                                  alignItems="center"
+                                  alignItems="flex-start"
                                   spacing={2}
                             >
                                 <Grid item lg={8} md={8} xs={10} sm={10}>
@@ -72,11 +73,17 @@ class TitleBar extends React.Component {
                                     </Typography>
                                 </Grid>
                                 <Grid item lg={4} md={4} xs={8} sm={8} className={classes.titleCTA}>
-                                    <Link href={"#programs"}>
+                                    <Typography variant="h5">
+                                        {t('promo-title')}
+                                    </Typography>
+                                    <Typography variant="body1" gutterBottom>
+                                        {t('promo-text')}
+                                    </Typography>
+                                    <a href={t('button-link')} targe="_blank">
                                         <Button variant="contained" color="primary" className={classes.button}>
                                             {t('button-text')}
                                         </Button>
-                                    </Link>
+                                    </a>
                                 </Grid>
                             </Grid>
                         </Grid>

@@ -58,6 +58,7 @@ class EligiblePrograms extends React.Component {
                     <SlimEligibilityCalculator/>
                     <EligibleProgramSummary/>
                     <EligibleProgramsTable/>
+                    <a name="programdetails"></a>
                     <EligibleProgramDetails/>
                 </div>
             </Page>
