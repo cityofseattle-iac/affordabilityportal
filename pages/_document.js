@@ -12,8 +12,6 @@ class MyDocument extends Document {
         return (
             <html lang="en">
             <Head>
-                <script async src="https://www.googletagmanager.com/gtag/js?id=UA-33712689-7"></script>
-                <script src="/static/scripts/googleanalytics.js"></script>
                 <link rel="shortcut icon" type="image/x-icon" href="https://www.seattle.gov/favicon.ico"/>
                 <link href="/static/stylesheets/app.css" rel="stylesheet" />
             </Head>
