@@ -10,7 +10,6 @@ function initializeGoogleAnalytics() {
 }
 
 function trackPageView(path) {
-    console.log(path)
     if (!isProd) {
         return;
     }
