@@ -11,6 +11,8 @@ import {connect} from "react-redux";
 import {applyFilters, setFilteredPrograms} from "../../redux/actions";
 import _ from "lodash";
 import {Router, withTranslation} from '../../localization/i18n';
+import {trackEvent} from '../../pages/utils/google-analytics/ga-track';
+
 
 const styles = theme => ({
     root: {
@@ -18,7 +20,7 @@ const styles = theme => ({
         maxWidth: '100%',
         margin: '12px 12px',
         backgroundColor: '#fff',
-        padding:'10px'        
+        padding: '10px'
     },
     body: {
         flexGrow: 1,
@@ -199,6 +201,10 @@ class SlimEligibilityCalculator extends React.Component {
 
         /************** End of fetch API handling once the headless CMS is available ****************/
 
+        trackEvent({
+            category: 'Form',
+            action: 'Submit Find Services Form'
+        });
         Router.push("/eligible-programs#eligibility");
     };
 
