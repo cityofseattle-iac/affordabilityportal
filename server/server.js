@@ -5,12 +5,6 @@ const path = require('path');
 const express = require('express');
 const compression = require('compression');
 
-const basic_auth = require('express-basic-auth');
-const auth = basic_auth({
-    users: {'seattle': 'expedia'},
-    challenge: true
-});
-
 const nextI18NextMiddleware = require('next-i18next/middleware');
 const nextI18next = require('../localization/i18n');
 
@@ -47,14 +41,14 @@ const server = express();
     server.use('/robots.txt', robots);
     server.use('/sitemap.xml', sitemap);
 
-    server.get('/program-info/:id', auth, (req, res) => {
+    server.get('/program-info/:id', (req, res) => {
         const {query, params} = req;
         return app.render(req, res, '/program-info', {
             ...query, id: params.id
         })
     });
 
-    server.get('*', auth, (req, res) => handle(req, res));
+    server.get('*', (req, res) => handle(req, res));
 
     await app.prepare();
 
