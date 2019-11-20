@@ -7,6 +7,7 @@ import {makeStore} from "../redux/store";
 import theme from "../themes/theme";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import {appWithTranslation} from '../localization/i18n';
+import {initializeGoogleAnalytics, trackPageView} from './utils/google-analytics/ga-track';
 
 class IacApp extends App {
 
@@ -26,6 +27,14 @@ class IacApp extends App {
         if (jssStyles) {
             jssStyles.parentNode.removeChild(jssStyles);
         }
+        trackPageView(this.props.router.pathname);
+    }
+
+
+    componentDidUpdate(prevProps) {
+        if (this.props !== prevProps) {
+            trackPageView(this.props.router.pathname); // TODO: See if there is a stricter comparison available
+        }
     }
 
     render() {
@@ -37,6 +46,7 @@ class IacApp extends App {
                 <Container>
                     <Provider store={store}>
                         <CssBaseline/>
+
                         <Component {...pageProps} />
                     </Provider>
                 </Container>
@@ -45,4 +55,5 @@ class IacApp extends App {
     }
 }
 
+initializeGoogleAnalytics();
 export default withRedux(makeStore)(appWithTranslation(IacApp));
