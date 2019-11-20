@@ -42,7 +42,6 @@ class IacApp extends App {
                 <Container>
                     <Provider store={store}>
                         <CssBaseline/>
-
                         <Component {...pageProps} />
                     </Provider>
                 </Container>
