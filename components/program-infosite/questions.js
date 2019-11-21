@@ -26,15 +26,9 @@ class Questions extends React.Component {
                 <Divider/>
 
                 <div className={classes.info}>
-                    {program.questions.text.map((item, index) =>{
-                        if (item.category === 'cell' || item.category === 'email') {
-                            return (<Typography key={index} variant={"body1"}>{item.value}</Typography>)
-                        }
-                        else if (item.category === 'website'){
-                            return (<Typography key={index} variant={"body1"}>
-                                <a href={item.value} target={"_blank"} rel={"noopener"}>{'Ask Questions Here'}</a> </Typography>)
-                        }
-                    })}
+                    <Typography variant={"body1"} component="div">
+                        <div dangerouslySetInnerHTML={{ __html: program.questions }} />
+                    </Typography>
                 </div>
             </div>
         );

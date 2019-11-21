@@ -5,5 +5,6 @@ module.exports = {
     host: 'statsd-dev',
     port: 8125,
     path: 'iac-web'
-  }
+  },
+  apiHost: 'http://wwwqa.seattle.gov'
 };

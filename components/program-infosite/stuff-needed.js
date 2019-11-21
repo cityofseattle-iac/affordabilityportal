@@ -24,16 +24,9 @@ class StuffNeeded extends React.Component {
                 <Typography variant={"h4"}>{t('title')}</Typography>
                 <Divider/>
                 <div className={classes.info}>
-                    <ul>
-                        {program["stuff_needed"].map((item, index) => {
-                                return (
-                                    <li key={index}>
-                                        <Typography key={index} variant={"body1"}>{item}</Typography>
-                                    </li>
-                                )
-                            }
-                        )}
-                    </ul>
+                    <Typography variant={"body1"} component="div">
+                        <div dangerouslySetInnerHTML={{__html: program.stuff_needed}} />
+                    </Typography>
                 </div>
             </div>
         );

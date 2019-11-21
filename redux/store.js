@@ -23,6 +23,8 @@ export const makeStore = (initialState, options) => {
                 zipcodeValue: 0,
                 calculatorInputValid: false,
             },
+            programs: [],
+            categories: [],
             filtered_programs: [],
         };
         return createStore(reducer, newState);

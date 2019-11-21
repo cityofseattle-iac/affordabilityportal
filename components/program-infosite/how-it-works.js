@@ -24,12 +24,9 @@ class HowItWorks extends React.Component {
                 <Typography variant={"h4"}>{t('title')}</Typography>
                 <Divider/>
                 <div className={classes.info}>
-                    {program["how_it_works"].map((item, index) => {
-                            return (
-                                <Typography key={index} variant={"body1"}>{item}</Typography>
-                            )
-                        }
-                    )}
+                    <Typography variant={"body1"} component="div">
+                        <div dangerouslySetInnerHTML={{__html: program.how_it_works}} />    
+                    </Typography>                            
                 </div>
             </div>
         );

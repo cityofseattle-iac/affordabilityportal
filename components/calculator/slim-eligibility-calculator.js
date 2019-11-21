@@ -159,19 +159,26 @@ class SlimEligibilityCalculator extends React.Component {
         };*/
         // Modifying so that the code takes accounts of min and max income (p.min_income < income < p.income)
         const incomeQualified = (programCriteria, size, income) => {
-            if (_.has(programCriteria, 'income_limit')) {
-                return _.some(programCriteria.income_limit,
-                    p => (income <= p.income && p.min_income <= income) && size >= p.size);
+            if (_.has(programCriteria, 'incomeLimit')) {
+                return _.some(programCriteria.incomeLimit,
+                    p => parseFloat(p.minIncome) <= parseFloat(income) &&
+                         parseFloat(income) <= parseFloat(p.income) &&
+                         parseInt(size) >= parseInt(p.Size))
             }
             return true;
-        };
+        };  
 
 
         //Age Rule
         const ageQualified = (programCriteria, ages) => {
             if (_.has(programCriteria, 'ageRequirement')) {
-                return _.some(ages, m => _.inRange(m, programCriteria.ageRequirement.min - 1,
-                    programCriteria.ageRequirement.max + 1));
+                return _.some(ages, 
+                    m => _.inRange(
+                        m, 
+                        parseInt(programCriteria.ageRequirement.min) - 1, 
+                        parseInt(programCriteria.ageRequirement.max) + 1
+                    )
+                )
             }
             return true;
         };
@@ -179,7 +186,8 @@ class SlimEligibilityCalculator extends React.Component {
         //ZipCode Rule
         const zipCodeQualified = (programCriteria, zipcode) => {
             if (_.has(programCriteria, 'zipCodeRequirement')) {
-                return _.includes(programCriteria.zipCodeRequirement, zipcode);
+                const filteredZipCodes = _.filter(programCriteria.zipCodeRequirement, p => (p.length > 0)) 
+                return filteredZipCodes.length == 0 ? true : _.includes(programCriteria.zipCodeRequirement, zipcode);
             }
             return true;
         };
@@ -188,9 +196,9 @@ class SlimEligibilityCalculator extends React.Component {
         const getQualifiedPrograms = (data, ages, income, zipcode) => {
             const size = ages.length;
             return _.filter(data,
-                p => incomeQualified(p.criteria, size, income)
-                    && ageQualified(p.criteria, ages)
-                    && zipCodeQualified(p.criteria, zipcode)
+                p => incomeQualified(p.criteria, size, income) && 
+                     ageQualified(p.criteria, ages) &&
+                     zipCodeQualified(p.criteria, zipcode)
             );
         };
 

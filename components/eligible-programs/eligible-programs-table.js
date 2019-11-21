@@ -51,11 +51,11 @@ const styles = theme => ({
 
 // TODO: will we ever need to handle other currencies?
 function ccyFormat(num) {
-    return '$' + num.toFixed(2);
+    return '$' + parseFloat(num).toFixed(2);
 }
 
 function subtotal(items) {
-    return items.map(({savings}) => savings).reduce((sum, i) => sum + i, 0);
+    return items.map(({savings}) => parseFloat(savings)).reduce((sum, i) => sum + i, 0);
 }
 
 

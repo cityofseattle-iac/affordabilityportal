@@ -31,7 +31,6 @@ class IacApp extends App {
         trackPageView(this.props.router.pathname);
         Router.events.on('routeChangeComplete', () => {
             trackPageView(this.props.router.pathname);
-            window.scrollTo(0, 0);
         });
     }
 

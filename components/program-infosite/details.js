@@ -30,7 +30,7 @@ class ProgramDetails extends React.Component {
                                     <Typography variant={"h2"} className={classes.name}>{program.name}</Typography>
                                 </Grid>
                                 <Grid item>
-                                    <Typography variant={"body1"}>{program['description-jump']}</Typography>
+                                    <Typography variant={"body1"}>{program['description_jump']}</Typography>
                                 </Grid>
                             </Grid>
                         </Grid>
