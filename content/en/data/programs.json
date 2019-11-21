@@ -2023,42 +2023,70 @@
       "income_limit": [
         {
           "size": 1,
-          "income": 999999999,
+          "income": 2812,
           "min_income": 0,
           "weekly_income": 975,
           "annual_income": 50724
         },
         {
           "size": 2,
-          "income": 999999999,
+          "income": 3677,
           "min_income": 0,
           "weekly_income": 975,
           "annual_income": 50724
         },
         {
           "size": 3,
-          "income": 999999999,
+          "income": 4542,
           "min_income": 0,
           "weekly_income": 975,
           "annual_income": 50724
         },
         {
           "size": 4,
-          "income": 999999999,
+          "income": 5407,
           "min_income": 0,
           "weekly_income": 975,
           "annual_income": 50724
         },
         {
           "size": 5,
-          "income": 999999999,
+          "income": 6272,
           "min_income": 0,
           "weekly_income": 975,
           "annual_income": 50724
         },
         {
           "size": 6,
-          "income": 999999999,
+          "income": 7137,
+          "min_income": 0,
+          "weekly_income": 975,
+          "annual_income": 50724
+        },
+        {
+          "size": 7,
+          "income": 7299,
+          "min_income": 0,
+          "weekly_income": 975,
+          "annual_income": 50724
+        },
+        {
+          "size": 8,
+          "income": 7462,
+          "min_income": 0,
+          "weekly_income": 975,
+          "annual_income": 50724
+        },
+        {
+          "size": 9,
+          "income": 7624,
+          "min_income": 0,
+          "weekly_income": 975,
+          "annual_income": 50724
+        },
+        {
+          "size": 10,
+          "income": 7786,
           "min_income": 0,
           "weekly_income": 975,
           "annual_income": 50724
@@ -2489,7 +2517,56 @@
       "income_limit": [
         {
           "size": 1,
-          "income": 999999999999,
+          "income": 2812,
+          "min_income": 0,
+          "weekly_income": 975,
+          "annual_income": 50724
+        },
+        {
+          "size": 2,
+          "income": 3677,
+          "min_income": 0,
+          "weekly_income": 975,
+          "annual_income": 50724
+        },
+        {
+          "size": 3,
+          "income": 4542,
+          "min_income": 0,
+          "weekly_income": 975,
+          "annual_income": 50724
+        },
+        {
+          "size": 4,
+          "income": 5407,
+          "min_income": 0,
+          "weekly_income": 975,
+          "annual_income": 50724
+        },
+        {
+          "size": 5,
+          "income": 6272,
+          "min_income": 0,
+          "weekly_income": 975,
+          "annual_income": 50724
+        },
+        {
+          "size": 6,
+          "income": 7137,
+          "min_income": 0,
+          "weekly_income": 975,
+          "annual_income": 50724
+        },
+        {
+          "size": 7,
+          "income": 7299,
+          "min_income": 0,
+          "weekly_income": 975,
+          "annual_income": 50724
+        },
+        {
+          "size": 8,
+          "income": 7462,
           "min_income": 0,
           "weekly_income": 975,
           "annual_income": 50724
