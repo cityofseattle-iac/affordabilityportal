@@ -2622,9 +2622,9 @@
     "id": 18,
     "category": "Utilities",
     "vanityUrl": "18-SPU-free-toilet-program",
-    "image": "https://innovation-performance.seattle.gov/wp-content/uploads/2019/08/Wave-internet.png",
+    "image": "https://soundgenerations.org/wp-content/themes/sg16/img/logo-sound-generations.png",
     "name": "Free Toilet Program",
-    "url": "https://www.seattle.gov/tech/services/internet-access/low-cost-home-internet-access-for-residents",
+    "url": "https://soundgenerations.org/get-help/home-maintenance/water-saving-toilets/",
     "email": "MHR@soundgenerations.org",
     "department": "Seattle Public Utilities (SPU)",
     "phone": "Phone: (206) 448-5751",
@@ -2642,7 +2642,7 @@
         },
         {
           "category": "text",
-          "value": "you receive a Seattle Public Utilities bill"
+          "value": "You receive a Seattle Public Utilities bill"
         },
         {
           "category": "text",
