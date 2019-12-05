@@ -2617,5 +2617,165 @@
     "seo_title": "Low Income Internet Assistance: Low-Cost, High Speed Internet",
     "seo_description": "Comcast offers home internet service for low-income residents in Seattle. Find out if you are eligible for low-cost, high-speed Internet, all for around $10 a month.",
     "seo_keywords": "low income internet assistance, internet assistance low income families, wifi assistance for low income, internet assistance for low income families, comcast low income assistance, wave low income assistance"
+  },
+  {
+    "id": 18,
+    "category": "Utilities",
+    "vanityUrl": "18-SPU-free-toilet-program",
+    "image": "https://www.seattle.gov/images/benefitscalculator/logo-sound-generations.png",
+    "name": "Free Toilet Program",
+    "url": "https://soundgenerations.org/get-help/home-maintenance/water-saving-toilets/",
+    "email": "MHR@soundgenerations.org",
+    "department": "Seattle Public Utilities (SPU)",
+    "phone": "Phone: (206) 448-5751",
+    "description-card": "Get a free toilet, installation, and recycling of your old water wasting toilet.",
+    "description-result": "Get a free toilet, installation, and recycling of your old water wasting toilet.",
+    "description-jump": "Seattle Public Utilities offers free water-saving toilets for income-qualified\n\nhomeowners. Installation of one new toilet and recycling of your old toilet is\n\nprovided free of charge. Replacing your old toilet will save water and can save\n\nyou up to $300 per year on utility bills.",
+    "description": "Get a free toilet, installation, and recycling of your old water wasting toilet.",
+    "tier": 2,
+    "household_cnt": 1,
+    "criteria": {
+      "text": [
+        {
+          "category": "text",
+          "value": "Staff will not ask information about immigration status"
+        },
+        {
+          "category": "text",
+          "value": "You receive a Seattle Public Utilities bill"
+        },
+        {
+          "category": "text",
+          "value": "You live in the home that you own "
+        },
+        {
+          "category": "text",
+          "value": "You have a toilet that was installed before 2004"
+        },
+        {
+          "category": "income",
+          "value": "Your total household income in the one-month prior to applying matches the table below:"
+        }
+      ],
+      "type": {
+        "adults_cnt": 0,
+        "seniors_cnt": 0,
+        "children_cnt": 0,
+        "pre_schoolers_cnt": 0,
+        "infants_cnt": 0
+      },
+      "income_limit": [
+        {
+          "size": 1,
+          "income": 2812,
+          "min_income": 0,
+          "weekly_income": 975,
+          "annual_income": 50724
+        },
+        {
+          "size": 2,
+          "income": 3677,
+          "min_income": 0,
+          "weekly_income": 975,
+          "annual_income": 50724
+        },
+        {
+          "size": 3,
+          "income": 4542,
+          "min_income": 0,
+          "weekly_income": 975,
+          "annual_income": 50724
+        },
+        {
+          "size": 4,
+          "income": 5407,
+          "min_income": 0,
+          "weekly_income": 975,
+          "annual_income": 50724
+        },
+        {
+          "size": 5,
+          "income": 6272,
+          "min_income": 0,
+          "weekly_income": 975,
+          "annual_income": 50724
+        },
+        {
+          "size": 6,
+          "income": 7137,
+          "min_income": 0,
+          "weekly_income": 975,
+          "annual_income": 50724
+        },
+        {
+          "size": 7,
+          "income": 7299,
+          "min_income": 0,
+          "weekly_income": 975,
+          "annual_income": 50724
+        },
+        {
+          "size": 8,
+          "income": 7462,
+          "min_income": 0,
+          "weekly_income": 975,
+          "annual_income": 50724
+        },
+        {
+          "size": 9,
+          "income": 7624,
+          "min_income": 0,
+          "weekly_income": 975,
+          "annual_income": 50724
+        },
+        {
+          "size": 10,
+          "income": 7786,
+          "min_income": 0,
+          "weekly_income": 975,
+          "annual_income": 50724
+        }
+      ]
+    },
+    "stuff_needed": [
+      "Income documentation for everyone 18 years and older living in your household",
+      "If you are enrolled in the Utility Discount Program, you do not need an application form or proof of income for this program. Your income already qualifies."
+    ],
+    "how_it_works": [
+      "Seattle Public Utilities partners with Sound Generations to deliver the\n\nprogram. Call Sound Generations-Minor Home Repair at (206) 448-\n\n5751. They will verify that you qualify, then schedule an appointment\n\nto check your toilets, showerheads, and faucet aerators and install\n\nwater-saving replacements as needed."
+    ],
+    "questions": {
+      "text": [
+        {
+          "category": "cell",
+          "value": "Call: (206) 448-5751"
+        },
+        {
+          "category": "email",
+          "value": "Email: MHR@soundgenerations.org"
+        }
+      ]
+    },
+    "age_range": "Homeowners who meet income guidelines, live in the home they pay, pay a Seattle Public Utilities bill, and have a toilet that wa installed before 2004",
+    "person_application": "N/A",
+    "application_info": "Call Sound Generations at (206) 448-5751. Staff can use the Language Line (interpretation service) to talk with you in a language other than English, free of charge.",
+    "savings": 25,
+    "savingsByPeriod": "$25 / Month",
+    "time_to_apply": "2 hours",
+    "time_hear_back": "1 Week",
+    "online_application": "N/A",
+    "application_form_link": "https://soundgenerations.org/get-help/home-maintenance/",
+    "application_form_linkText": "Printable application here",
+    "address": {
+      "address_section_title": "Seattle Public Utilities (SPU)",
+      "address_section_addr_line_1": "Sound Generations Water Conservation Program",
+      "address_section_addr_line_2": "2208 2nd Ave, Suite 100 Seattle, WA 98121-9985",
+      "address_section_phone": "Phone: (206) 448-5751 (Monday to Thursday) 8:00 AM - 4:00 PM, except holidays)\n\n",
+      "address_section_fax": "(206) 652-0433",
+      "address_section_email_address": "MHR@soundgenerations.org"
+    },
+    "seo_title": "",
+    "seo_description": "",
+    "seo_keywords": ""
   }
 ]
