@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "iconImage": "//www.seattle.gov/images/benefitscalculator/icon-childcare.png",
+    "iconImage": "https://innovation-performance.seattle.gov/wp-content/uploads/2019/12/icon-childcare.png",
     "name": "Education and Childcare",
     "factHeaderText": "Education and Childcare Fact",
     "factText": "Did you know that if you are a family of 4 with an annual income under $75,000, you might qualify for free or discounted child care through the City of Seattle?   ",
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "name": "Food",
-    "iconImage": "//www.seattle.gov/images/benefitscalculator/icon-food.png",
+    "iconImage": "https://innovation-performance.seattle.gov/wp-content/uploads/2019/12/icon-food.png",
     "factHeaderText": "Food Fact",
     "factText": "Did you know that if you or your family are enrolled in SNAP/use an EBT card or meet other income limits you could get fresh fruits and vegetables at Seattle grocery stores and farmers markets?   ",
     "factCTAText": "See if you qualify"
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "name": "Transportation",
-    "iconImage": "//www.seattle.gov/images/benefitscalculator/icon-transportation.png",
+    "iconImage": "https://innovation-performance.seattle.gov/wp-content/uploads/2019/12/icon-transportation.png",
     "factHeaderText": "Transportation Fact",
     "factText": "Did you know that the City of Seattle provides free ORCA passes for Seattle Public School students and income-qualified individuals?    ",
     "factCTAText": "See if you qualify"
@@ -26,10 +26,9 @@
   {
     "id": 4,
     "name": "Utilities",
-    "iconImage": "//www.seattle.gov/images/benefitscalculator/icon-utilities.png",
+    "iconImage": "https://innovation-performance.seattle.gov/wp-content/uploads/2019/12/icon-utilities.png",
     "factHeaderText": "Utilities Fact",
     "factText": "Did you know that if you are a family of 4 with an annual income under $65,000, you might qualify to receive a 60% discount on your Seattle City Light bill and a 50% discount on your Seattle Public Utilities bill?  ",
     "factCTAText": "See if you qualify"
-
   }
 ]
