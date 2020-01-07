@@ -9,6 +9,8 @@ import Page from '../layouts/main';
 import {i18n, withTranslation} from "../localization/i18n";
 import {setCategories, setPrograms} from "../redux/actions";
 import EligibleProgramsBreadcrumbs from "../components/eligible-programs/eligible-programs-breadcrumbs";
+import { getCategories } from '../api/categoryApi';
+import { getPrograms } from '../api/programsApi';
 
 const style = theme => ({
 
@@ -23,27 +25,22 @@ class EligiblePrograms extends React.Component {
 
     static async getInitialProps(ctx) {
 
-        function getCategories(language) {
-            return require('../content/' + language + '/data/categories');
-        }
+        const { categories, programs } = ctx.store.getState()
 
-        function getPrograms(language) {
-            return require('../content/' + language + '/data/programs');
+        if (categories.length === 0) {
+            const data = await getCategories()
+            await ctx.store.dispatch(setCategories(data))
+        }
+        if (programs.length === 0) {
+            const data = await getPrograms()
+            await ctx.store.dispatch(setPrograms(data))
         }
 
         const language = ctx.req === undefined ? i18n.language : ctx.req.language;
 
-        const categories = getCategories(language);
-        ctx.store.dispatch(setCategories(categories));
-
-        const programs = getPrograms(language);
-        ctx.store.dispatch(setPrograms(programs));
-
         return {
             namespacesRequired: ['seo', 'slim-calc', 'eligible-programs', 'eligible-programs-table', 'eligible-programs-table',
-                'eligible-programs-breadcrumbs', 'input-adults', 'input-children', 'input-family', 'input-income', 'input-age', 'input-zipcode'],
-            programs: programs,
-            categories: categories
+                'eligible-programs-breadcrumbs', 'input-adults', 'input-children', 'input-family', 'input-income', 'input-age', 'input-zipcode']
         };
     }
 

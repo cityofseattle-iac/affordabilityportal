@@ -8,6 +8,9 @@ import ProgramInfoCardsSection from '../components/program-infosite/card';
 import MoreInfo from "../components/program-infosite/more-info";
 import ProgramDetails from "../components/program-infosite/details";
 import ProgramInfoBreadcrumbs from "../components/program-infosite/program-info-breadcrumbs";
+import { connect } from 'react-redux';
+import { getCategories } from '../api/categoryApi';
+import { getPrograms } from '../api/programsApi';
 
 const styles = theme => ({
 
@@ -23,21 +26,16 @@ class ProgramInfo extends React.Component {
 
     static async getInitialProps(ctx) {
 
-        function getCategories(language) {
-            return require('../content/' + language + '/data/categories');
+        const { categories, programs } = ctx.store.getState()
+
+        if (categories.length === 0) {
+            const data = await getCategories()
+            await ctx.store.dispatch(setCategories(data))
         }
-
-        function getPrograms(language) {
-            return require('../content/' + language + '/data/programs');
+        if (programs.length === 0) {
+            const data = await getPrograms()
+            await ctx.store.dispatch(setPrograms(data))
         }
-
-        const language = ctx.req === undefined ? i18n.language : ctx.req.language;
-
-        const categories = getCategories(language);
-        ctx.store.dispatch(setCategories(categories));
-
-        const programs = getPrograms(language);
-        ctx.store.dispatch(setPrograms(programs));
 
         let id = "";
         if (ctx.isServer) id = ctx.req.params.id;
@@ -47,8 +45,6 @@ class ProgramInfo extends React.Component {
             namespacesRequired: ['common', 'main-nav', 'program-info-card',
                 'how-it-works', 'how-to-apply', 'stuff-needed', 'learn-more', 'questions',
                 'program-info-breadcrumbs'],
-            programs: programs,
-            categories: categories,
             id: id
         };
     }
@@ -75,4 +71,4 @@ class ProgramInfo extends React.Component {
 
 }
 
-export default withStyles(styles)(withTranslation('common')(ProgramInfo));
+export default connect(state => state)(withStyles(styles)(withTranslation('common')(ProgramInfo)));

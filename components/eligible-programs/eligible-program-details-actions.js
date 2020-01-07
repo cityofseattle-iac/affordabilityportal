@@ -34,7 +34,7 @@ const style = theme => ({
 
 
 function ccyFormat(num) {
-    return `${num.toFixed(2)}`;
+    return `${parseFloat(num).toFixed(2)}`;
 }
 
 /*

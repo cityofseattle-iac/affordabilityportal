@@ -32,7 +32,7 @@ class ProgramCategoryCollection extends React.Component {
                                         divId={category.name}
                                         headerText={category.factHeaderText}
                                         bodyText={category.factText}
-                                        ctaText={category.factCTAText}
+                                        ctaText={category.factCtaText}
                                         ctaLink={"#calculator"}
                                         iconImage={category.iconImage}
                                     />

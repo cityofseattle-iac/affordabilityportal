@@ -38,7 +38,7 @@ class Spheres extends React.Component {
                               href={`#${category.name.toLowerCase()}`}
                         >
                             <a href={`#${category.name.toLowerCase()}`}>
-                                <img className={classes.sphere} src={category.iconImage} alt={category.name}/>
+                                <img className={classes.sphere} src={'http://www.seattle.gov/' + category.iconImage} alt={category.name}/>
                             </a>
                         </Link>
                     );

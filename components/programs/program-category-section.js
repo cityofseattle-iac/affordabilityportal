@@ -70,7 +70,7 @@ class ProgramCategorySection extends React.Component {
                                 >
                                     <Card className={classes.card}>
                                         <div className={classes.cardInsides}>
-                                        <CardMedia className={classes.media} image={program.image}
+                                        <CardMedia className={classes.media} image={'http://www.seattle.gov/' + program.image}
                                                    title={program.name}/>
                                         <CardContent>
                                             <Typography variant="h5" component="h5">
@@ -82,8 +82,8 @@ class ProgramCategorySection extends React.Component {
                                         </CardContent>
 
                                         <CardActions className={classes.cardActions}>
-                                            <Link href={`/program-info?id=${program.vanityUrl}#${program.category}`}
-                                                  as={`/program-info/${program.vanityUrl}#${program.category.toLowerCase()}`}>
+                                                <Link href={`/program-info?id=${program.vanityUrl}#${program.category.toLowerCase()}`}
+                                                    as={`/program-info/${program.vanityUrl}#${program.category.toLowerCase().replace(/-/g, '')}`}>
                                                 <a className={classes.mediaLink} title={program.name}>
                                                     Learn more
                                                 </a>

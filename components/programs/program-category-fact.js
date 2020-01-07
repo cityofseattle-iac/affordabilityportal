@@ -38,7 +38,7 @@ class ProgramCategoryFact extends React.Component {
             <React.Fragment>
 
                 <div className={classes.root} id={divId.toLowerCase()}>
-                    <img className={classes.sphere} src={iconImage} alt={""}/>
+                    <img className={classes.sphere} src={'http://www.seattle.gov/' + iconImage} alt={""}/>
                     <div className={classes.factDescription}>
                         <Typography variant={'h4'} align={'left'} className={"factHeader"}>
                             {headerText}

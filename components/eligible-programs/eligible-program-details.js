@@ -9,6 +9,7 @@ import CardMedia from '@material-ui/core/CardMedia';
 import {Link, withTranslation} from '../../localization/i18n';
 import Typography from "@material-ui/core/Typography";
 import {connect} from "react-redux";
+import config from '../../config/config'
 
 const style = theme => ({
 
@@ -113,7 +114,7 @@ class EligibleProgramDetails extends React.Component {
                                         <Card className={classes.resultImageContainer}>
                                             <CardMedia
                                                 component="img"
-                                                image={result.image}
+                                                image={config.apiHost + '/' + result.image}
                                                 title={result.name}
                                                 className={classes.resultImage}
                                             />
@@ -131,7 +132,7 @@ class EligibleProgramDetails extends React.Component {
                                                 <Typography variant={'body2'} gutterBottom align={'left'}>
                                                     <Link
                                                         href={`/program-info?id=${result.vanityUrl}#${result.category.toLowerCase()}`}
-                                                        as={`/program-info/${result.vanityUrl}#${result.category.toLowerCase()}`}>
+                                                        as={`/program-info/${result.vanityUrl}#${result.category.toLowerCase().replace(/-/g, '')}`}>
                                                         <a className={classes.mediaLink} title={result.name}>{t('learnMore')}</a>
                                                     </Link>
                                                 </Typography>

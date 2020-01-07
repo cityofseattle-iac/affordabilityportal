@@ -13,11 +13,18 @@ const logger = require('../logging/logger');
 
 const app = next({dev: process.env.NODE_ENV !== 'production'});
 const handle = app.getRequestHandler();
+const basicAuth = require('express-basic-auth')
 
 const server = express();
 
 (async () => {
 
+    if (process.env.NODE_ENV !== 'production') {
+        server.use(basicAuth({
+            users: { 'seattle': 'expedia' },
+            challenge: true,
+        }))
+    }
     // CONFIGURATIONS
     server.set('port', config.port);
     server.set('https', config.https);

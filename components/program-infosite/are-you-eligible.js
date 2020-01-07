@@ -46,86 +46,71 @@ class AreYouEligible extends React.Component {
                 <Typography variant={"h4"}>{t('title')}</Typography>
                 <Divider/>
                 <div className={classes.info}>
-                    <ul>
-                        {program.criteria.text.map((item, index) => {
-                                if (item.category !== 'income') {
-                                    return (
-                                        <React.Fragment key={index}>
-                                            <li>
-                                                <Typography key={index} variant={"body1"}>{item.value}</Typography>
-                                            </li>
-                                        </React.Fragment>
-                                    )
-                                } else {
-                                    return (
-                                        <React.Fragment key={index}>
-                                            <li>
-                                                <Typography key={index} variant={"body1"}>{item.value}</Typography>
-                                            </li>
-                                            <Table className={classes.table}>
-                                                <TableHead>
-                                                    <TableRow>
-                                                        <StyledTableCell
-                                                            align="center">{t('col-1-header')}</StyledTableCell>
-                                                        <Hidden only={['sm', 'xs']}>
-                                                            <StyledTableCell
-                                                                align="center">{t('col-2-header')}</StyledTableCell>
-                                                        </Hidden>
-                                                        <StyledTableCell
-                                                            align="center">{t('col-3-header')}</StyledTableCell>
-                                                        <Hidden only={['sm', 'xs']}>
-                                                            <StyledTableCell
-                                                                align="center">{t('col-4-header')}</StyledTableCell>
-                                                        </Hidden>
-                                                    </TableRow>
-                                                </TableHead>
-                                                <TableBody>
-                                                    {program.criteria.income_limit.map((result) => {
-                                                        if (result.min_income !== 0) {
-                                                            return (
-                                                                <TableRow key={result.size}>
-                                                                    <StyledTableCell
-                                                                        align="center">{result.size}</StyledTableCell>
-                                                                    <Hidden only={['sm', 'xs']}>
-                                                                        <StyledTableCell
-                                                                            align="center">{""}</StyledTableCell>
-                                                                    </Hidden>
-                                                                    <StyledTableCell
-                                                                        align="center">{"$"}{result.min_income}{" - $"}{result.income}</StyledTableCell>
-                                                                    <Hidden only={['sm', 'xs']}>
-                                                                        <StyledTableCell
-                                                                            align="center">{""}</StyledTableCell>
-                                                                    </Hidden>
-                                                                </TableRow>
-                                                            );
-                                                        }
-                                                        else if (result.min_income === 0){
-                                                            return (
-                                                                <TableRow key={result.size}>
-                                                                    <StyledTableCell
-                                                                        align="center">{result.size}</StyledTableCell>
-                                                                    <Hidden only={['sm', 'xs']}>
-                                                                        <StyledTableCell
-                                                                            align="center">{""}</StyledTableCell>
-                                                                    </Hidden>
-                                                                    <StyledTableCell
-                                                                        align="center">{"$"}{result.income}</StyledTableCell>
-                                                                    <Hidden only={['sm', 'xs']}>
-                                                                        <StyledTableCell
-                                                                            align="center">{""}</StyledTableCell>
-                                                                    </Hidden>
-                                                                </TableRow>
-                                                            );
-                                                        }
-                                                    })}
-                                                </TableBody>
-                                            </Table>
-                                        </React.Fragment>
-                                    )
-                                }
-                            }
-                        )}
-                    </ul>
+                    <Typography variant={"body1"} component="div">
+                        <div dangerouslySetInnerHTML={{ __html: program.criteria.criteriaText }} />  
+                    </Typography>
+                    
+                    {program.criteria.includeIncomeTable === true &&
+                        
+                        <Table className={classes.table}>
+                            <TableHead>
+                                <TableRow>
+                                    <StyledTableCell
+                                        align="center">{t('col-1-header')}</StyledTableCell>
+                                    <Hidden only={['sm', 'xs']}>
+                                        <StyledTableCell
+                                            align="center">{t('col-2-header')}</StyledTableCell>
+                                    </Hidden>
+                                    <StyledTableCell
+                                        align="center">{t('col-3-header')}</StyledTableCell>
+                                    <Hidden only={['sm', 'xs']}>
+                                        <StyledTableCell
+                                            align="center">{t('col-4-header')}</StyledTableCell>
+                                    </Hidden>
+                                </TableRow>
+                            </TableHead>
+                            <TableBody>
+                                {program.criteria.incomeLimit.map((result) => {
+                                    if (result.minIncome !== '0') {
+                                        return (
+                                            <TableRow key={result.Size}>
+                                                <StyledTableCell
+                                                    align="center">{result.Size}</StyledTableCell>
+                                                <Hidden only={['sm', 'xs']}>
+                                                    <StyledTableCell
+                                                        align="center">{""}</StyledTableCell>
+                                                </Hidden>
+                                                <StyledTableCell
+                                                    align="center">{"$"}{result.minIncome}{" - $"}{result.income}</StyledTableCell>
+                                                <Hidden only={['sm', 'xs']}>
+                                                    <StyledTableCell
+                                                        align="center">{""}</StyledTableCell>
+                                                </Hidden>
+                                            </TableRow>
+                                        );
+                                    }
+                                    else if (result.minIncome === '0'){
+                                        return (
+                                            <TableRow key={result.Size}>
+                                                <StyledTableCell
+                                                    align="center">{result.Size}</StyledTableCell>
+                                                <Hidden only={['sm', 'xs']}>
+                                                    <StyledTableCell
+                                                        align="center">{""}</StyledTableCell>
+                                                </Hidden>
+                                                <StyledTableCell
+                                                    align="center">{"$"}{result.income}</StyledTableCell>
+                                                <Hidden only={['sm', 'xs']}>
+                                                    <StyledTableCell
+                                                        align="center">{""}</StyledTableCell>
+                                                </Hidden>
+                                            </TableRow>
+                                        );
+                                    }
+                                })}
+                            </TableBody>
+                        </Table>               
+                    }
                 </div>
             </div>
         );
