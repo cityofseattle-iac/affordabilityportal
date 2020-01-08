@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "node server/start.js",
+    "start": "NODE_ENV=production node server/start.js",
     "dev": "NODE_ENV=development node server/start.js",
     "build": "next build",
     "test": "react-scripts test --env=jsdom",

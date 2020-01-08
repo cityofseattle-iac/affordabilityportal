@@ -45,5 +45,5 @@ echo "Deleting old portal container..."
 docker rm portal
 
 echo "Staring new portal..."
-docker run -d -p 8080:8080 -p 8443:8443 -e NODE_ENV --restart unless-stopped --name portal prod/affordabilityportal
+docker run -d -p 8080:8080 -p 8443:8443 --restart unless-stopped --name portal prod/affordabilityportal
 
