@@ -67,4 +67,4 @@ See `license.txt` in this repository.
 
 ## Copyright notice
 
-Copyright &copy; 2019 Expedia Group. 
+Copyright &copy; 2019 Expedia Group.
