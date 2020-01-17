@@ -7,7 +7,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import {Link} from '../../localization/i18n';
 import {connect} from "react-redux";
-
+import config from '../../config/config'
 
 const styles = theme => ({
     root: {
@@ -70,7 +70,7 @@ class ProgramCategorySection extends React.Component {
                                 >
                                     <Card className={classes.card}>
                                         <div className={classes.cardInsides}>
-                                        <CardMedia className={classes.media} image={'http://www.seattle.gov/' + program.image}
+                                        <CardMedia className={classes.media} image={config.apiHost + '/' + program.image}
                                                    title={program.name}/>
                                         <CardContent>
                                             <Typography variant="h5" component="h5">

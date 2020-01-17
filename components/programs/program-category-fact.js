@@ -2,6 +2,7 @@ import React from 'react';
 import {Typography, withStyles} from "@material-ui/core";
 import Grid from "@material-ui/core/Grid";
 import {Link} from '../../localization/i18n';
+import config from '../../config/config'
 
 const styles = theme => ({
     root: {
@@ -34,23 +35,31 @@ class ProgramCategoryFact extends React.Component {
         const {divId, headerText, bodyText, ctaText, ctaLink, iconImage} = this.props;
 
         return (
-
-            <React.Fragment>
-
-                <div className={classes.root} id={divId.toLowerCase()}>
-                    <img className={classes.sphere} src={'http://www.seattle.gov/' + iconImage} alt={""}/>
-                    <div className={classes.factDescription}>
-                        <Typography variant={'h4'} align={'left'} className={"factHeader"}>
-                            {headerText}
-                        </Typography>
-                        <Typography variant={'body2'} align={'left'}>
-                            {bodyText} <Link href={ctaLink}><a>{ctaText}</a></Link>
-                        </Typography>
-                    </div>
-                </div>
-
-            </React.Fragment>
-        );
+          <React.Fragment>
+            <div className={classes.root} id={divId.toLowerCase()}>
+              <img
+                className={classes.sphere}
+                src={config.apiHost + '/' + iconImage}
+                alt={''}
+              />
+              <div className={classes.factDescription}>
+                <Typography
+                  variant={'h4'}
+                  align={'left'}
+                  className={'factHeader'}
+                >
+                  {headerText}
+                </Typography>
+                <Typography variant={'body2'} align={'left'}>
+                  {bodyText}{' '}
+                  <Link href={ctaLink}>
+                    <a>{ctaText}</a>
+                  </Link>
+                </Typography>
+              </div>
+            </div>
+          </React.Fragment>
+        )
     }
 }
 
