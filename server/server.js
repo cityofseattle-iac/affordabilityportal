@@ -17,8 +17,6 @@ const basicAuth = require('express-basic-auth')
 
 const server = express();
 
-console.log(process.env.NODE_ENV)
-
 (async () => {
 
     if (process.env.NODE_ENV != 'production') {
