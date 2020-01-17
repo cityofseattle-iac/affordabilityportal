@@ -11,15 +11,17 @@ const nextI18next = require('../localization/i18n');
 const config = require('../config/config');
 const logger = require('../logging/logger');
 
-const app = next({dev: process.env.NODE_ENV !== 'production'});
+const app = next({dev: process.env.NODE_ENV != 'production'});
 const handle = app.getRequestHandler();
 const basicAuth = require('express-basic-auth')
 
 const server = express();
 
+console.log(process.env.NODE_ENV)
+
 (async () => {
 
-    if (process.env.NODE_ENV !== 'production') {
+    if (process.env.NODE_ENV != 'production') {
         server.use(basicAuth({
             users: { 'seattle': 'expedia' },
             challenge: true,
