@@ -133,7 +133,7 @@ class EligibleProgramDetails extends React.Component {
                                                     <Link
                                                         href={`/program-info?id=${result.vanityUrl}#${result.category.toLowerCase()}`}
                                                         as={`/program-info/${result.vanityUrl}#${result.category.toLowerCase().replace(/-/g, '')}`}>
-                                                        <a className={classes.mediaLink} title={result.name}>{t('learnMore')}</a>
+                                                        <a className={classes.mediaLink} aria-label={result.name}>{t('learnMore')}</a>
                                                     </Link>
                                                 </Typography>
                                             </CardContent>
