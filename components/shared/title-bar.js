@@ -65,7 +65,7 @@ class TitleBar extends React.Component {
                                   spacing={2}
                             >
                                 <Grid item lg={8} md={8} xs={10} sm={10}>
-                                    <Typography variant="h4" gutterBottom>
+                                    <Typography component="h1" variant="h4" gutterBottom>
                                         {t('text')}
                                     </Typography>
                                     <Typography variant="body1" gutterBottom>
@@ -73,7 +73,7 @@ class TitleBar extends React.Component {
                                     </Typography>
                                 </Grid>
                                 <Grid item lg={4} md={4} xs={8} sm={8} className={classes.titleCTA}>
-                                    <Typography variant="h5">
+                                    <Typography component="div" variant="h5">
                                         {t('promo-title')}
                                     </Typography>
                                     <Typography variant="body1" gutterBottom>

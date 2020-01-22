@@ -60,28 +60,28 @@ class EligibleProgramDetailsActions extends React.Component {
                     >
                         <Grid item lg={3} md={4} xs={12} sm={3}>
                             <div className={classes.resultSectionLight}>
-                                <Typography variant="body2" component="h2">
+                                <Typography variant="body2" component="h4">
                                     Average savings: ${ccyFormat(savings)} / Month
                                 </Typography>
                             </div>
                         </Grid>
                         <Grid item lg={3} md={4} xs={12} sm={3}>
                             <div className={classes.resultSectionDark}>
-                                <Typography variant="body2" component="h2">
+                                <Typography variant="body2" component="h4">
                                     Who it's for: {age}
                                 </Typography>
                             </div>
                         </Grid>
                         <Grid item lg={3} md={4} xs={12} sm={3}>
                             <div className={classes.resultSectionLight}>
-                                <Typography variant="body2" component="h2">
+                                <Typography variant="body2" component="h4">
                                     Average time to apply: {time_to_apply}
                                 </Typography>
                             </div>
                         </Grid>
                         <Grid item lg={3} md={4} xs={12} sm={3}>
                             <div className={classes.resultSectionDark}>
-                                <Typography variant="body2" component="h2">
+                                <Typography variant="body2" component="h4">
                                     Average response time: {time_hear_back}
                                 </Typography>
                             </div>
