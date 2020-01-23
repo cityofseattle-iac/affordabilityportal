@@ -23,7 +23,7 @@ class ProgramInfoBreadcrumbs extends React.Component {
             <div className={classes.root}>
                 <Breadcrumbs separator="›" aria-label="Breadcrumb">
                     <Link href="/">
-                        <IconButton>
+                        <IconButton href="/" component="a" title="Home">
                             <HomeIcon/>
                         </IconButton>
                     </Link>
