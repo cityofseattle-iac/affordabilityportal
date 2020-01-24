@@ -27,7 +27,7 @@ class EligibleProgramsBreadcrumbs extends React.Component {
                             <HomeIcon/>
                         </IconButton>
                     </Link>
-                    <Typography color="textPrimary">{t('eligible_programs')}</Typography>
+                    <Typography aria-current="location" color="textPrimary">{t('eligible_programs')}</Typography>
                 </Breadcrumbs>
             </div>
         );

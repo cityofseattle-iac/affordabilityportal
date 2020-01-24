@@ -27,7 +27,7 @@ class ProgramInfoBreadcrumbs extends React.Component {
                             <HomeIcon/>
                         </IconButton>
                     </Link>
-                    <Typography color="textPrimary">{t('program')}</Typography>
+                    <Typography aria-current="location" color="textPrimary">{t('program')}</Typography>
                 </Breadcrumbs>
             </div>
         );
