@@ -8,7 +8,6 @@ import TableRow from "@material-ui/core/TableRow";
 import TableBody from "@material-ui/core/TableBody";
 import TableCell from "@material-ui/core/TableCell";
 import TableHead from "@material-ui/core/TableHead";
-import Hidden from "@material-ui/core/Hidden";
 
 const styles = {
     root: {
@@ -56,17 +55,11 @@ class AreYouEligible extends React.Component {
                             <TableHead>
                                 <TableRow>
                                     <StyledTableCell
-                                        align="center">{t('col-1-header')}</StyledTableCell>
-                                    <Hidden only={['sm', 'xs']}>
-                                        <StyledTableCell
-                                            align="center">{t('col-2-header')}</StyledTableCell>
-                                    </Hidden>
+                                        align="center">{t('col-1-header')}
+                                    </StyledTableCell>
                                     <StyledTableCell
-                                        align="center">{t('col-3-header')}</StyledTableCell>
-                                    <Hidden only={['sm', 'xs']}>
-                                        <StyledTableCell
-                                            align="center">{t('col-4-header')}</StyledTableCell>
-                                    </Hidden>
+                                        align="center">{t('col-3-header')}
+                                    </StyledTableCell>
                                 </TableRow>
                             </TableHead>
                             <TableBody>
@@ -75,35 +68,22 @@ class AreYouEligible extends React.Component {
                                         return (
                                             <TableRow key={result.Size}>
                                                 <StyledTableCell
-                                                    align="center">{result.Size}</StyledTableCell>
-                                                <Hidden only={['sm', 'xs']}>
-                                                    <StyledTableCell
-                                                        align="center">{""}</StyledTableCell>
-                                                </Hidden>
+                                                    align="center">{result.Size}
+                                                </StyledTableCell>
                                                 <StyledTableCell
-                                                    align="center">{"$"}{result.minIncome}{" - $"}{result.income}</StyledTableCell>
-                                                <Hidden only={['sm', 'xs']}>
-                                                    <StyledTableCell
-                                                        align="center">{""}</StyledTableCell>
-                                                </Hidden>
+                                                    align="center">{"$"}{result.minIncome}{" - $"}{result.income}
+                                                </StyledTableCell>
                                             </TableRow>
                                         );
-                                    }
-                                    else if (result.minIncome === '0'){
+                                    } else {
                                         return (
                                             <TableRow key={result.Size}>
                                                 <StyledTableCell
-                                                    align="center">{result.Size}</StyledTableCell>
-                                                <Hidden only={['sm', 'xs']}>
-                                                    <StyledTableCell
-                                                        align="center">{""}</StyledTableCell>
-                                                </Hidden>
+                                                    align="center">{result.Size}
+                                                </StyledTableCell>
                                                 <StyledTableCell
-                                                    align="center">{"$"}{result.income}</StyledTableCell>
-                                                <Hidden only={['sm', 'xs']}>
-                                                    <StyledTableCell
-                                                        align="center">{""}</StyledTableCell>
-                                                </Hidden>
+                                                    align="center">{"$"}{result.income}
+                                                </StyledTableCell>
                                             </TableRow>
                                         );
                                     }
