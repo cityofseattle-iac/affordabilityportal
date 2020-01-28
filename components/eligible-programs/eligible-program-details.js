@@ -99,8 +99,11 @@ class EligibleProgramDetails extends React.Component {
 
         return (
             <div className={classes.root}>
+                <a id="programDetails" tabIndex="-1"></a>
                 <div className={classes.body}>
-                    <Typography variant={'h3'} align={'left'}>Program Details {filtered_programs.header}</Typography>
+                    <Typography  variant={'h3'} align={'left'}>
+                        Program Details {filtered_programs.header}
+                    </Typography>
                     {filtered_programs.map((result) => {
 
                         return (
