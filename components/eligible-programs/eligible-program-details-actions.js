@@ -16,7 +16,7 @@ const style = theme => ({
         position: 'absolute',
         width: '100%',
         bottom: 0,
-        [theme.breakpoints.only('xs')]: {
+        [theme.breakpoints.down('sm')]: {
             position: 'relative',
         },
     },
@@ -58,28 +58,28 @@ class EligibleProgramDetailsActions extends React.Component {
                         justify="space-evenly"
                         alignItems="stretch"
                     >
-                        <Grid item lg={3} md={4} xs={12} sm={3}>
+                        <Grid item lg={3} md={3} xs={12} sm={12}>
                             <div className={classes.resultSectionLight}>
                                 <Typography variant="body2" component="h2">
                                     Average savings: ${ccyFormat(savings)} / Month
                                 </Typography>
                             </div>
                         </Grid>
-                        <Grid item lg={3} md={4} xs={12} sm={3}>
+                        <Grid item lg={3} md={3} xs={12} sm={12}>
                             <div className={classes.resultSectionDark}>
                                 <Typography variant="body2" component="h2">
                                     Who it's for: {age}
                                 </Typography>
                             </div>
                         </Grid>
-                        <Grid item lg={3} md={4} xs={12} sm={3}>
+                        <Grid item lg={3} md={3} xs={12} sm={12}>
                             <div className={classes.resultSectionLight}>
                                 <Typography variant="body2" component="h2">
                                     Average time to apply: {time_to_apply}
                                 </Typography>
                             </div>
                         </Grid>
-                        <Grid item lg={3} md={4} xs={12} sm={3}>
+                        <Grid item lg={3} md={3} xs={12} sm={12}>
                             <div className={classes.resultSectionDark}>
                                 <Typography variant="body2" component="h2">
                                     Average response time: {time_hear_back}

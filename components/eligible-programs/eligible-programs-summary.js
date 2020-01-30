@@ -13,12 +13,13 @@ const styles = {
         maxWidth: 1200,
         padding: '40px 20px'
     },
-
     desc: {
         textAlign: 'left',
         color: '#4C4C4C',
+    },
+    ieFlexFix: {
+        minHeight: '50px'
     }
-
 };
 
 class EligibleProgramSummary extends React.Component {
@@ -40,7 +41,7 @@ class EligibleProgramSummary extends React.Component {
                     justify="space-evenly"
                     alignItems="center"
                 >
-                    <Grid item xs={12} sm={12} md={12} lg={8}>
+                    <Grid item xs={12} sm={12} md={12} lg={8} class={classes.ieFlexFix}>
                         <Typography variant={"h3"}>{t('headerText')}</Typography>
                     </Grid>
                     <Grid item xs={12} sm={12} md={12} lg={8}>

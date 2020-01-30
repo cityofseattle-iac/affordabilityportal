@@ -67,9 +67,9 @@ const style = theme => ({
         paddingBottom: 35,
         boxShadow: 'none',
         position: 'relative',
-        [theme.breakpoints.only('sm')]: {
-            marginBottom: '75px',
-        },
+        // [theme.breakpoints.only('sm')]: {
+        //     marginBottom: '75px',
+        // },
 
     },
     resultSectionLight: {
@@ -110,7 +110,7 @@ class EligibleProgramDetails extends React.Component {
                                       direction="row"
                                       justify="space-evenly"
                                 >
-                                    <Grid item lg={3} md={3} xs={12} sm={3}>
+                                    <Grid item lg={3} md={3} xs={12} sm={12}>
                                         <Card className={classes.resultImageContainer}>
                                             <CardMedia
                                                 component="img"
@@ -120,10 +120,10 @@ class EligibleProgramDetails extends React.Component {
                                             />
                                         </Card>
                                     </Grid>
-                                    <Grid item lg={9} md={9} xs={12} sm={9}>
+                                    <Grid item lg={9} md={9} xs={12} sm={12}>
                                         <Card className={classes.cardBody}>
                                             <CardContent className={classes.cardContent}>
-                                                <Typography gutterBottom variant="h5" component="h1">
+                                                <Typography variant="h5" component="h1">
                                                     {result.name}
                                                 </Typography>
                                                 <Typography variant="body2">
