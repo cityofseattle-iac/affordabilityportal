@@ -11,6 +11,7 @@ import ProgramInfoBreadcrumbs from "../components/program-infosite/program-info-
 import { connect } from 'react-redux';
 import { getCategories } from '../api/categoryApi';
 import { getPrograms } from '../api/programsApi';
+import NewWindowWarning from '../components/shared/new-window-warning'
 
 const styles = theme => ({
 
@@ -57,6 +58,7 @@ class ProgramInfo extends React.Component {
 
             <Page title={program.seo_title} description={program.seo_description} keywords={program.seo_keywords}>
                 <div className={classes.root}>
+                    <NewWindowWarning/>
                     <ProgramInfoBreadcrumbs/>
                     <ProgramInfoHeader program={program}/>
                     <ProgramDetails program={program}/>

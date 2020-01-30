@@ -45,7 +45,7 @@ class HowtoApply extends React.Component {
 
         return (
             <div className={classes.root}>
-                <Typography variant={"h4"}>{t('title')}</Typography>
+                <Typography component="h2" variant={"h4"}>{t('title')}</Typography>
                 <Divider/>
                 <Grid className={classes.info} container direction={"column"} spacing={2}>
                     <Grid item>
@@ -53,7 +53,7 @@ class HowtoApply extends React.Component {
                     </Grid>
 
                     <Grid item >
-                        <Typography variant={"h6"}>
+                        <Typography component="h3" variant={"h6"}>
                             {t('website')}
                         </Typography>
 
@@ -62,13 +62,19 @@ class HowtoApply extends React.Component {
                         </Typography>
 
                         <Typography variant={"body1"}>
-                            <a href={program.online_application_link} target={"_blank"} rel={"noopener"}>
-                                {program.online_application_linkText}</a>
+                            <a 
+                                href={program.online_application_link} 
+                                target={"_blank"} 
+                                rel={"noopener"} 
+                                aria-describedby="new-window-warning"
+                            >
+                                {program.online_application_linkText}
+                            </a>
                         </Typography>
                     </Grid>
 
                     <Grid item >
-                        <Typography variant={"h6"}>
+                        <Typography component="h3" variant={"h6"}>
                             {t('paper_form')}
                         </Typography>
 
@@ -77,13 +83,19 @@ class HowtoApply extends React.Component {
                         </Typography>
 
                         <Typography variant={"body1"}>
-                            <a href={program.application_form_link} target={"_blank"} rel={"noopener"}>
-                                {program.application_form_linkText}</a>
+                            <a 
+                                href={program.application_form_link} 
+                                target={"_blank"} 
+                                rel={"noopener"} 
+                                aria-describedby="new-window-warning"
+                            >
+                                {program.application_form_linkText}
+                            </a>
                         </Typography>
                     </Grid>
 
                     <Grid item>
-                        <Typography variant={"h6"}>
+                        <Typography component="h3" variant={"h6"}>
                             {t('email')}
                         </Typography>
                         <Typography variant={"body1"}>
@@ -92,7 +104,7 @@ class HowtoApply extends React.Component {
                     </Grid>
 
                     <Grid item>
-                        <Typography variant={"h6"}>
+                        <Typography component="h3" variant={"h6"}>
                             {t('mail')}
                         </Typography>
 
@@ -101,12 +113,12 @@ class HowtoApply extends React.Component {
                     </Grid>
 
                     <Grid item>
-                        <Typography variant={"h6"}>{t('phone')}</Typography>
+                        <Typography component="h3" variant={"h6"}>{t('phone')}</Typography>
                         <Typography variant={"body1"}>{program.address.address_section_phone}</Typography>
                     </Grid>
 
                     <Grid item>
-                        <Typography variant={"h6"}>
+                        <Typography component="h3" variant={"h6"}>
                             {t('person')}
                         </Typography>
                         <Typography variant={"body1"}>
@@ -115,7 +127,7 @@ class HowtoApply extends React.Component {
                     </Grid>
 
                     <Grid item>
-                        <Typography variant={"h6"}>
+                        <Typography component="h3" variant={"h6"}>
                             {t('fax')}
                         </Typography>
                         <Typography variant={"body1"}>

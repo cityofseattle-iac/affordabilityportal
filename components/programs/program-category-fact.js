@@ -44,6 +44,7 @@ class ProgramCategoryFact extends React.Component {
               />
               <div className={classes.factDescription}>
                 <Typography
+                  component="h3"
                   variant={'h4'}
                   align={'left'}
                   className={'factHeader'}

@@ -22,7 +22,7 @@ class Questions extends React.Component {
 
         return (
             <div className={classes.root}>
-                <Typography variant={"h4"}>{t('title')}</Typography>
+                <Typography component="h2" variant={"h4"}>{t('title')}</Typography>
                 <Divider/>
 
                 <div className={classes.info}>

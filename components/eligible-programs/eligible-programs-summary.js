@@ -49,7 +49,7 @@ class EligibleProgramSummary extends React.Component {
                     alignItems="center"
                 >
                     <Grid item xs={12} sm={12} md={12} lg={8}>
-                        <Typography variant={"h3"}>{t('headerText')}</Typography>
+                        <Typography component="h1" variant={"h3"}>{t('headerText')}</Typography>
                     </Grid>
                     <Grid item xs={12} sm={12} md={12} lg={8}>
                         <div className={classes.desc}>

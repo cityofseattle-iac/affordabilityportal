@@ -27,7 +27,7 @@ class ProgramDetails extends React.Component {
                         <Grid item xs={12} sm={12} md={8} lg={8} xl={8}>
                             <Grid container direction={"column"} spacing={1}>
                                 <Grid item>
-                                    <Typography variant={"h2"} className={classes.name}>{program.name}</Typography>
+                                    <Typography component="h1" variant={"h2"} className={classes.name}>{program.name}</Typography>
                                 </Grid>
                                 <Grid item>
                                     <Typography variant={"body1"}>{program['description_jump']}</Typography>

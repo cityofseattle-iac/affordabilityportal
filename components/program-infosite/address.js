@@ -21,7 +21,7 @@ class AddressInfoSection extends React.Component {
 
         return (
             <React.Fragment>
-                <Typography variant={"h6"}>{program.department}</Typography>
+                <Typography component="div" variant={"h6"}>{program.department}</Typography>
             </React.Fragment>
         );
 
