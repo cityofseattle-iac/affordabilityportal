@@ -115,7 +115,7 @@ class EligibleProgramDetails extends React.Component {
                                             <CardMedia
                                                 component="img"
                                                 image={config.apiHost + '/' + result.image}
-                                                title={result.name}
+                                                alt={result.name}
                                                 className={classes.resultImage}
                                             />
                                         </Card>
