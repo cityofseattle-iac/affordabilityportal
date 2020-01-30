@@ -213,7 +213,7 @@ class SlimEligibilityCalculator extends React.Component {
             category: 'Form',
             action: 'Submit Find Services Form'
         });
-        Router.push("/eligible-programs#eligibility");
+        Router.push("/eligible-programs");
     };
 
     render() {
