@@ -9,8 +9,16 @@ class LearnMore extends React.Component {
         const {t, program} = this.props;
 
         return (
-            <Button variant="contained" size="large" color="primary" href={program.url}
-                    target={"_blank"}>{t('cta-text')}</Button>
+            <Button 
+                variant="contained" 
+                size="large" 
+                color="primary" 
+                href={program.url}
+                target={"_blank"}
+                aria-describedby="new-window-warning"
+            >
+                {t('cta-text')}
+            </Button>
         );
     }
 
