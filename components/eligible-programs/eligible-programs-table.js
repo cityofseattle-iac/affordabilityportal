@@ -90,13 +90,13 @@ class EligibleProgramsTable extends React.Component {
                                         <CustomTableCell align="left">{result.time_to_apply}</CustomTableCell>
                                         <CustomTableCell align="left">{result.time_hear_back}</CustomTableCell>
                                     </Hidden>
-                                    <CustomTableCell align="right">{ccyFormat(result.savings)}</CustomTableCell>
+                                    <CustomTableCell align="right">
+                                        <span aria-label={result.savings + ' dollars'}>{ccyFormat(result.savings)}</span>
+                                    </CustomTableCell>
                                 </TableRow>
                             );
                         })}
                     </TableBody>
-
-
                 </Table>
             </div>
         );

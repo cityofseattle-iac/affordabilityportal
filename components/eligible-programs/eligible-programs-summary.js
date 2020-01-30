@@ -24,6 +24,14 @@ const styles = {
 
 class EligibleProgramSummary extends React.Component {
 
+    setFocus = (e) => {
+        e.preventDefault()
+        
+        let details = document.getElementById("programDetails")
+        details.focus()
+        details.scrollIntoView()
+    }
+
     render() {
 
         const {classes, t} = this.props;
@@ -42,12 +50,14 @@ class EligibleProgramSummary extends React.Component {
                     alignItems="center"
                 >
                     <Grid item xs={12} sm={12} md={12} lg={8} class={classes.ieFlexFix}>
-                        <Typography variant={"h3"}>{t('headerText')}</Typography>
+                        <Typography component="h1" variant={"h3"}>{t('headerText')}</Typography>
                     </Grid>
                     <Grid item xs={12} sm={12} md={12} lg={8}>
                         <div className={classes.desc}>
                             <Typography variant={"body1"}>{final_desc}</Typography>
-                            <Typography variant={"body1"}><a href="#programdetails">View program details</a></Typography>
+                            <Typography variant={"body1"}>
+                                <a id="viewProgramDetails" href="#" onClick={this.setFocus}>View program details</a>
+                            </Typography>
                         </div>
                     </Grid>
                 </Grid>

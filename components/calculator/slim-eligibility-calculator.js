@@ -213,7 +213,7 @@ class SlimEligibilityCalculator extends React.Component {
             category: 'Form',
             action: 'Submit Find Services Form'
         });
-        Router.push("/eligible-programs#eligibility");
+        Router.push("/eligible-programs");
     };
 
     render() {
@@ -226,6 +226,7 @@ class SlimEligibilityCalculator extends React.Component {
                 <div className={classes.body}>
                     <form onSubmit={this.handleSubmit}>
                         <Typography
+                            component="div"
                             variant={"h5"}
                             align={'left'}
                             className={classes.headerText}

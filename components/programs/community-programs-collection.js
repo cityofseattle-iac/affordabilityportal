@@ -37,7 +37,7 @@ class CommunityPrograms extends React.Component {
         return (
             <React.Fragment>
                 <div className={classes.root} id="programs">
-                    <Typography variant={"h3"}>{t('headerText')}</Typography>
+                    <Typography component="h2" variant={"h3"}>{t('headerText')}</Typography>
                     <div className={classes.collectionContainer}>
                         <Spheres categories={categories}/>
                         <div className={classes.desc}>

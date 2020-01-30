@@ -23,11 +23,11 @@ class EligibleProgramsBreadcrumbs extends React.Component {
             <div className={classes.root}>
                 <Breadcrumbs separator="›" aria-label="Breadcrumb">
                     <Link href="/">
-                        <IconButton>
+                        <IconButton href="/" component="a" title="Home" aria-label="Return to homepage">
                             <HomeIcon/>
                         </IconButton>
                     </Link>
-                    <Typography color="textPrimary">{t('eligible_programs')}</Typography>
+                    <Typography aria-current="location" color="textPrimary">{t('eligible_programs')}</Typography>
                 </Breadcrumbs>
             </div>
         );

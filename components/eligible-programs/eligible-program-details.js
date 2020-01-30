@@ -99,8 +99,9 @@ class EligibleProgramDetails extends React.Component {
 
         return (
             <div className={classes.root}>
+                <a id="programDetails" tabIndex="-1"></a>
                 <div className={classes.body}>
-                    <Typography variant={'h3'} align={'left'}>Program Details {filtered_programs.header}</Typography>
+                    <Typography component="h2" variant={'h3'} align={'left'}>Program Details {filtered_programs.header}</Typography>
                     {filtered_programs.map((result) => {
 
                         return (
@@ -115,7 +116,7 @@ class EligibleProgramDetails extends React.Component {
                                             <CardMedia
                                                 component="img"
                                                 image={config.apiHost + '/' + result.image}
-                                                title={result.name}
+                                                alt={result.name}
                                                 className={classes.resultImage}
                                             />
                                         </Card>
@@ -133,7 +134,7 @@ class EligibleProgramDetails extends React.Component {
                                                     <Link
                                                         href={`/program-info?id=${result.vanityUrl}#${result.category.toLowerCase()}`}
                                                         as={`/program-info/${result.vanityUrl}#${result.category.toLowerCase().replace(/-/g, '')}`}>
-                                                        <a className={classes.mediaLink} title={result.name}>{t('learnMore')}</a>
+                                                        <a className={classes.mediaLink} aria-label={result.name}>{t('learnMore')}</a>
                                                     </Link>
                                                 </Typography>
                                             </CardContent>
