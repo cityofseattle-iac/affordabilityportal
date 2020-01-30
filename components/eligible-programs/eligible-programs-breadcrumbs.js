@@ -23,7 +23,7 @@ class EligibleProgramsBreadcrumbs extends React.Component {
             <div className={classes.root}>
                 <Breadcrumbs separator="›" aria-label="Breadcrumb">
                     <Link href="/">
-                        <IconButton href="/" component="a" title="Home">
+                        <IconButton href="/" component="a" title="Home" aria-label="Return to homepage">
                             <HomeIcon/>
                         </IconButton>
                     </Link>
