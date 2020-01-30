@@ -84,7 +84,7 @@ class ProgramCategorySection extends React.Component {
                                         <CardActions className={classes.cardActions}>
                                                 <Link href={`/program-info?id=${program.vanityUrl}#${program.category.toLowerCase()}`}
                                                     as={`/program-info/${program.vanityUrl}#${program.category.toLowerCase().replace(/-/g, '')}`}>
-                                                <a className={classes.mediaLink} title={program.name}>
+                                                <a className={classes.mediaLink} aria-label={program.name}>
                                                     Learn more
                                                 </a>
                                             </Link>
