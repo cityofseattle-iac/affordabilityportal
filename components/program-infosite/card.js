@@ -32,7 +32,7 @@ class ProgramInfoCardsSection extends React.Component {
                             <Card className={classes.card}>
                                 <CardContent className={classes.cardContent}>
                                     <Typography variant={"body1"}>{t('savingsHeader')}</Typography>
-                                    <Typography variant={"h4"}>{program.savingsByPeriod}</Typography>
+                                    <Typography component="div" variant={"h4"}>{program.savingsByPeriod}</Typography>
                                 </CardContent>
                             </Card>
                         </Grid>
@@ -40,7 +40,7 @@ class ProgramInfoCardsSection extends React.Component {
                             <Card className={classes.card}>
                                 <CardContent className={classes.cardContent}>
                                     <Typography variant={"body1"}>{t('applicationHeader')}</Typography>
-                                    <Typography variant={"h4"}>{program.time_to_apply}</Typography>
+                                    <Typography component="div" variant={"h4"}>{program.time_to_apply}</Typography>
                                 </CardContent>
                             </Card>
                         </Grid>
@@ -48,7 +48,7 @@ class ProgramInfoCardsSection extends React.Component {
                             <Card className={classes.card}>
                                 <CardContent className={classes.cardContent}>
                                     <Typography variant={"body1"}>{t('notificationHeader')}</Typography>
-                                    <Typography variant={"h4"}>{program.time_hear_back}</Typography>
+                                    <Typography component="div" variant={"h4"}>{program.time_hear_back}</Typography>
                                 </CardContent>
                             </Card>
                         </Grid>

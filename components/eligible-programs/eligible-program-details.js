@@ -100,7 +100,7 @@ class EligibleProgramDetails extends React.Component {
         return (
             <div className={classes.root}>
                 <div className={classes.body}>
-                    <Typography variant={'h3'} align={'left'}>Program Details {filtered_programs.header}</Typography>
+                    <Typography component="h2" variant={'h3'} align={'left'}>Program Details {filtered_programs.header}</Typography>
                     {filtered_programs.map((result) => {
 
                         return (
@@ -123,7 +123,7 @@ class EligibleProgramDetails extends React.Component {
                                     <Grid item lg={9} md={9} xs={12} sm={9}>
                                         <Card className={classes.cardBody}>
                                             <CardContent className={classes.cardContent}>
-                                                <Typography gutterBottom variant="h5" component="h1">
+                                                <Typography gutterBottom variant="h5" component="h3">
                                                     {result.name}
                                                 </Typography>
                                                 <Typography variant="body2">
