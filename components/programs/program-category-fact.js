@@ -36,7 +36,7 @@ class ProgramCategoryFact extends React.Component {
 
         return (
           <React.Fragment>
-            <div className={classes.root} id={divId.toLowerCase()}>
+            <aside className={classes.root} id={divId.toLowerCase()} aria-label={headerText}>
               <img
                 className={classes.sphere}
                 src={config.apiHost + '/' + iconImage}
@@ -58,7 +58,7 @@ class ProgramCategoryFact extends React.Component {
                   </Link>
                 </Typography>
               </div>
-            </div>
+            </aside>
           </React.Fragment>
         )
     }

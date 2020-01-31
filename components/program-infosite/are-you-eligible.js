@@ -41,7 +41,7 @@ class AreYouEligible extends React.Component {
         const {classes, t, program} = this.props;
 
         return (
-            <div className={classes.root}>
+            <section className={classes.root} aria-label={t('title')}>
                 <Typography variant={"h4"}>{t('title')}</Typography>
                 <Divider/>
                 <div className={classes.info}>
@@ -92,7 +92,7 @@ class AreYouEligible extends React.Component {
                         </Table>               
                     }
                 </div>
-            </div>
+            </section>
         );
     }
 

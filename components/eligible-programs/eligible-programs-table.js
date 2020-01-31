@@ -66,7 +66,7 @@ class EligibleProgramsTable extends React.Component {
         const total = subtotal(filtered_programs);
 
         return (
-            <div className={classes.root}>
+            <section className={classes.root} aria-label="Table of monthly savings">
                 <Table className={classes.table}>
                     <TableHead>
                         <TableRow>
@@ -98,7 +98,7 @@ class EligibleProgramsTable extends React.Component {
                         })}
                     </TableBody>
                 </Table>
-            </div>
+            </section>
         );
     }
 }
