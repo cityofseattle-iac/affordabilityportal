@@ -79,11 +79,9 @@ class TitleBar extends React.Component {
                                     <Typography variant="body1" gutterBottom>
                                         {t('promo-text')}
                                     </Typography>
-                                    <a href={t('button-link')} target="_blank" rel='noopener'>
-                                        <Button variant="contained" color="primary" className={classes.button}>
-                                            {t('button-text')}
-                                        </Button>
-                                    </a>
+                                    <Button href={t('button-link')} variant="contained" color="primary" className={classes.button}>
+                                        {t('button-text')}
+                                    </Button>
                                 </Grid>
                             </Grid>
                         </Grid>
