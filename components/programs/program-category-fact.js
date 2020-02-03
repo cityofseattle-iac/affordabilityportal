@@ -36,7 +36,8 @@ class ProgramCategoryFact extends React.Component {
 
         return (
           <React.Fragment>
-            <div className={classes.root} id={divId.toLowerCase()}>
+            <a id={divId.toLowerCase()} tabIndex="-1"></a>
+            <div className={classes.root}>
               <img
                 className={classes.sphere}
                 src={config.apiHost + '/' + iconImage}
