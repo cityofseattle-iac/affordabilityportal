@@ -16,10 +16,11 @@ const styles = theme => ({
         padding: '4px 8px',
         backgroundColor: theme.palette.common.white,
         border: '1px solid #ced4da',
+        fontWeight: 400,
     },
     itemText: {
         fontSize: 14,
-        fontWeight: 300,
+        fontWeight: 400,
     },
     icon: {
         padding: 5,

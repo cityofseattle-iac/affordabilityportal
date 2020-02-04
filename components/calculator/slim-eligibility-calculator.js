@@ -69,8 +69,13 @@ const styles = theme => ({
         width: '100%',
     },
     ctaText: {
-        width: '100%',
         color: '#FFFFFF',
+        width: 100,
+        textAlign: 'center',
+    },
+    ctaText_Disabled: {
+        color: '#373737',
+        width: 100,
         textAlign: 'center',
     },
     input: {
@@ -283,7 +288,7 @@ class SlimEligibilityCalculator extends React.Component {
                                                     className={classes.ctaSize}
                                                     type="submit"
                                                     disabled={!this.state.calculatorInputValid}>
-                                                <Typography variant={'button'} className={classes.ctaText}>
+                                                <Typography variant={'button'} className={this.state.calculatorInputValid ? classes.ctaText : classes.ctaText_Disabled}>
                                                     {t('buttonText')}
                                                 </Typography>
                                             </Button>

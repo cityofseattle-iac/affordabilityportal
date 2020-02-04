@@ -72,6 +72,9 @@ const style = theme => ({
         // },
 
     },
+    cardText: {
+        color: '#000',
+    },
     resultSectionLight: {
         backgroundColor: 'rgba(153, 153, 153, 0.10)',
         padding: 10,
@@ -124,13 +127,13 @@ class EligibleProgramDetails extends React.Component {
                                     <Grid item lg={9} md={9} xs={12} sm={12}>
                                         <Card className={classes.cardBody}>
                                             <CardContent className={classes.cardContent}>
-                                                <Typography variant="h5" component="h1">
+                                                <Typography variant="h5" component="h1" className={classes.cardText}>
                                                     {result.name}
                                                 </Typography>
-                                                <Typography variant="body2">
+                                                <Typography variant="body1" className={classes.cardText}>
                                                     {result.description}
                                                 </Typography>
-                                                <Typography variant={'body2'} gutterBottom align={'left'}>
+                                                <Typography variant={'body1'} gutterBottom align={'left'}>
                                                     <Link
                                                         href={`/program-info?id=${result.vanityUrl}#${result.category.toLowerCase()}`}
                                                         as={`/program-info/${result.vanityUrl}#${result.category.toLowerCase().replace(/-/g, '')}`}>
