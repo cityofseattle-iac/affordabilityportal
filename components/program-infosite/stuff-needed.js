@@ -20,7 +20,7 @@ class StuffNeeded extends React.Component {
         const {classes, t, program} = this.props;
 
         return (
-            <div className={classes.root}>
+            <section className={classes.root} aria-label={t('title')}>
                 <Typography component="h2" variant={"h4"}>{t('title')}</Typography>
                 <Divider/>
                 <div className={classes.info}>
@@ -28,7 +28,7 @@ class StuffNeeded extends React.Component {
                         <div dangerouslySetInnerHTML={{__html: program.stuff_needed}} />
                     </Typography>
                 </div>
-            </div>
+            </section>
         );
     }
 

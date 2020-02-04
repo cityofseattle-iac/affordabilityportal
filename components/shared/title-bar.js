@@ -50,7 +50,7 @@ class TitleBar extends React.Component {
         const {classes, t} = this.props;
 
         return (
-            <div className={classes.root}>
+            <main className={classes.root}>
                 <div className={classes.body}>
                     <Grid container
                           direction="row"
@@ -89,7 +89,7 @@ class TitleBar extends React.Component {
                         </Grid>
                     </Grid>
                 </div>
-            </div>
+            </main>
         );
     }
 }
