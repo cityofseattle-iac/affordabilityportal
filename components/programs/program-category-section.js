@@ -51,12 +51,10 @@ class ProgramCategorySection extends React.Component {
         const {classes, programCategoryText, programs} = this.props;
         const cleanProgramCategoryText = programCategoryText.replace(/-/g, ' ')
 
-        let header = <Typography id="programHeader" component="h4" variant="h5">{cleanProgramCategoryText}</Typography>;
-
         return (
 
             <section className={classes.root} aria-label={cleanProgramCategoryText}>
-                {header}
+                <Typography component="h4" variant="h5">{cleanProgramCategoryText}</Typography>
                 <Grid container
                       spacing={2}
                       alignItems="stretch"
