@@ -1,6 +1,7 @@
 import React from 'react';
 import {withStyles} from '@material-ui/core/styles';
 import {Link} from '../../localization/i18n';
+import Button from '@material-ui/core/Button'
 
 const styles = theme => ({
     root: {
@@ -12,7 +13,8 @@ const styles = theme => ({
     sphere: {
         width: 62,
         height: 62,
-        marginRight: 12,
+        marginRight: 6,
+        marginLeft: 6,
         verticalAlign: 'top',
         margin: 'auto',
         display: 'inline-block',
@@ -21,8 +23,12 @@ const styles = theme => ({
 
 class Spheres extends React.Component {
 
-    componentDidMount() {
-        /** This is where you'd wire up the fetch API call when you switch over to the headless CMS **/
+    setFocus = cat => e => {
+        e.preventDefault()
+
+        let details = document.getElementById(cat)
+        details.focus()
+        details.scrollIntoView()
     }
 
     render() {
@@ -34,13 +40,11 @@ class Spheres extends React.Component {
             <div className={classes.root}>
                 {categories.map((category) => {
                     return (
-                        <Link key={`program-category-${category.id}`}
-                              href={`#${category.name.toLowerCase()}`}
-                        >
-                            <a href={`#${category.name.toLowerCase()}`}>
-                                <img className={classes.sphere} src={'http://www.seattle.gov/' + category.iconImage} alt={category.name}/>
-                            </a>
-                        </Link>
+                        //<a href="#" onClick={this.setFocus(category.name.toLowerCase())} >
+                        <Button onClick={this.setFocus(category.name.toLowerCase())}>
+                            <img className={classes.sphere} src={'http://www.seattle.gov/' + category.iconImage} alt={category.name}/>
+                        </Button>
+                        //</a>
                     );
                 })}
             </div>
