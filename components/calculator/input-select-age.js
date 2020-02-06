@@ -68,7 +68,6 @@ class InputAge extends React.Component {
                             alignItems="center"
                             className={this.props.classes.margin}>
                                 <Select
-                                    id={formFieldId}
                                     className={this.props.classes.input}
                                     name={this.props.name}
                                     value={this.state.age}

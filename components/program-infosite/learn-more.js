@@ -15,6 +15,7 @@ class LearnMore extends React.Component {
                 color="primary" 
                 href={program.url}
                 target={"_blank"}
+                aria-label="Learn more about this program at Seattle.gov"
                 aria-describedby="new-window-warning"
             >
                 {t('cta-text')}

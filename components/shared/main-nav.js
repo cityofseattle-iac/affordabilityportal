@@ -49,10 +49,10 @@ const styles = {
         top: 8,
         color: '#fff',
         textDecoration: 'none',
-    },
-
-    'logoTitle:hover': {
-        textDecoration: 'underline'
+        cursor: 'poinyer',
+        '&:hover': {
+            textDecoration: 'underline'
+        }
     },
 
 
@@ -80,12 +80,9 @@ class MainNav extends React.Component {
                         <div className={classes.logo}>
                             <Link href={"https://www.seattle.gov"} rel={"noopener"}>
                                 <a className={"logoImageContainer"}>
-                                    <img className={classes.logoImage} src={"/static/logo.png"}
-                                         alt={t('image_alt')}/>
+                                    <img className={classes.logoImage} src={"/static/logo.png"} alt={t('image_alt')}/>
+                                    <span className={classes.logoTitle}>{t('title')}</span>    
                                 </a>
-                            </Link>
-                            <Link href={"https://www.seattle.gov"} rel={"noopener"}>
-                                <a className={classes.logoTitle}>{t('title')}</a>
                             </Link>
                             <span className={classes.logoSlogan}>{t('mayor-name')}</span>
                         </div>
