@@ -22,7 +22,7 @@ class ProgramDetails extends React.Component {
 
         return (
             <React.Fragment>
-                <div className={classes.root}>
+                <main className={classes.root}>
                     <Grid container spacing={10}>
                         <Grid item xs={12} sm={12} md={8} lg={8} xl={8}>
                             <Grid container direction={"column"} spacing={1}>
@@ -38,7 +38,7 @@ class ProgramDetails extends React.Component {
                             <AddressInfoSection program={program}/>
                         </Grid>
                     </Grid>
-                </div>
+                </main>
             </React.Fragment>
 
         );

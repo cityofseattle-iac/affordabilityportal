@@ -26,7 +26,7 @@ class ProgramInfoCardsSection extends React.Component {
 
         return (
             <React.Fragment>
-                <div className={classes.root}>
+                <aside className={classes.root} aria-label="Program overview">
                     <Grid container spacing={2} alignItems="stretch">
                         <Grid item lg={4} md={4} xs={12} sm={4}>
                             <Card className={classes.card}>
@@ -53,7 +53,7 @@ class ProgramInfoCardsSection extends React.Component {
                             </Card>
                         </Grid>
                     </Grid>
-                </div>
+                </aside>
             </React.Fragment>
         );
     }

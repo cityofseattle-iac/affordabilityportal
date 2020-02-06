@@ -101,14 +101,14 @@ class EligibleProgramDetails extends React.Component {
         const {classes, filtered_programs, t} = this.props;
 
         return (
-            <div className={classes.root}>
+            <section className={classes.root} aria-label="Program Details">
                 <a id="programDetails" tabIndex="-1"></a>
                 <div className={classes.body}>
                     <Typography component="h2" variant={'h3'} align={'left'}>Program Details {filtered_programs.header}</Typography>
                     {filtered_programs.map((result) => {
 
                         return (
-                            <div key={result.id} className={classes.item}>
+                            <article key={result.id} className={classes.item} aria-label={result.name}>
                                 <Grid key={result.id}
                                       container
                                       direction="row"
@@ -127,7 +127,7 @@ class EligibleProgramDetails extends React.Component {
                                     <Grid item lg={9} md={9} xs={12} sm={12}>
                                         <Card className={classes.cardBody}>
                                             <CardContent className={classes.cardContent}>
-                                                <Typography variant="h5" component="h1" className={classes.cardText}>
+                                                <Typography variant="h5" component="h2" className={classes.cardText}>
                                                     {result.name}
                                                 </Typography>
                                                 <Typography variant="body1" className={classes.cardText}>
@@ -149,11 +149,11 @@ class EligibleProgramDetails extends React.Component {
                                         </Card>
                                     </Grid>
                                 </Grid>
-                            </div>
+                            </article>
                         );
                     })}
                 </div>
-            </div>
+            </section>
 
         );
 

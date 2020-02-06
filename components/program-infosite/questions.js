@@ -21,7 +21,7 @@ class Questions extends React.Component {
         const {classes, t, program} = this.props;
 
         return (
-            <div className={classes.root}>
+            <section className={classes.root} aria-label={t('title')}>
                 <Typography component="h2" variant={"h4"}>{t('title')}</Typography>
                 <Divider/>
 
@@ -30,7 +30,7 @@ class Questions extends React.Component {
                         <div dangerouslySetInnerHTML={{ __html: program.questions }} />
                     </Typography>
                 </div>
-            </div>
+            </section>
         );
     }
 

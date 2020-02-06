@@ -19,12 +19,12 @@ const server = express();
 
 (async () => {
 
-    if (process.env.NODE_ENV != 'production') {
-        server.use(basicAuth({
-            users: { 'seattle': 'expedia' },
-            challenge: true,
-        }))
-    }
+    // if (process.env.NODE_ENV != 'production') {
+    //     server.use(basicAuth({
+    //         users: { 'seattle': 'expedia' },
+    //         challenge: true,
+    //     }))
+    // }
     // CONFIGURATIONS
     server.set('port', config.port);
     server.set('https', config.https);

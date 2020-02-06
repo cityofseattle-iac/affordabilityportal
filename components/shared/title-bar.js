@@ -50,7 +50,7 @@ class TitleBar extends React.Component {
         const {classes, t} = this.props;
 
         return (
-            <div className={classes.root}>
+            <main className={classes.root}>
                 <div className={classes.body}>
                     <Grid container
                           direction="row"
@@ -79,17 +79,15 @@ class TitleBar extends React.Component {
                                     <Typography variant="body1" gutterBottom>
                                         {t('promo-text')}
                                     </Typography>
-                                    <a href={t('button-link')} target="_blank" rel='noopener'>
-                                        <Button variant="contained" color="primary" className={classes.button}>
-                                            {t('button-text')}
-                                        </Button>
-                                    </a>
+                                    <Button href={t('button-link')} variant="contained" color="primary" className={classes.button}>
+                                        {t('button-text')}
+                                    </Button>
                                 </Grid>
                             </Grid>
                         </Grid>
                     </Grid>
                 </div>
-            </div>
+            </main>
         );
     }
 }

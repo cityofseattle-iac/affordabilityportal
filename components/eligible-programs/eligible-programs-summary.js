@@ -42,7 +42,7 @@ class EligibleProgramSummary extends React.Component {
 
         return (
 
-            <div className={classes.root} id="eligibility">
+            <main className={classes.root} id="eligibility">
                 <Grid
                     container
                     direction="column"
@@ -61,7 +61,7 @@ class EligibleProgramSummary extends React.Component {
                         </div>
                     </Grid>
                 </Grid>
-            </div>
+            </main>
         );
 
     }

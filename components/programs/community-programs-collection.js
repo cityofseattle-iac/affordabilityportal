@@ -36,7 +36,7 @@ class CommunityPrograms extends React.Component {
 
         return (
             <React.Fragment>
-                <div className={classes.root} id="programs">
+                <aside className={classes.root} id="programs" aria-label={t('headerText')}>
                     <Typography component="h2" variant={"h3"}>{t('headerText')}</Typography>
                     <div className={classes.collectionContainer}>
                         <Spheres categories={categories}/>
@@ -44,7 +44,7 @@ class CommunityPrograms extends React.Component {
                             <Typography variant={"body1"}>{t('description')}</Typography>
                         </div>
                     </div>
-                </div>
+                </aside>
             </React.Fragment>
         );
     }
