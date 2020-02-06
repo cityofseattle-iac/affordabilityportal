@@ -222,7 +222,7 @@ class SlimEligibilityCalculator extends React.Component {
 
         return (
 
-            <div className={classes.root} id="calculator">
+            <section className={classes.root} id="calculator" aria-label="Eligibility calculator">
                 <div className={classes.body}>
                     <form onSubmit={this.handleSubmit}>
                         <Typography
@@ -294,7 +294,7 @@ class SlimEligibilityCalculator extends React.Component {
                         </Grid>
                     </form>
                 </div>
-            </div>
+            </section>
         );
     }
 }

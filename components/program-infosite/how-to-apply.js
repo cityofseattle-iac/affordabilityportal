@@ -44,7 +44,7 @@ class HowtoApply extends React.Component {
 
 
         return (
-            <div className={classes.root}>
+            <section className={classes.root} aria-label={t('title')}>
                 <Typography component="h2" variant={"h4"}>{t('title')}</Typography>
                 <Divider/>
                 <Grid className={classes.info} container direction={"column"} spacing={2}>
@@ -137,7 +137,7 @@ class HowtoApply extends React.Component {
 
 
                 </Grid>
-            </div>
+            </section>
         );
     }
 

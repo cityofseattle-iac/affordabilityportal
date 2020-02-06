@@ -49,12 +49,13 @@ class ProgramCategorySection extends React.Component {
 
         const numRowElements = 7; // Number of programs to display per row
         const {classes, programCategoryText, programs} = this.props;
+        const cleanProgramCategoryText = programCategoryText.replace(/-/g, ' ')
 
-        let header = <Typography component="h4" variant="h5">{programCategoryText}</Typography>;
+        let header = <Typography id="programHeader" component="h4" variant="h5">{cleanProgramCategoryText}</Typography>;
 
         return (
 
-            <div className={classes.root}>
+            <section className={classes.root} aria-label={cleanProgramCategoryText}>
                 {header}
                 <Grid container
                       spacing={2}
@@ -63,15 +64,15 @@ class ProgramCategorySection extends React.Component {
                     {programs
                         .filter(program => program.category === programCategoryText)
                         .slice(0, numRowElements).map(function (program, i) {
-                            return (
+                            return ( 
                                 <Grid key={"program_" + program.name}
-                                      item
-                                      lg={3} md={3} xs={12} sm={12}
+                                    item
+                                    lg={3} md={3} xs={12} sm={12}
                                 >
                                     <Card className={classes.card}>
                                         <div className={classes.cardInsides}>
                                         <CardMedia className={classes.media} image={config.apiHost + '/' + program.image}
-                                                   title={program.name}/>
+                                                title={program.name}/>
                                         <CardContent>
                                             <Typography variant="h5" component="h5">
                                                 {program.name}
@@ -92,12 +93,11 @@ class ProgramCategorySection extends React.Component {
                                         </div>
                                     </Card>
                                 </Grid>
+                                
                             );
                         })}
                 </Grid>
-
-            </div>
-
+            </section>
         );
     }
 }
