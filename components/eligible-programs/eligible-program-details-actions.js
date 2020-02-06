@@ -29,6 +29,9 @@ const style = theme => ({
         backgroundColor: 'rgba(79, 79, 79, 0.15)',
         padding: '10px',
         height: '100%',
+    },
+    actionText: {
+        color: '#000000'
     }
 });
 
@@ -60,28 +63,28 @@ class EligibleProgramDetailsActions extends React.Component {
                     >
                         <Grid item lg={3} md={3} xs={12} sm={12}>
                             <div className={classes.resultSectionLight}>
-                                <Typography variant="body2" component="h4">
+                                <Typography variant="body1" component="h4" className={classes.actionText}>
                                     Average savings: ${ccyFormat(savings)} / Month
                                 </Typography>
                             </div>
                         </Grid>
                         <Grid item lg={3} md={3} xs={12} sm={12}>
                             <div className={classes.resultSectionDark}>
-                                <Typography variant="body2" component="h4">
+                                <Typography variant="body1" component="h4" className={classes.actionText}>
                                     Who it's for: {age}
                                 </Typography>
                             </div>
                         </Grid>
                         <Grid item lg={3} md={3} xs={12} sm={12}>
                             <div className={classes.resultSectionLight}>
-                                <Typography variant="body2" component="h4">
+                                <Typography variant="body1" component="h4" className={classes.actionText}>
                                     Average time to apply: {time_to_apply}
                                 </Typography>
                             </div>
                         </Grid>
                         <Grid item lg={3} md={3} xs={12} sm={12}>
                             <div className={classes.resultSectionDark}>
-                                <Typography variant="body2" component="h4">
+                                <Typography variant="body1" component="h4" className={classes.actionText}>
                                     Average response time: {time_hear_back}
                                 </Typography>
                             </div>

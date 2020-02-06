@@ -52,7 +52,7 @@ class ProgramCategoryFact extends React.Component {
                 >
                   {headerText}
                 </Typography>
-                <Typography variant={'body2'} align={'left'}>
+                <Typography variant={'body1'} align={'left'}>
                   {bodyText}{' '}
                   <Link href={ctaLink}>
                     <a>{ctaText}</a>

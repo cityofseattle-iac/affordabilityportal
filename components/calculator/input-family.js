@@ -56,7 +56,7 @@ const styles = theme => ({
             overflow: 'hidden',
             textOverflow: 'ellipsis !important',
             opacity: 1,
-            fontWeight: 200,
+            fontWeight: 400,
         },
     },
     ctaText: {
