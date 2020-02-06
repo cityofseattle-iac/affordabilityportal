@@ -7,7 +7,9 @@ body {
     padding: 0;
     -webkit-overflow-scrolling: touch;
 }
-
+main {
+    display: block;
+}
 /* Hidden text meant only for screen readers. */
 .screen-reader-text {
     clip: rect(1px, 1px, 1px, 1px);
