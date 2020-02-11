@@ -10,6 +10,7 @@ import InputSelectAge from './input-select-age';
 import {connect} from "react-redux";
 import {applyFilters} from "../../redux/actions";
 import {withTranslation} from '../../localization/i18n';
+import Button from '@material-ui/core/Button'
 
 //TODO: Pullout strings into resource file (Adults. childern, child, etc.)
 const placeholder = 'People in Household';
@@ -38,7 +39,7 @@ const styles = theme => ({
         padding: 0,
     },
     paper: {
-        padding: '4px 12px',
+        padding: '2px 10px',
         height: '100%',
         color: '#000000',
         backgroundColor: '#EAEAEA',
@@ -57,7 +58,7 @@ const styles = theme => ({
             textOverflow: 'ellipsis !important',
             opacity: 1,
             fontWeight: 400,
-        },
+        }
     },
     ctaText: {
         width: '100%',
@@ -68,6 +69,9 @@ const styles = theme => ({
         fontSize: 12,
         fontWeight: "bolder",
         textTransform: 'uppercase',
+        padding: '10px 0',
+        minWidth: 40,
+
     },
     familySection: {
         backgroundColor: '#EAEAEA',
@@ -77,6 +81,12 @@ const styles = theme => ({
     },
     hideFamilySection: {
         display: 'none',
+    },
+    inputContainer: {
+        border: 'solid 2px #EAEAEA'
+    },
+    activeInput: {
+        borderColor: 'rgb(229,151,0)',
     },
 });
 
@@ -214,8 +224,8 @@ class FamilyInput extends React.Component {
     render() {
 
         return (
-            <div>
-                <Paper className={this.props.classes.paper} onClick={this.handleClick}>
+            <div className={`${this.props.classes.inputContainer} ${this.state.active ? this.props.classes.activeInput : ''}`}>
+                <Paper className={this.props.classes.paper}>
                     <Grid
                         container
                         direction="row"
@@ -230,6 +240,7 @@ class FamilyInput extends React.Component {
                                 label={placeholder}
                                 name={this.props.name}
                                 inputRef={this.input}
+                                onClick={this.handleClick}
                                 fullWidth
                                 margin="none"
                                 InputProps={{
@@ -247,9 +258,14 @@ class FamilyInput extends React.Component {
                             </div>
                         </Grid>
                         <Grid item>
-                            <Typography
-                                variant={"body1"}
-                                className={this.props.classes.editDoneText}>{this.state.active ? this.props.t('done') : this.props.t('edit')}</Typography>
+                            <Button
+                                className={this.props.classes.editDoneText}
+                                onClick={this.handleClick}
+                                aria-label={this.state.active ? 'Click to finish editing' : `Click to edit ${placeholder}`}
+                            >
+                                {this.state.active ? this.props.t('done') : this.props.t('edit')}
+                            </Button>
+                        
                         </Grid>
                     </Grid>
                 </Paper>

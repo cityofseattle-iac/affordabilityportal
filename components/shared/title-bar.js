@@ -39,6 +39,9 @@ const styles = {
         width: '100%',
         backgroundColor: '#003da5',
         padding: '6px 0',
+        '&:focus': {
+            outline: 'solid 3px rgb(229,151,0)',
+        },
     },
 
 };

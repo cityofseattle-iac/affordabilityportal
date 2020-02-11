@@ -8,6 +8,7 @@ import TextField from '@material-ui/core/TextField';
 import {applyFilters} from "../../redux/actions";
 import {connect} from "react-redux";
 import {withTranslation} from '../../localization/i18n';
+import Button from '@material-ui/core/Button'
 
 const styles = theme => ({
     root: {
@@ -33,11 +34,12 @@ const styles = theme => ({
         width: '100%',
     },
     paper: {
-        padding: '4px 12px',
+        padding: '2px 10px',
         color: '#000000',
         backgroundColor: '#EAEAEA',
         borderRadius: 0,
         boxShadow: 'none',
+        border: 'solid 2px transparent',
     },
     ctaSize: {
         width: '100%',
@@ -62,7 +64,13 @@ const styles = theme => ({
         fontSize: 12,
         fontWeight: "bolder",
         textTransform: 'uppercase',
+        padding: '10px 0',
+        minWidth: 40,
+        float: 'right',
     },
+    activeInput: {
+        borderColor: 'rgb(229,151,0)',
+    }
 });
 
 class InputHouseholdIncome extends React.Component {
@@ -81,10 +89,15 @@ class InputHouseholdIncome extends React.Component {
     }
 
     handleClick() {
-        this.setState({active: true}); // Set State for Edit Text
         if (!this.state.active) {
             this.input.current.focus(); // Set Focus on Input
+        } else {
+            this.input.current.blur(); 
         }
+    }
+
+    handleFocus = () => {
+        this.setState({ active: true }); // Set State for Edit Text
     }
 
     handleBlur(e) {
@@ -125,14 +138,14 @@ class InputHouseholdIncome extends React.Component {
         const {classes} = this.props;
 
         return (
-            <Paper className={this.props.classes.paper} onClick={this.handleClick}>
+            <Paper className={`${this.props.classes.paper} ${this.state.active ? this.props.classes.activeInput : ''}`}>
                 <Grid
                     container
                     direction="row"
                     justify="space-between"
                     alignItems="center"
                 >
-                    <Grid item xs={10} sm={10} md={10} lg={10}>
+                    <Grid item xs={10}>
                         <TextField
                             required
                             id={this.props.name}
@@ -144,6 +157,7 @@ class InputHouseholdIncome extends React.Component {
                             inputRef={this.input}
                             onBlur={this.handleBlur}
                             onChange={this.handleChange}
+                            onFocus={this.handleFocus}
                             fullWidth
                             margin="none"
                             InputProps={{
@@ -156,10 +170,14 @@ class InputHouseholdIncome extends React.Component {
                             }}
                         />
                     </Grid>
-                    <Grid item>
-                        <Typography
-                            variant={"body1"}
-                            className={this.props.classes.editDoneText}>{this.state.active ? this.props.t('done') : this.props.t('edit')}</Typography>
+                    <Grid item md={2}>
+                        <Button
+                            className={this.props.classes.editDoneText}
+                            onClick={this.handleClick}
+                            aria-label={this.state.active ? 'Click to finish editing' : `Click to edit ${placeholder}`}
+                        >
+                            {this.state.active ? this.props.t('done') : this.props.t('edit')}
+                        </Button>
                     </Grid>
                 </Grid>
             </Paper>

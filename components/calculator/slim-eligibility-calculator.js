@@ -67,6 +67,9 @@ const styles = theme => ({
         padding: '12px 0',
         height: '55px',
         width: '100%',
+        '&:focus': {
+            outline: 'solid 3px rgb(229,151,0)',
+        }
     },
     ctaText: {
         color: '#FFFFFF',
@@ -254,7 +257,7 @@ class SlimEligibilityCalculator extends React.Component {
                                 alignItems="stretch"
                                 spacing={1}
                             >
-                                <Grid item xs={12} sm={12} md lg className={classes.familyGridItem}>
+                                <Grid item xs={12} sm={12} md lg={4} className={classes.familyGridItem}>
                                     <FamilyInput onFilterChange={this.onFilterChange}/>
                                 </Grid>
                                 <Grid item xs={12} sm={12} md lg className={classes.incomeGridItem}>
@@ -265,7 +268,7 @@ class SlimEligibilityCalculator extends React.Component {
                                         onFilterChange={this.onFilterChange}
                                     />
                                 </Grid>
-                                <Grid item xs={12} sm={12} md lg>
+                                <Grid item xs={12} sm={12} md={3} lg>
                                     <InputZipcode
                                         value={this.props.filters.zipcodeValue}
                                         placeholderText={t('zipCodePlaceHolder')}
