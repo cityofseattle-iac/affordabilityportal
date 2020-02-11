@@ -221,6 +221,10 @@ class FamilyInput extends React.Component {
         this.setState({active: !currentState}); // Set State for Edit Text
     }
 
+    handleFocus = ()  => {
+        this.setState({ active: true });
+    }
+
     render() {
 
         return (
@@ -240,7 +244,7 @@ class FamilyInput extends React.Component {
                                 label={placeholder}
                                 name={this.props.name}
                                 inputRef={this.input}
-                                onClick={this.handleClick}
+                                onFocus={this.handleFocus}
                                 fullWidth
                                 margin="none"
                                 InputProps={{
