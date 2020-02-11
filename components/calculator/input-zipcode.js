@@ -9,7 +9,6 @@ import {applyFilters} from "../../redux/actions";
 import {connect} from "react-redux";
 import {withTranslation} from '../../localization/i18n';
 import Button from '@material-ui/core/Button'
-import grey from '@material-ui/core/colors/grey'
 
 const styles = theme => ({
     root: {
@@ -64,7 +63,7 @@ const styles = theme => ({
         float: 'right'
     },
     activeInput: {
-        borderColor: grey[700],
+        borderColor: 'rgb(229,151,0)',
     },
 });
 

@@ -11,7 +11,6 @@ import {connect} from "react-redux";
 import {applyFilters} from "../../redux/actions";
 import {withTranslation} from '../../localization/i18n';
 import Button from '@material-ui/core/Button'
-import grey from '@material-ui/core/colors/grey'
 
 //TODO: Pullout strings into resource file (Adults. childern, child, etc.)
 const placeholder = 'People in Household';
@@ -87,7 +86,7 @@ const styles = theme => ({
         border: 'solid 2px #EAEAEA'
     },
     activeInput: {
-        borderColor: grey[700],
+        borderColor: 'rgb(229,151,0)',
     },
 });
 

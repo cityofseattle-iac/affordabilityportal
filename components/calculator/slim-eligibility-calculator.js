@@ -67,6 +67,9 @@ const styles = theme => ({
         padding: '12px 0',
         height: '55px',
         width: '100%',
+        '&:focus': {
+            outline: 'solid 3px rgb(229,151,0)',
+        }
     },
     ctaText: {
         color: '#FFFFFF',
