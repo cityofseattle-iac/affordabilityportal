@@ -47,7 +47,7 @@ class ProgramCategorySection extends React.Component {
 
     render() {
 
-        const numRowElements = 7; // Number of programs to display per row
+        const numRowElements = 8; // Number of programs to display per row
         const {classes, programCategoryText, programs} = this.props;
         const cleanProgramCategoryText = programCategoryText.replace(/-/g, ' ')
 
