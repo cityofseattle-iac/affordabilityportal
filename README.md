@@ -53,7 +53,6 @@ For more information, see the [City's project page](http://www.seattle.gov/innov
 ##### Start new container
 `docker run -d -p 8080:8080 -p 8443:8443 --restart unless-stopped --name portal prod/affordabilityportal`
 
-
 ## Technologies
 
 - [Next JS](https://nextjs.org/)
