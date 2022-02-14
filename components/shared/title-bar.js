@@ -67,24 +67,13 @@ class TitleBar extends React.Component {
                                   alignItems="flex-start"
                                   spacing={2}
                             >
-                                <Grid item lg={8} md={8} xs={10} sm={10}>
+                                <Grid item lg={12} md={12} xs={10} sm={10}>
                                     <Typography component="h1" variant="h4" gutterBottom>
                                         {t('text')}
                                     </Typography>
                                     <Typography variant="body1" gutterBottom>
                                         {t('intro-text')}
                                     </Typography>
-                                </Grid>
-                                <Grid item lg={4} md={4} xs={8} sm={8} className={classes.titleCTA}>
-                                    <Typography component="div" variant="h5">
-                                        {t('promo-title')}
-                                    </Typography>
-                                    <Typography variant="body1" gutterBottom>
-                                        {t('promo-text')}
-                                    </Typography>
-                                    <Button href={t('button-link')} variant="contained" color="primary" className={classes.button}>
-                                        {t('button-text')}
-                                    </Button>
                                 </Grid>
                             </Grid>
                         </Grid>
