@@ -41,8 +41,9 @@ class Spheres extends React.Component {
                 {categories.map((category) => {
                     return (
                         //<a href="#" onClick={this.setFocus(category.name.toLowerCase())} >
-                        <Button onClick={this.setFocus(category.name.toLowerCase())}>
-                            <img className={classes.sphere} src={'http://www.seattle.gov/' + category.iconImage} alt={category.name}/>
+                        <Button onClick={this.setFocus(category.name.toLowerCase())} key={category.id}>
+                            {/* <img className={classes.sphere} src={'http://www.seattle.gov/' + category.iconImage} alt={category.name}/> */}
+                            test
                         </Button>
                         //</a>
                     );

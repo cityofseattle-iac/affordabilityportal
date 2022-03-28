@@ -38,11 +38,11 @@ class ProgramCategoryFact extends React.Component {
           <React.Fragment>
             <a id={divId.toLowerCase()} tabIndex="-1"></a>
             <aside className={classes.root} aria-label={headerText}>
-              <img
+              {/* <img
                 className={classes.sphere}
                 src={config.apiHost + '/' + iconImage}
                 alt={''}
-              />
+              /> */}
               <div className={classes.factDescription}>
                 <Typography
                   component="h3"
