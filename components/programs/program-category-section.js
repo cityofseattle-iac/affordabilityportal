@@ -69,8 +69,8 @@ class ProgramCategorySection extends React.Component {
                                 >
                                     <Card className={classes.card}>
                                         <div className={classes.cardInsides}>
-                                        {/* <CardMedia className={classes.media} image={config.apiHost + '/' + program.image}
-                                                title={program.name}/> */}
+                                        <CardMedia className={classes.media} image={config.apiHost + '/' + program.image}
+                                                title={program.name}/>
                                         <CardContent>
                                             <Typography variant="h5" component="h5">
                                                 {program.name}

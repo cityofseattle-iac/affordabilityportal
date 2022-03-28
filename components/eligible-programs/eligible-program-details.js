@@ -115,14 +115,14 @@ class EligibleProgramDetails extends React.Component {
                                       justify="space-evenly"
                                 >
                                     <Grid item lg={3} md={3} xs={12} sm={12}>
-                                        {/* <Card className={classes.resultImageContainer}>
+                                        <Card className={classes.resultImageContainer}>
                                             <CardMedia
                                                 component="img"
                                                 image={config.apiHost + '/' + result.image}
                                                 alt={result.name}
                                                 className={classes.resultImage}
                                             />
-                                        </Card> */}
+                                        </Card>
                                     </Grid>
                                     <Grid item lg={9} md={9} xs={12} sm={12}>
                                         <Card className={classes.cardBody}>
