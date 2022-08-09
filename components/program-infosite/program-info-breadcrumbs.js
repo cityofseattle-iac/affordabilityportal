@@ -9,7 +9,7 @@ import Typography from "@material-ui/core/Typography";
 const styles = {
     root: {
         margin: '20px',
-        paddingTop: '40px',
+        paddingTop: '0',
     }
 };
 

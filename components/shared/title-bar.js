@@ -13,7 +13,7 @@ const styles = {
         width: '100%',
         backgroundColor: '#FFFFFF',
         margin: '0 auto',
-        paddingTop: '40px',
+        paddingTop: '0',
     },
 
     body: {

@@ -11,12 +11,6 @@ main {
     display: block;
 }
 
-#__next  main {
-    padding-top: 0px;
-}
-#__next  main > div {
-    padding-top: 20px;
-}
 .sgSpacer {
     display: none !important;
 }
