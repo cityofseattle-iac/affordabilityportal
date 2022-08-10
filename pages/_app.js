@@ -32,6 +32,27 @@ class IacApp extends App {
         Router.events.on('routeChangeComplete', () => {
             trackPageView(this.props.router.pathname);
         });
+
+        // ***OPTIONAL*** 
+        //   Config Settings for Seattle.Gov Branding:
+        //   Defaults:
+        //     var seaBrandConfig = {
+        //       header: true, 
+        //       search: true,
+        //       footer: true,
+        //       deptName: '',
+        //       deptURL: '',
+        //       deptSubtitle: '',
+        //       containBody: false,
+        //     }
+
+        const vars = document.createElement('script');
+        vars.innerHTML = 'var seaBrandConfig = { search: false, footer: false, translation: true }';
+        document.head.appendChild(vars)
+        
+        const script = document.createElement('script');
+        script.src = 'https://www.seattle.gov/prebuilt/js/seaBrand/autoSeaBrand.js';
+        document.head.appendChild(script);
     }
 
     render() {
