@@ -1,7 +1,8 @@
 import React from 'react';
 import {withStyles} from '@material-ui/core/styles';
 import {Link} from '../../localization/i18n';
-import Button from '@material-ui/core/Button'
+import Button from '@material-ui/core/Button';
+import config from '../../config/config';
 
 const styles = theme => ({
     root: {
@@ -42,7 +43,7 @@ class Spheres extends React.Component {
                     return (
                         //<a href="#" onClick={this.setFocus(category.name.toLowerCase())} >
                         <Button onClick={this.setFocus(category.name.toLowerCase())} key={category.id}>
-                            <img className={classes.sphere} src={'http://www.seattle.gov/' + category.iconImage} alt={category.name}/>
+                            <img className={classes.sphere} src={config.apiHost + '/' + category.iconImage} alt={category.name}/>
                         </Button>
                         //</a>
                     );
