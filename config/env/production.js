@@ -6,5 +6,6 @@ module.exports = {
     port: 8125,
     path: 'iac-web'
   },
-  apiHost: 'https://www.seattle.gov'
+  apiHost: 'http://www.seattle.gov',
+  imagePath: 'https://www.seattle.gov'
 };

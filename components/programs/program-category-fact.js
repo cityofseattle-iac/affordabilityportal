@@ -40,7 +40,7 @@ class ProgramCategoryFact extends React.Component {
             <aside className={classes.root} aria-label={headerText}>
               <img
                 className={classes.sphere}
-                src={config.apiHost + '/' + iconImage}
+                src={config.imagePath + '/' + iconImage}
                 alt={''}
               />
               <div className={classes.factDescription}>
