@@ -47,20 +47,19 @@ class ProgramCategorySection extends React.Component {
 
     render() {
 
-        const numRowElements = 8; // Number of programs to display per row
-        const {classes, programCategoryText, programs} = this.props;
-        const cleanProgramCategoryText = programCategoryText.replace(/-/g, ' ')
+        const numRowElements = 12; // Number of programs to display per row
+        const {classes, programCategoryName, programs, programCategoryHeader} = this.props;
 
         return (
 
-            <section className={classes.root} aria-label={cleanProgramCategoryText}>
-                <Typography component="h4" variant="h5">{cleanProgramCategoryText}</Typography>
+            <section className={classes.root} aria-label={programCategoryHeader}>
+                <Typography component="h4" variant="h5">{programCategoryHeader}</Typography>
                 <Grid container
                       spacing={2}
                       alignItems="stretch"
                 >
                     {programs
-                        .filter(program => program.category === programCategoryText)
+                        .filter(program => program.category === programCategoryName)
                         .slice(0, numRowElements).map(function (program, i) {
                             return ( 
                                 <Grid key={"program_" + program.name}

@@ -33,7 +33,7 @@ class ProgramInfoHeader extends React.Component {
                 <div className={classes.root} id={program.category.toLowerCase().replace(/-/g, '')}>
                     <Grid container alignItems="flex-end">
                         <Grid item lg={10} xs={8} md={8} xl={10}>
-                            <Typography component="div" variant={"h5"}>{program.category.replace(/-/g, ' ')}</Typography>
+                            <Typography component="div" variant={"h5"}>{program.categoryHeaderText}</Typography>
                         </Grid>
                         <Grid item lg={2} xs={4} md={4} xl={2}>
                             <Grid container justify="flex-end">

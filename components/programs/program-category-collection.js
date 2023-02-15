@@ -36,7 +36,7 @@ class ProgramCategoryCollection extends React.Component {
                                         ctaLink={"#calculator"}
                                         iconImage={category.iconImage}
                                     />
-                                    <ProgramCategorySection programCategoryText={category.name}/>
+                                    <ProgramCategorySection programCategoryName={category.name} programCategoryHeader={category.HeaderText} />
                                 </Grid>
                             );
                         })}
