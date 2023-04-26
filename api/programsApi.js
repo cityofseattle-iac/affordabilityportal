@@ -31,13 +31,14 @@ const images = [
   { id: 27, path: 'images/BenefitsCalculator/Home-Repair.png', category: 'Utilities and Housing' },
   { id: 28, path: 'images/BenefitsCalculator/Weatherization.png', category: 'Utilities and Housing' },
   { id: 29, path: 'images/BenefitsCalculator/FLASH-Card.png', category: 'Food, Retail, and Entertainment' },
-  { id: 30, path: 'images/BenefitsCalculator/Gold-Card.png', category: 'Food, Retail, and Entertainment' }
+  { id: 30, path: 'images/BenefitsCalculator/Gold-Card.png', category: 'Food, Retail, and Entertainment' },
+  { id: 31, path: 'images/BenefitsCalculator/trees-for-neighborhoods.png', category: 'Utilities and Housing' },
 ]
 
 export function getPrograms() {
   return fetch(config.apiHost + '/benefits-calculator-programs')
     .then(res => res.json())
-    .then(data => data.filter(p => 'PublishToProduction' in p ? Boolean(p.PublishToProduction) : true))
+    .then(data => data.filter(p => 'PublishToProduction' in p && process.env.NODE_ENV == 'production' ? Boolean(p.PublishToProduction) : true))
     .then(data => {
       return data.map(p => {
         return {
