@@ -67,13 +67,27 @@ class TitleBar extends React.Component {
                                   alignItems="flex-start"
                                   spacing={2}
                             >
-                                <Grid item lg={12} md={12} xs={10} sm={10}>
+                                <Grid item lg={8} md={8} xs={10} sm={10}>
                                     <Typography component="h1" variant="h4" gutterBottom>
                                         {t('text')}
                                     </Typography>
                                     <Typography variant="body1" gutterBottom>
                                         {t('intro-text')}
                                     </Typography>
+                                </Grid>
+                                <Grid item lg={3} md={3} xs={6} sm={6}>
+                                    <Button 
+                                        variant="contained" 
+                                        size="large" 
+                                        color="primary" 
+                                        href={"https://www.seattle.gov"}
+                                        target={"_blank"}
+                                        aria-label="Find Digital Navigators that can help with you application"
+                                        aria-describedby="new-window-warning"
+                                        className={this.props.classes.button}
+                                    >
+                                        Get help applying
+                                    </Button>
                                 </Grid>
                             </Grid>
                         </Grid>
