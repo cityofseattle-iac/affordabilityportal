@@ -76,7 +76,18 @@ class TitleBar extends React.Component {
                                     </Typography>
                                 </Grid>
                                 <Grid item lg={3} md={3} xs={6} sm={6}>
-                                    
+                                    <Button 
+                                        variant="contained" 
+                                        size="large" 
+                                        color="primary" 
+                                        href={"https://www.seattle.gov"}
+                                        target={"_blank"}
+                                        aria-label="Find Digital Navigators that can help with you application"
+                                        aria-describedby="new-window-warning"
+                                        className={this.props.classes.button}
+                                    >
+                                        Get help applying
+                                    </Button>
                                 </Grid>
                             </Grid>
                         </Grid>
