@@ -1,12 +1,14 @@
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 
 function initializeGoogleAnalytics() {
     ReactGA.initialize('G-EH0S8RTGWD');
 }
 
 function trackPageView(path) {
-    ReactGA.set({ page: path });
-    ReactGA.pageview(path);
+    ReactGA.send({
+        hitType: 'pageview',
+        page: path
+    })
 }
 
 function trackEvent(args) {
