@@ -1,7 +1,7 @@
 import ReactGA from 'react-ga';
 
 function initializeGoogleAnalytics() {
-    ReactGA.initialize('UA-33712689-7');
+    ReactGA.initialize('G-EH0S8RTGWD');
 }
 
 function trackPageView(path) {

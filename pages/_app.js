@@ -28,9 +28,9 @@ class IacApp extends App {
             jssStyles.parentNode.removeChild(jssStyles);
         }
 
-        trackPageView(this.props.router.pathname);
+        trackPageView(this.props.router.asPath);
         Router.events.on('routeChangeComplete', () => {
-            trackPageView(this.props.router.pathname);
+            trackPageView(this.props.router.asPath);
         });
 
         // ***OPTIONAL*** 
