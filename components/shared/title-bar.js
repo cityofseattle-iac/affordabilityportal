@@ -52,84 +52,49 @@ class TitleBar extends React.Component {
 
         const {classes, t} = this.props;
 
-        if (process.env.NODE_ENV === 'development') {
-            return (
-                <main className={classes.root}>
-                    <div className={classes.body}>
-                        <Grid container
-                            direction="row"
-                            justify="space-evenly"
-                            alignItems="center"
-                        >
-                            <Grid item className={classes.gridItem}>
-                                <Grid container
-                                    direction="row"
-                                    justify="space-evenly"
-                                    alignItems="flex-start"
-                                    spacing={2}
-                                >
-                                    <Grid item lg={8} md={8} xs={10} sm={10}>
-                                        <Typography component="h1" variant="h4" gutterBottom>
-                                            {t('text')}
-                                        </Typography>
-                                        <Typography variant="body1" gutterBottom>
-                                            {t('intro-text')}
-                                        </Typography>
-                                    </Grid>
-                                    <Grid item lg={3} md={3} xs={6} sm={6}>
-                                        <Button 
-                                            variant="contained" 
-                                            size="large" 
-                                            color="primary" 
-                                            href={"https://www.seattle.gov"}
-                                            target={"_blank"}
-                                            aria-label="Find Digital Navigators that can help with you application"
-                                            aria-describedby="new-window-warning"
-                                            className={this.props.classes.button}
-                                        >
-                                            Get help applying
-                                        </Button>
-                                    </Grid>
+        return (
+            <main className={classes.root}>
+                <div className={classes.body}>
+                    <Grid container
+                        direction="row"
+                        justify="space-evenly"
+                        alignItems="center"
+                    >
+                        <Grid item className={classes.gridItem}>
+                            <Grid container
+                                direction="row"
+                                justify="space-evenly"
+                                alignItems="flex-start"
+                                spacing={2}
+                            >
+                                <Grid item lg={8} md={8} xs={10} sm={10}>
+                                    <Typography component="h1" variant="h4" gutterBottom>
+                                        {t('text')}
+                                    </Typography>
+                                    <Typography variant="body1" gutterBottom>
+                                        {t('intro-text')}
+                                    </Typography>
+                                </Grid>
+                                <Grid item lg={3} md={3} xs={6} sm={6}>
+                                    <Button 
+                                        variant="contained" 
+                                        size="large" 
+                                        color="primary" 
+                                        href={"https://seattle.gov/tech/services/internet-access/need-help"}
+                                        target={"_blank"}
+                                        aria-label="Find Digital Navigators that can help with you application"
+                                        aria-describedby="new-window-warning"
+                                        className={this.props.classes.button}
+                                    >
+                                        Get help applying
+                                    </Button>
                                 </Grid>
                             </Grid>
                         </Grid>
-                    </div>
-                </main>
-            );
-        } else {
-            return (
-                <main className={classes.root}>
-                    <div className={classes.body}>
-                        <Grid container
-                            direction="row"
-                            justify="space-evenly"
-                            alignItems="center"
-                        >
-                            <Grid item className={classes.gridItem}>
-                                <Grid container
-                                    direction="row"
-                                    justify="space-evenly"
-                                    alignItems="flex-start"
-                                    spacing={2}
-                                >
-                                    <Grid item lg={8} md={8} xs={10} sm={10}>
-                                        <Typography component="h1" variant="h4" gutterBottom>
-                                            {t('text')}
-                                        </Typography>
-                                        <Typography variant="body1" gutterBottom>
-                                            {t('intro-text')}
-                                        </Typography>
-                                    </Grid>
-                                    <Grid item lg={3} md={3} xs={6} sm={6}>
-                                        
-                                    </Grid>
-                                </Grid>
-                            </Grid>
-                        </Grid>
-                    </div>
-                </main>
-            ); 
-        }
+                    </Grid>
+                </div>
+            </main>
+        ); 
     }
 }
 
