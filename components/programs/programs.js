@@ -1,6 +1,7 @@
 import React from 'react';
 import CommunityProgramsCollection from "./community-programs-collection";
 import ProgramCategoryCollection from "./program-category-collection";
+import ProgramLegend from './program-legend';
 import {connect} from "react-redux";
 
 class AllPrograms extends React.Component {
@@ -13,6 +14,7 @@ class AllPrograms extends React.Component {
 
         return (
             <div className={"root"}>
+                <ProgramLegend/>
                 <CommunityProgramsCollection/>
                 <ProgramCategoryCollection/>
             </div>

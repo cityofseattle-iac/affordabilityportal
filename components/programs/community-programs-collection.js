@@ -8,7 +8,7 @@ import {withTranslation} from '../../localization/i18n';
 
 const styles = theme => ({
     root: {
-        margin: '60px 12px 12px 12px',
+        margin: '12px 12px 12px 12px',
         [theme.breakpoints.down('sm')]: {
             margin: '24px 12px',
         },
