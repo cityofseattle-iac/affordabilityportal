@@ -47,7 +47,7 @@ class ProgramCategorySection extends React.Component {
 
     render() {
 
-        const numRowElements = 12; // Number of programs to display per row
+        const numRowElements = 16; // Number of programs to display per row
         const {classes, programCategoryName, programs, programCategoryHeader} = this.props;
 
         return (
