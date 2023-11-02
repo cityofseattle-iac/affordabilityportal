@@ -34,6 +34,7 @@ const images = [
   { id: 30, path: 'images/BenefitsCalculator/Gold-Card.png', category: 'Food, Retail, and Entertainment' },
   { id: 31, path: 'images/BenefitsCalculator/trees-for-neighborhoods.png', category: 'Utilities and Housing' },
   { id: 32, path: 'images/BenefitsCalculator/smoke-alarm.png', category: 'Utilities and Housing' },
+  { id: 33, path: 'images/BenefitsCalculator/rainwise.png', category: 'Utilities and Housing' },
 ]
 
 export function getPrograms() {
