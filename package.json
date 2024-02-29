@@ -4,7 +4,8 @@
   "description": "",
   "scripts": {
     "start": "node server/start.js",
-    "dev": "NODE_ENV=development node server/start.js",
+    "redirect": "node server/redirect.js",
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider NODE_ENV=development node server/start.js",
     "build": "next build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
