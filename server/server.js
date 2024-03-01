@@ -155,11 +155,8 @@ const friendlyRedirect = (location) => {
                 break;
     
             case '/program-info/9-astound-simply-internet':
-                res.send(friendlyRedirect('https://www.seattle.gov/tech/internet-and-devices/free-and-discounted-internet'));
-                break;
-    
             case '/program-info/10-internet-essentials-from-comcast':
-                res.send(friendlyRedirect('https://www.seattle.gov/tech/tv-and-video/discounted-cable-tv'));
+                res.send(friendlyRedirect('https://www.seattle.gov/tech/internet-and-devices/free-and-discounted-internet'));
                 break;
     
             case '/program-info/18-SPU-free-toilet-program':
